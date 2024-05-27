@@ -59,7 +59,7 @@
                     <div class="main-header-three__top-inner">
                         <div class="main-header-three__top-left">
                             <div class="welcome-text-one">
-                                <p><span class="icon-bell"></span> We Will Grow Your Small Business To The Next Level
+                                <p><span class="icon-bell"></span> hi
                                 </p>
                             </div>
                         </div>
