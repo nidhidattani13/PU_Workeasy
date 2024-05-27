@@ -202,7 +202,7 @@
                     <div class="contact-info">
                         <div class="icon-box"><span class="icon-phone-call"></span>
                         </div>
-                        <p><a href="tel:123456789">(629) 555-0129</a></p>
+                        <p><a href="tel:123456789"> 555-0129</a></p>
                     </div>
                     <div class="social-links">
                         <ul class="clearfix list-wrap">
