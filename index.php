@@ -114,11 +114,11 @@ include 'header.php';
             </div>
             <div class="container">
                 <div class="sec-title-three text-center">
-                    <div class="sub-title">
+                    <!-- <div class="sub-title">
                         <h4>Featured Services</h4>
-                    </div>
+                    </div> -->
                     <h2>
-                        What We Offer For You
+                        Ventures 
                     </h2>
                 </div>
                 <div class="row">
@@ -134,11 +134,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Design Strategy</a></h3>
+                                    <h3><a href="workeasy.php">WorkEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p> To Democratise Awesome WorkSpace</p>
                                 </div>
                             </div>
                         </div>
@@ -157,11 +156,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Web Development</a></h3>
+                                    <h3><a href="learneasy.php">LearnEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p><br>Skill up, rise up!</p>
                                 </div>
                             </div>
                         </div>
@@ -179,11 +177,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Digital Marketing</a></h3>
+                                    <h3><a href="pukka.php">Pukka Media</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Creating content that speaks, engages and inspires.</p>
                                 </div>
                             </div>
                         </div>
@@ -201,11 +198,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Email Marketing</a></h3>
+                                    <h3><a href="#">MeetEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p><br></br>Social media meet ups for the newest generations</p>
                                 </div>
                             </div>
                         </div>
@@ -223,11 +219,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Product Development</a></h3>
+                                    <h3><a href="web-development.html">Yo Internships</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p><br></br>This is where you start.. <br></br></p>
                                 </div>
                             </div>
                         </div>
@@ -243,11 +238,12 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Business Strategy</a></h3>
+                                    <h3><a href="#">Su Vaat Che</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Baatein aur mulakatein aisi,aap kahoge Su Vaat Che! / a jordaar 
+                                        podcast about Vaartao, vyaktiyo and values 
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -488,7 +484,7 @@ include 'header.php';
                         
                     </div>
                     <h2>
-                       Podcas
+                       Podcast
                     </h2>
                 </div>
                 <div class="row">
@@ -699,6 +695,38 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
+                            </div>
+                        </div>
+                    </div>
                     <!--End Team Two Single-->
 
                     <!--Start Team Two Single-->
@@ -766,6 +794,70 @@ include 'header.php';
                             <div class="team-two__single-content">
                                 <h3><a href="#">Jhonshon Borison</a></h3>
                                 <p>UI/UX Designer & Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
                             </div>
                         </div>
                     </div>
