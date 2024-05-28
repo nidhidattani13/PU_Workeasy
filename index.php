@@ -396,8 +396,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-1.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-9.png" alt="#">
+                                <img src="assets/img/brand/b&w/Cii.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -406,8 +406,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-2.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-10.png" alt="#">
+                                <img src="assets/img/brand/b&w/NAR.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/nar.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -416,8 +416,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-3.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-11.png" alt="#">
+                                <img src="assets/img/brand/b&w/Reaar.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/reaar.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -426,8 +426,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-4.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-12.png" alt="#">
+                                <img src="assets/img/brand/b&w/Rotract.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/Rotractf.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -439,8 +439,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-5.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-13.png" alt="#">
+                                <img src="assets/img/brand/b&w/Rotry.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/Rotract.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -449,8 +449,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-6.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-14.png" alt="#">
+                                <img src="assets/img/brand/b&w/yuva.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/yuva.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -459,8 +459,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-7.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-15.png" alt="#">
+                                <img src="assets/img/brand/b&W/Cii.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -469,8 +469,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-8.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-16.png" alt="#">
+                                <img src="assets/img/brand/b&w/yi.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/yi.png" alt="#">
                             </a>
                         </div>
                     </li>
