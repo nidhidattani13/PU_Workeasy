@@ -114,43 +114,30 @@
                                         <nav class="menu-nav">
                                             <div class="navbar-wrap main-menu">
                                                 <ul class="navigation">
-                                                    <li class="menu-item-has-children"><a href="#">Home</a>
-                                                        <ul class="sub-menu">
-                                                            <li><a href="index.html">Home One</a></li>
-                                                            <li><a href="index-2.html">Home Two</a></li>
-                                                            <li><a href="index-3.html">Home Three</a></li>
-                                                        </ul>
-                                                    </li>
+                                                <li><a href="index.php">Home</a></li>
                                                     <li><a href="about.php">About</a></li>
-                                                    <li class="menu-item-has-children"><a href="#">Services</a>
+                                                    
+                                                    <li class="menu-item-has-children"><a href="ventures.php">Ventures</a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="services.html">Services</a>
+                                                                <a href="pukka.php">Pukka Media</a>
                                                             </li>
                                                             <li>
-                                                                <a href="app-development.html">App Development</a>
+                                                                <a href="learneasy.php">LearnEasy</a>
                                                             </li>
                                                             <li>
-                                                                <a href="uiux-design.html">Uiux Design</a>
+                                                                <a href="workeasy.php">WorkEasy</a>
                                                             </li>
-                                                            <li>
-                                                                <a href="web-development.html">Web Development</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="digital-marketing.html">Digital Marketing</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="corporate-agency.html">Corporate Agency</a>
-                                                            </li>
+                                                           
                                                         </ul>
                                                     </li>
-                                                    <li class="menu-item-has-children"><a href="#">Pages</a>
+                                                    <li class="menu-item-has-children"><a href="vlog.php">Vlog</a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="testimonials.html">Testimonials</a>
+                                                                <a href="vlog.php">Vlog</a>
                                                             </li>
-                                                            <li><a href="pricing.html">Pricing</a></li>
-                                                            <li><a href="team.html">Team</a></li>
+                                                            <li><a href="vlog_details.php">Vlog Details</a></li>
+                                                           
                                                         </ul>
                                                     </li>
                                                     <li class="menu-item-has-children"><a href="#">Blog</a>
@@ -159,7 +146,7 @@
                                                                 <a href="blog.php">Blog</a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-details.html">Blog Details</a>
+                                                                <a href="blog-details.php">Blog Details</a>
                                                             </li>
                                                         </ul>
                                                     </li>
