@@ -246,7 +246,9 @@ include 'header.php';
         <!--End Service Three-->
 
         <!--Start About Three-->
-        <section class="about-three">
+
+
+        <!-- <section class="about-three">
             <div class="about-three__shape1 float-bob-y">
                 <img src="assets/img/shape/about-three__shape1.png" alt="shapes">
             </div>
@@ -326,29 +328,29 @@ include 'header.php';
                         <div class="about-three__img-box">
                             <ul>
                                 <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Three Img-->
+                                   
                                     <div class="single-about-three__img-box">
                                         <img src="assets/img/about/about-three__img2.jpg" alt="image">
                                     </div>
-                                    <!--End About Three Img-->
+                                   
                                 </li>
 
                                 <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Three Img-->
+                                    
                                     <div class="single-about-three__img-box">
                                         <img src="assets/img/about/about-three__img3.jpg" alt="image">
                                     </div>
-                                    <!--End About Three Img-->
+                                   
                                 </li>
                             </ul>
 
                             <div class="about-three__img-box-bottom wow fadeInLeft" data-wow-delay="0ms"
                                 data-wow-duration="1500ms">
-                                <!--Single About Three Img-->
+                              
                                 <div class="single-about-three__img-box">
                                     <img src="assets/img/about/about-three__img4.jpg" alt="image">
                                 </div>
-                                <!--End About Three Img-->
+                                
                             </div>
 
                             <div class="overlay-box text-center">
@@ -367,11 +369,14 @@ include 'header.php';
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
+
+
+
         <!--End About Three-->
 
         <!--Start Partner style3-->
-        <section class="partner-style3">
+        <section class="partner-style3 logo-gird" >
             <div class="container">
                 <ul class="row clearfix list-one">
                     <!--Start Single Partner Logo Box-->

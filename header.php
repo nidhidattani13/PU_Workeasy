@@ -32,6 +32,8 @@
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/color1.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+    <link rel="stylesheet" href="assets/css/public.css">
 </head>
 
 <body class="body-gray-bg">
@@ -119,7 +121,7 @@
                                                             <li><a href="index-3.html">Home Three</a></li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="about.html">About</a></li>
+                                                    <li><a href="about.php">About</a></li>
                                                     <li class="menu-item-has-children"><a href="#">Services</a>
                                                         <ul class="sub-menu">
                                                             <li>
@@ -154,14 +156,14 @@
                                                     <li class="menu-item-has-children"><a href="#">Blog</a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="blog.html">Blog</a>
+                                                                <a href="blog.php">Blog</a>
                                                             </li>
                                                             <li>
                                                                 <a href="blog-details.html">Blog Details</a>
                                                             </li>
                                                         </ul>
                                                     </li>
-                                                    <li><a href="contact.html">contacts</a></li>
+                                                    <li><a href="contact.php">contacts</a></li>
                                                 </ul>
                                             </div>
                                         </nav>
@@ -171,7 +173,7 @@
 
                             <div class="main-header-three__bottom-right">
                                 <div class="header-btn-box-one">
-                                    <a class="thm-btn" href="contact.html">
+                                    <a class="thm-btn" href="contact.php">
                                         <span class="txt">
                                             Contact Us
                                             <i class="icon-next"></i>
@@ -202,7 +204,7 @@
                     <div class="contact-info">
                         <div class="icon-box"><span class="icon-phone-call"></span>
                         </div>
-                        <p><a href="tel:123456789"> 555-0129</a></p>
+                        <p><a href="tel:123456789">(629) 555-0129</a></p>
                     </div>
                     <div class="social-links">
                         <ul class="clearfix list-wrap">
