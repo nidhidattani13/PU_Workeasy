@@ -19,16 +19,16 @@ include 'header.php';
             <div class="banner-three__shape5">
                 <img src="assets/img/shape/banner-three__shape5.png" alt="shapes">
             </div>
-            <div class="banner-three__shape6 float-bob-y">
+            <!-- <div class="banner-three__shape6 float-bob-y">
                 <img src="assets/img/shape/banner-three__shape6.png" alt="shapes">
-            </div>
+            </div> -->
             <div class="container">
                 <div class="banner-three__content">
 
                     <div class="banner-three__content-inner">
                         <div class="sec-title-four">
                             <div class="sub-title">
-                                <h4>Welcome To Diligent</h4>
+                                <!-- <h4>Welcome To Diligent</h4> -->
                             </div>
                             <h2>
                                 Digital Agency<br>For Growth
@@ -63,24 +63,37 @@ include 'header.php';
                     </div>
 
                     <div class="banner-three__img">
-                        <ul>
-                            <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                                <div class="banner-three__img-single">
-                                    <div class="inner">
-                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image">
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
+                       
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://iili.io/JQuAW1j.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+                            <!-- <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                                 <div class="banner-three__img-single instyle--2">
                                     <div class="inner">
                                         <img src="assets/img/slider/banner-three__img2.jpg" alt="image">
                                     </div>
                                 </div>
-                            </li>
-                        </ul>
+                            </li> -->
+                       
                     </div>
 
                 </div>
@@ -468,10 +481,10 @@ include 'header.php';
             <div class="container">
                 <div class="sec-title-three text-center">
                     <div class="sub-title">
-                        <h4>Cases Studies</h4>
+                        
                     </div>
                     <h2>
-                        Some Of Our Recent Works
+                       Podcast
                     </h2>
                 </div>
                 <div class="row">
@@ -682,6 +695,38 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
+                            </div>
+                        </div>
+                    </div>
                     <!--End Team Two Single-->
 
                     <!--Start Team Two Single-->
@@ -749,6 +794,70 @@ include 'header.php';
                             <div class="team-two__single-content">
                                 <h3><a href="#">Jhonshon Borison</a></h3>
                                 <p>UI/UX Designer & Developer</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                        <div class="team-two__single">
+                            <div class="team-two__single-overlay-bg"></div>
+                            <div class="team-two__single-img">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <div class="social-share-box">
+                                    <span class="icon-plus"></span>
+                                    <ul class="clearfix">
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-facebook"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-twitter"></i>
+                                            </a>
+                                        </li>
+                                        <li>
+                                            <a href="#">
+                                                <i class="icon-linkedin"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="team-two__single-content">
+                                <h3><a href="#">Daniel Stiphen</a></h3>
+                                <p>Web Developerr</p>
                             </div>
                         </div>
                     </div>

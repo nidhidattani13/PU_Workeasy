@@ -58,31 +58,10 @@
         if( basename($_SERVER["PHP_SELF"]) == "index.php" ) { echo 'main-header main-header-three'; } else { echo 'main-header main-header-three about'; } ?> ">
             <div class="main-header-three__top">
                 <div class="container">
+                <marquee>Here the updates will be displayed as discussed with teh pavak sir </marquee>
+                      
                     <div class="main-header-three__top-inner">
-                        <div class="main-header-three__top-left">
-                            <div class="welcome-text-one">
-                                <p><span class="icon-bell"></span> hi
-                                </p>
-                            </div>
-                        </div>
-                        <div class="main-header-three__top-right">
-                            <div class="header-contact-info-one">
-                                <ul>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-phone-call"></span>
-                                        </div>
-                                        <p><a href="tel:1378902167">+1 378 902 167</a></p>
-                                    </li>
-                                    <li>
-                                        <div class="icon">
-                                            <span class="icon-email"></span>
-                                        </div>
-                                        <p><a href="mailto:info@example.com">Support@gmail.com</a></p>
-                                    </li>
-                                </ul>
-                            </div>
-                        </div>
+                    
 
                     </div>
                 </div>
@@ -116,6 +95,8 @@
                                                 <ul class="navigation">
                                                 <li><a href="index.php">Home</a></li>
                                                     <li><a href="about.php">About</a></li>
+                                                   
+                                                  
                                                     
                                                     <li class="menu-item-has-children"><a href="ventures.php">Ventures</a>
                                                         <ul class="sub-menu">
@@ -130,26 +111,21 @@
                                                             </li>
                                                            
                                                         </ul>
-                                                    </li>
-                                                    <li class="menu-item-has-children"><a href="vlog.php">Vlog</a>
+                                                        <li><a href="about.php">Podcast</a></li>
+                                                        <li class="menu-item-has-children"><a href="ventures.php">Activity</a>
                                                         <ul class="sub-menu">
                                                             <li>
-                                                                <a href="vlog.php">Vlog</a>
-                                                            </li>
-                                                            <li><a href="vlog_details.php">Vlog Details</a></li>
-                                                           
-                                                        </ul>
-                                                    </li>
-                                                    <li class="menu-item-has-children"><a href="#">Blog</a>
-                                                        <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="blog.php">Blog</a>
+                                                                <a href="pukka.php">Vlog</a>
                                                             </li>
                                                             <li>
-                                                                <a href="blog-details.php">Blog Details</a>
+                                                                <a href="learneasy.php">Blog</a>
                                                             </li>
+                                                         
                                                         </ul>
-                                                    </li>
+                                                  
+                                                   
+                                            
+                                                    <li><a href="about.php">Career</a></li>
                                                     <li><a href="contact.php">contacts</a></li>
                                                 </ul>
                                             </div>
