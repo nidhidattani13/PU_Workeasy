@@ -47,26 +47,28 @@
                                     <div
                                         class="single-footer-widget-box single-footer-widget__about single-footer-widget__about--2">
                                         <div class="text">
-                                            <p>Need any support? or have any project on your mind?</p>
+                                            <p>Need any support?</p>
                                         </div>
                                         <ul class="clearfix">
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-pin"></span>
                                                 </div>
-                                                <p>55 Green Street, New York</p>
+                                                <p>WorkEasy 2nd Floor,Above Jadoos restaurant,<br>
+                                                kalawad Road,Rajkot 360005
+                                            </p>
                                             </li>
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-mail-inbox-app"></span>
                                                 </div>
-                                                <p><a href="mailto:support@gmail.com">support@gmail.com</a></p>
+                                                <p><a href="mailto:pavakdunadkat@gmail.com">pavakdunadkat@gmail.com</a></p>
                                             </li>
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-phone-call"></span>
                                                 </div>
-                                                <p><a href="tel:000245(862)092">000 245 (862) 092</a></p>
+                                                <p><a href="tel:000245(862)092">+91 901 660 2356</a></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -114,19 +116,19 @@
                                         class="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
                                         <ul class="clearfix">
                                             <li>
-                                                <p><a href="web-development.html">Front End Development</a></p>
+                                                <p><a href="workeasy.php">WorkEasy</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="web-development.html">UI/UX Development</a></p>
+                                                <p><a href="pukka.php">Pukka Media</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="web-development.html">Web Development</a></p>
+                                                <p><a href="Learneasy.php">LearnEasy</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="web-development.html">Web Design Strategy</a></p>
+                                                <p><a href="#">MeetEasy</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="web-development.html">Digital Marketing</a></p>
+                                                <p><a href="#">Su Vaat Che</a></p>
                                             </li>
                                         </ul>
                                     </div>
