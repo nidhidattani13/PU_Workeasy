@@ -19,16 +19,16 @@ include 'header.php';
             <div class="banner-three__shape5">
                 <img src="assets/img/shape/banner-three__shape5.png" alt="shapes">
             </div>
-            <div class="banner-three__shape6 float-bob-y">
+            <!-- <div class="banner-three__shape6 float-bob-y">
                 <img src="assets/img/shape/banner-three__shape6.png" alt="shapes">
-            </div>
+            </div> -->
             <div class="container">
                 <div class="banner-three__content">
 
                     <div class="banner-three__content-inner">
                         <div class="sec-title-four">
                             <div class="sub-title">
-                                <h4>Welcome To Diligent</h4>
+                                <!-- <h4>Welcome To Diligent</h4> -->
                             </div>
                             <h2>
                                 Digital Agency<br>For Growth
@@ -54,33 +54,46 @@ include 'header.php';
                                         <span class="icon-play"></span>
                                     </a>
                                 </div>
-                                <div class="text2">
+                                <!-- <div class="text2">
                                     <p>Watch Our</p>
                                     <p>Demo Video</p>
-                                </div>
+                                </div> -->
                             </div>
                         </div>
                     </div>
 
                     <div class="banner-three__img">
-                        <ul>
-                            <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
-                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
-                                <div class="banner-three__img-single">
-                                    <div class="inner">
-                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image">
-                                    </div>
-                                </div>
-                            </li>
-                            <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
+                       
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+    <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://iili.io/JQuAW1j.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+                            <!-- <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                                 <div class="banner-three__img-single instyle--2">
                                     <div class="inner">
                                         <img src="assets/img/slider/banner-three__img2.jpg" alt="image">
                                     </div>
                                 </div>
-                            </li>
-                        </ul>
+                            </li> -->
+                       
                     </div>
 
                 </div>
@@ -472,10 +485,10 @@ include 'header.php';
             <div class="container">
                 <div class="sec-title-three text-center">
                     <div class="sub-title">
-                        <h4>Cases Studies</h4>
+                        
                     </div>
                     <h2>
-                        Some Of Our Recent Works
+                       Podcas
                     </h2>
                 </div>
                 <div class="row">
