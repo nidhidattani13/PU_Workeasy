@@ -488,13 +488,21 @@ include 'header.php';
                         
                     </div>
                     <h2>
-                       Podcas
+                       Podcast
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="project-two__inner">
-                            <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+                        <div class="project-two__single">
+    <div class="project-two__single-img">
+        <img src="https://iili.io/JQ7a2Ra.jpg" alt="Digital Marketing Growth">
+        <div class="overlay-title">
+            <h4>Podcast</h4>
+            <h3><a href="#">Digital Marketing Growth</a></h3>
+        </div>
+    </div>
+</div>
+                            <!-- <div class="thm-swiper__slider swiper-container" data-swiper-options='{
                                 "loop": true,
                                 "pagination": {
                                     "el": "#project-two__pagination",
@@ -533,10 +541,10 @@ include 'header.php';
                                     }
                                 }}'>
 
-                                <div class="swiper-wrapper">
+                                <div class="swiper-wrapper"> -->
 
                                     <!--Start Single Project Two-->
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img1.jpg" alt="image">
@@ -546,11 +554,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img2.jpg" alt="image">
@@ -560,11 +568,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img3.jpg" alt="image">
@@ -574,11 +582,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <div class="swiper-slide">
+                                    <!-- <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img4.jpg" alt="image">
@@ -588,12 +596,12 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End Single Project Two-->
 
                                 </div>
                                 <!-- If we need navigation buttons -->
-                                <div class="swiper-nav-style2 project-two__swiper-nav">
+                                <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                     <div class="swiper-button-prev" id="project-two__swiper-button-prev">
@@ -602,7 +610,7 @@ include 'header.php';
                                     <div class="swiper-button-next" id="project-two__swiper-button-next">
                                         <i class="icon-right-arrow-angle left"></i>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
