@@ -49,37 +49,32 @@
     </div>
     <!-- preloader-end -->
 
-
-
     <div class="page-wrapper">
 
         <!--Start Main Header One -->
-        <header class="  <?php
-        if( basename($_SERVER["PHP_SELF"]) == "index.php" ) { echo 'main-header main-header-three'; } else { echo 'main-header main-header-three about'; } ?> ">
+        <header class="  <?php if (basename($_SERVER["PHP_SELF"]) == "index.php") { echo 'main-header main-header-three'; } else { echo 'main-header main-header-three about'; } ?> ">
             <div class="main-header-three__top">
                 <div class="container">
-                <marquee>Here the updates will be displayed as discussed with the pavak sir </marquee>
-                      
+                    <marquee>Here the updates will be displayed as discussed with the pavak sir</marquee>
                     <div class="main-header-three__top-inner">
-                    
-
                     </div>
                 </div>
             </div>
-
 
             <div class="main-header-three__bottom">
                 <div id="sticky-header" class="menu-area">
                     <div class="container">
                         <div class="main-header-three__bottom-inner">
-
                             <div class="main-header-three__bottom-left">
                                 <div class="logo-box-one">
-                                    <a href="index.html">
+                                    <a href="index.php">
                                         <?php
-                                    if( basename($_SERVER["PHP_SELF"]) == "index.php" ) {
-                                       echo '<img src="assets/img/resource/logo-3.png" alt="Logo">';
-                                    } else { echo '<img src="assets/img/resource/logo-4.png" alt="Logo">'; } ?>
+                                        if (basename($_SERVER["PHP_SELF"]) == "index.php") {
+                                            echo '<img src="assets/img/resource/logo-3.png" alt="Logo">';
+                                        } else {
+                                            echo '<img src="assets/img/resource/logo-4.png" alt="Logo">';
+                                        }
+                                        ?>
                                     </a>
                                 </div>
                             </div>
@@ -93,40 +88,24 @@
                                         <nav class="menu-nav">
                                             <div class="navbar-wrap main-menu">
                                                 <ul class="navigation">
-                                                <li><a href="index.php">Home</a></li>
+                                                    <li><a href="index.php">Home</a></li>
                                                     <li><a href="about.php">About</a></li>
-                                                   
-                                                  
-                                                    
                                                     <li class="menu-item-has-children"><a href="ventures.php">Ventures</a>
                                                         <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="pukka.php">Pukka Media</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="learneasy.php">LearnEasy</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="workeasy.php">WorkEasy</a>
-                                                            </li>
-                                                           
+                                                            <li><a href="pukka.php">Pukka Media</a></li>
+                                                            <li><a href="learneasy.php">LearnEasy</a></li>
+                                                            <li><a href="workeasy.php">WorkEasy</a></li>
                                                         </ul>
-                                                        <li><a href="about.php">Podcast</a></li>
-                                                        <li class="menu-item-has-children"><a href="ventures.php">Activity</a>
+                                                    </li>
+                                                    <li><a href="about.php">Podcast</a></li>
+                                                    <li class="menu-item-has-children"><a href="ventures.php">Activity</a>
                                                         <ul class="sub-menu">
-                                                            <li>
-                                                                <a href="pukka.php">Vlog</a>
-                                                            </li>
-                                                            <li>
-                                                                <a href="learneasy.php">Blog</a>
-                                                            </li>
-                                                         
+                                                            <li><a href="pukka.php">Vlog</a></li>
+                                                            <li><a href="learneasy.php">Blog</a></li>
                                                         </ul>
-                                                  
-                                                   
-                                            
+                                                    </li>
                                                     <li><a href="about.php">Career</a></li>
-                                                    <li><a href="contact.php">contacts</a></li>
+                                                    <li><a href="contact.php">Contacts</a></li>
                                                 </ul>
                                             </div>
                                         </nav>
@@ -137,10 +116,7 @@
                             <div class="main-header-three__bottom-right">
                                 <div class="header-btn-box-one">
                                     <a class="thm-btn" href="contact.php">
-                                        <span class="txt">
-                                            Contact Us
-                                            <i class="icon-next"></i>
-                                        </span>
+                                        <span class="txt">Contact Us<i class="icon-next"></i></span>
                                     </a>
                                 </div>
                             </div>
@@ -157,7 +133,7 @@
                         <i class="fas fa-times"></i>
                     </div>
                     <div class="nav-logo">
-                        <a href="index.html">
+                        <a href="index.php">
                             <img src="assets/img/resource/logo-3.png" alt="Logo">
                         </a>
                     </div>
@@ -165,8 +141,7 @@
                         <!--Here Menu Will Come Automatically Via Javascript / Same Menu as in Header-->
                     </div>
                     <div class="contact-info">
-                        <div class="icon-box"><span class="icon-phone-call"></span>
-                        </div>
+                        <div class="icon-box"><span class="icon-phone-call"></span></div>
                         <p><a href="tel:123456789">(629) 555-0129</a></p>
                     </div>
                     <div class="social-links">

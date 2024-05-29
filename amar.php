@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-?>
+        include 'header.php';
+        ?>
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -8,11 +8,11 @@ include 'header.php';
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>LearnEasy</h2>
+                    <h2>Web Development</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">LearnEasy</li>
+                        <li class="color-base">Web Development</li>
                     </ul>
                 </div>
             </div>
@@ -27,24 +27,18 @@ include 'header.php';
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
                                 <div class="img-box">
-                                    <img src="assets/img/service/service-details__img5.jpg" alt="image">
+                                    <img src="assets/img/service/service-details__img4.jpg" alt="image">
                                 </div>
                                 <div class="content-box">
-                                    <h2>LearnEasy</h2>
+                                    <h2>Web Development</h2>
                                     <p>
-                                        <!-- Applications are like the lifeblood of mobile phones and tablets today. The true
+                                        Applications are like the lifeblood of mobile phones and tablets today. The true
                                         potential of you mobile phone is harnessed by applications that can provide
                                         utility. Apps come under of the various segments. Nowad technology has become
                                         super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own. -->
-                                        Collaboration and community, sustainability and accessibility – the defining 
-                                        values of WorkEasy, also defines how this coactive coworking space came to be.
-                                         In the midst of a world-wide pandemic, when schools and offices all resorted 
-                                         to going online, Pavak Unadkat believed that working in a community was what
-                                          people needed. 
-
+                                        programming and creating applications on their own.
                                     </p>
-                                    <!-- <ul class="list-item clearfix">
+                                    <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">
                                                 <span class="icon-check"></span>
@@ -69,11 +63,11 @@ include 'header.php';
                                                 <p>Our services will feel like A mint of creativity.</p>
                                             </div>
                                         </li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__text">
+                            <div class="service-details__text">
                                 <div class="title">
                                     <h3>Start with A Plan and Finish with Results</h3>
                                     <p>
@@ -90,7 +84,7 @@ include 'header.php';
                                         automation solutions.
                                     </p>
                                 </div>
-                            </div> -->
+                            </div>
 
                             <div class="service-details__img-box2">
                                 <div class="row">
@@ -102,18 +96,13 @@ include 'header.php';
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
-                                                <!-- Applications are like the lifeblood mobile phones and tablets today. The
+                                                Applications are like the lifeblood mobile phones and tablets today. The
                                                 true potential you mobile phone is harnessed applications that can
                                                 provide
                                                 utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves. -->
-                                                In July of 2020, the journey of how WorkEasy came to be started
-                                           with the fresh concept of  a coworking space in Rajkot. From August 2020, 
-                                           the plan was placed in motion, by November WorkEasy was inaugurated and 
-                                           soon corporates such as Edelweiss (the 1st  client) and Bridgestone signed
-                                            their contracts. It is now a one of its kind office space in Rajkot. 
+                                                become super advanced even normal people are getting themselves.
                                             </p>
-                                            <!-- <ul class="list-item clearfix">
+                                            <ul class="list-item clearfix">
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
@@ -132,13 +121,13 @@ include 'header.php';
                                                         <p>Practice for providing all application problems.</p>
                                                     </div>
                                                 </li>
-                                            </ul> -->
+                                            </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__prev-next-option blog-details__prev-next-option">
+                            <div class="service-details__prev-next-option blog-details__prev-next-option">
                                 <div class="single-box left">
                                     <div class="icon">
                                         <a href="#"><span class="icon-left-arrow"></span></a>
@@ -157,7 +146,7 @@ include 'header.php';
                                         <a href="#"><span class="icon-right-arrow-angle"></span></a>
                                     </div>
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
                     </div>
@@ -166,49 +155,44 @@ include 'header.php';
                     <div class="col-xl-4">
                         <div class="service-details__sidebar">
                             <!--Start Sidebar Single-->
-                            <!-- <div class="sidebar__single sidebar__search wow fadeInUp" data-wow-delay=".1s">
+                            <div class="sidebar__single sidebar__search wow fadeInUp" data-wow-delay=".1s">
                                 <form action="#" class="sidebar__search-form">
                                     <input type="search" placeholder="Search here...">
                                     <button type="submit"><i class="icon-magnifying-glass"></i></button>
                                 </form>
-                            </div> -->
+                            </div>
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
                             <div class="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
                                 <div class="title-box">
-                                    <h2>Related Ventures</h2>
+                                    <h2>Related Services</h2>
                                 </div>
 
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="learneasy.php">Learneasy<span
+                                        <a href="app-development.html">Mobile App Development<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="pukka.php">Pukka Media<span
+                                        <a href="uiux-design.html">UI/UX Designer<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="meet.php">MeetEasy<span
+                                        <a class="active" href="#">Web Developer<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a class="active" href="intern.php">Yo Internship<span
+                                        <a href="digital-marketing.html">Digital Marketing<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="vaatche.php">Su Vaat Che<span
-                                                class="icon-right-arrow-angle"></span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="amar.php">Amar Estate Agency<span
+                                        <a href="corporate-agency.html">Corporate Agency<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                 </ul>
@@ -216,7 +200,7 @@ include 'header.php';
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
-                            <!-- <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
+                            <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
                                 <div class="dwonlode-box">
                                     <a href="#">
                                         Download Doc
@@ -227,7 +211,7 @@ include 'header.php';
                                         <i class="icon-download"></i>
                                     </a>
                                 </div>
-                            </div> -->
+                            </div>
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
@@ -236,11 +220,11 @@ include 'header.php';
                                     style="background-image: url(assets/img/service/service-details-sideber__img1.jpg);">
                                 </div>
                                 <div class="content-box text-center">
-                                   <h3>Learn more<br>about us</h3> 
+                                    <h3>Have Any Discussion<br>About Project?</h3>
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="https://www.instagram.com/learneasyskills.in/">
-                                            <span class="txt">LearnEasy Instagram</span>
-                                            <!-- <i class="icon-next"></i> -->
+                                        <a class="thm-btn" href="#">
+                                            <span class="txt">Contact Us</span>
+                                            <i class="icon-next"></i>
                                         </a>
                                     </div>
                                 </div>
