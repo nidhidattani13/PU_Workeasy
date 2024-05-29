@@ -30,7 +30,54 @@ include 'header.php';
                 <img src="assets/img/shape/about-three__shape3.png" alt="shapes">
             </div>
             <div class="container">
-                <div class="row">
+                <h1>About Us</h1>
+</br>
+                <div class="ni">
+                <p style="font-size: large;">
+                Pavak Unadkat has always been an entrepreneur at heart. Seeking for a venture, 
+                a concept, an idea in everything. Everywhere he looks, he sees something to create. 
+                As a university student, Pavak made a small business off of selling MCQ booklets of 
+                how to successfully secure a spot in CEPT. This entrepreneur’s first little venture 
+                did not provide him with the satisfaction that his future ventures were going to 
+                provide him, so unfortunately, it came to a close.
+                </p>
+                </br>
+                <div class="dh">
+                <h4>He has also been a very practical person throughout.</h4>
+                <p style="font-size: large;">  Pavak as a schoolboy, collected a lot of precious experience by volunteering and 
+                    participating in various academic, non – academic competitions and events. He 
+                    was also the cultural head at CEPT during his time there and continued being an 
+                    active participant in extra-curriculars throughout. His career as a digital marketer 
+                    now, initiated as him marketing advertisements for IPL and Gujarat Tourism in his 
+                    college days. An initial learning spot in his career was getting hired at CWash. 
+                    He worked on the social media reach for ODF cities project – Open Defication free 
+                    cities. The job again, did not provide him the sense of accomplishment and satisfaction. 
+                    Simultaneously, he started his own venture, the Waffling Station – a venture that brought
+                    the world of waffles to Rajkot – a venture that was a roaring success.  
+                </p>
+                </div>
+</br>
+                <div class="vi">
+                    <h4>The entrepreneurial gene runs in the family.</h4>
+                    <p style="font-size:large">Pavak’s grandfather tried out over 20 businesses before launching a very succesful 
+                        Amar Estate Agency, a real estate brokerage brand. Pavak credits a lot of his success 
+                        to the influence his family had on his visions and in their effort in supporting him. 
+                        Pavak remarked, Mrs. Chandni Unadkat, his wife believed in his abilities to bloom into 
+                        a successful entrepreneur incessantly, even in the moments he found difficult. 
+                        <i>“She has supported my entrepreneurship capabilities at the next level. In fact 
+                        it is she that believed that I am the best entrepreneur and should keep pursuing 
+                        new ventures.” </i> Pavak’s father, as well as grandfather and cousins played major roles 
+                        in his motivation to keep going. His grandfather has been the person to inspire him 
+                        the most. His guidance and his role as an idol in Pavak’s life influenced his professional 
+                        decisions and assisted him in staying on paths morally correct. </p>
+                </div>
+</br>
+                <div class="dy">
+                    <p style="font-size:larger"><i><b>“The person who has inspired me the most is my grandfather. 
+                        The human being I am today is all because of his guidance.” </b></i></p>
+                </div>
+                </div>
+                <!-- <div class="row">
                     <div class="col-xl-6">
                         <div class="about-three__content">
                             <div class="sec-title-four">
@@ -93,36 +140,36 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
-                    <div class="col-xl-6">
+                    <!-- <div class="col-xl-6">
                         <div class="about-three__img-box">
                             <ul>
-                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"> -->
                                     <!--Single About Three Img-->
-                                    <div class="single-about-three__img-box">
+                                    <!-- <div class="single-about-three__img-box">
                                         <img src="assets/img/about/about-three__img2.jpg" alt="image">
-                                    </div>
+                                    </div> -->
                                     <!--End About Three Img-->
-                                </li>
+                                <!-- </li>
 
-                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"> -->
                                     <!--Single About Three Img-->
-                                    <div class="single-about-three__img-box">
+                                    <!-- <div class="single-about-three__img-box">
                                         <img src="assets/img/about/about-three__img3.jpg" alt="image">
-                                    </div>
+                                    </div> -->
                                     <!--End About Three Img-->
-                                </li>
+                                <!-- </li>
                             </ul>
 
                             <div class="about-three__img-box-bottom wow fadeInLeft" data-wow-delay="0ms"
-                                data-wow-duration="1500ms">
+                                data-wow-duration="1500ms"> -->
                                 <!--Single About Three Img-->
-                                <div class="single-about-three__img-box">
+                                <!-- <div class="single-about-three__img-box">
                                     <img src="assets/img/about/about-three__img4.jpg" alt="image">
-                                </div>
+                                </div> -->
                                 <!--End About Three Img-->
-                            </div>
+                            <!-- </div>
 
                             <div class="overlay-box text-center">
                                 <div class="outer-box">
@@ -139,20 +186,20 @@ include 'header.php';
                         </div>
                     </div>
                 </div>
-            </div>
+            </div> -->
         </section>
         <!--End About Three-->
 
         <!--Start Partner style3-->
-        <section class="partner-style3 about">
+        <section class="partner-style3 logo-gird" >
             <div class="container">
                 <ul class="row clearfix list-one">
                     <!--Start Single Partner Logo Box-->
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-1.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-9.png" alt="#">
+                                <img src="assets/img/brand/b&w/Cii.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -161,8 +208,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-2.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-10.png" alt="#">
+                                <img src="assets/img/brand/b&w/NAR.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/nar.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -171,8 +218,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-3.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-11.png" alt="#">
+                                <img src="assets/img/brand/b&w/Reaar.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/reaar.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -181,8 +228,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-4.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-12.png" alt="#">
+                                <img src="assets/img/brand/b&w/Rotract.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/Rotractf.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -194,8 +241,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-5.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-13.png" alt="#">
+                                <img src="assets/img/brand/b&w/Rotry.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/Rotract.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -204,8 +251,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-6.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-14.png" alt="#">
+                                <img src="assets/img/brand/b&w/yuva.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/yuva.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -214,8 +261,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-7.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-15.png" alt="#">
+                                <img src="assets/img/brand/b&W/Cii.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -224,8 +271,8 @@ include 'header.php';
                     <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
-                                <img src="assets/img/brand/brand-v3-8.png" alt="#">
-                                <img class="" src="assets/img/brand/brand-v3-16.png" alt="#">
+                                <img src="assets/img/brand/b&w/yi.png" alt="#">
+                                <img class="" src="assets/img/brand/Color/yi.png" alt="#">
                             </a>
                         </div>
                     </li>
@@ -236,7 +283,7 @@ include 'header.php';
         <!--End Partner style3-->
 
         <!--Start Service Three-->
-        <section class="service-three">
+        <!-- <section class="service-three">
             <div class="service-three__shape1 float-bob-x">
                 <img src="assets/img/shape/service-three__shape1.png" alt="shapes">
             </div>
@@ -255,10 +302,10 @@ include 'header.php';
                         What We Offer For You
                     </h2>
                 </div>
-                <div class="row">
+                <div class="row"> -->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -276,11 +323,11 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Service Three-->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -299,11 +346,11 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Service Three-->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -321,11 +368,11 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Service Three-->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="0ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -343,11 +390,11 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Service Three-->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInRight" data-wow-delay="100ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -365,11 +412,11 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Service Three-->
 
                     <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                    <!-- <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
                         data-wow-duration="1500ms">
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
@@ -386,14 +433,14 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Service Three-->
-                </div>
+                    End Single Service Three-->
+                <!-- </div>
             </div>
-        </section>
+        </section>  -->
         <!--End Service Three-->
 
         <!--Start Team Two-->
-        <section class="team-two">
+        <!-- <section class="team-two">
             <div class="team-two__shape1">
                 <img src="assets/img/shape/team-two__shape1.png" alt="shapes">
             </div>
@@ -418,9 +465,9 @@ include 'header.php';
                         Creative Team Leaders
                     </h2>
                 </div>
-                <div class="row">
+                <div class="row"> -->
                     <!--Start Team Two Single-->
-                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
+                    <!-- <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.1s">
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
@@ -450,12 +497,12 @@ include 'header.php';
                                 <h3><a href="#">Daniel Stiphen</a></h3>
                                 <p>Web Developerr</p>
                             </div>
-                        </div>
+                        </div> -->
                     </div>
                     <!--End Team Two Single-->
 
                     <!--Start Team Two Single-->
-                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
+                    <!-- <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.3s">
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
@@ -486,11 +533,11 @@ include 'header.php';
                                 <p>Website Developer</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Team Two Single-->
 
                     <!--Start Team Two Single-->
-                    <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
+                    <!-- <div class="col-xl-4 col-lg-4 wow animated fadeInUp" data-wow-delay="0.5s">
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
@@ -521,24 +568,24 @@ include 'header.php';
                                 <p>UI/UX Designer & Developer</p>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Team Two Single-->
-
+<!-- 
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Team Two-->
 
         <!--Start Fact Counter One-->
-        <section class="fact-counter-one about">
+        <!-- <section class="fact-counter-one about">
             <div class="shape1"><img src="assets/img/shape/fact-counter-one-about-shape1.png" alt=""></div>
             <div class="shape2"><img src="assets/img/shape/fact-counter-one-about-shape2.png" alt=""></div>
             <div class="shape3"><img src="assets/img/shape/fact-counter-one-about-shape3.png" alt=""></div>
             <div class="shape4"><img src="assets/img/shape/fact-counter-one-about-shape4.png" alt=""></div>
             <div class="container">
-                <div class="row">
+                <div class="row"> -->
                     <!--Start Single Fact Counter-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+                    <!-- <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".1s">
                             <div class="single-fact-counter-inner">
                                 <div class="single-fact-counter-icon">
@@ -556,10 +603,10 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Fact Counter-->
                     <!--Start Single Fact Counter-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+                    <!-- <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".2s">
                             <div class="single-fact-counter-inner">
                                 <div class="single-fact-counter-icon">
@@ -578,10 +625,10 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Fact Counter-->
                     <!--Start Single Fact Counter-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+                    <!-- <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".3s">
                             <div class="single-fact-counter-inner">
                                 <div class="single-fact-counter-icon">
@@ -598,10 +645,10 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Fact Counter-->
                     <!--Start Single Fact Counter-->
-                    <div class="col-xl-3 col-lg-6 col-md-6">
+                    <!-- <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".4s">
                             <div class="single-fact-counter-inner">
                                 <div class="single-fact-counter-icon">
@@ -620,16 +667,16 @@ include 'header.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!--End Single Fact Counter-->
-                </div>
+                <!-- </div>
             </div>
-        </section>
+        </section> -->
         <!--End Fact Counter One-->
 
 
         <!--Start Testmonials Three-->
-        <section class="testimonials-three about">
+        <!-- <section class="testimonials-three about">
             <div class="testimonials-three__shape1 rotate-me">
                 <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes">
             </div>
@@ -644,29 +691,29 @@ include 'header.php';
                     <div class="col-xl-5">
                         <div class="testimonials-three__img">
                             <ul>
-                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"> -->
                                     <!--Single About Two Img-->
-                                    <div class="single-testimonials-three__img-box">
+                                    <!-- <div class="single-testimonials-three__img-box">
                                         <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End About Two Img-->
                                     <!--Single About Two Img-->
-                                    <div class="single-testimonials-three__img-box">
+                                    <!-- <div class="single-testimonials-three__img-box">
                                         <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image">
                                         </div>
-                                    </div>
+                                    </div> -->
                                     <!--End About Two Img-->
-                                </li>
-                                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                <!-- </li>
+                                <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"> -->
                                     <!--Single About Two Img-->
-                                    <div class="single-testimonials-three__img-box">
+                                    <!-- <div class="single-testimonials-three__img-box">
                                         <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image">
-                                    </div>
+                                    </div> -->
                                     <!--End About Two Img-->
-                                </li>
+                                <!-- </li>
                             </ul>
                         </div>
                     </div>
@@ -680,10 +727,10 @@ include 'header.php';
                                 <h2>
                                     What Says Our Client’s<br>About Diligent
                                 </h2>
-                            </div>
+                            </div> -->
 
                             <!-- If we need navigation buttons -->
-                            <div class="swiper-nav-style2 testimonials-three__swiper-nav-style">
+                            <!-- <div class="swiper-nav-style2 testimonials-three__swiper-nav-style">
                                 <div class="swiper-button-prev" id="testimonials-three__swiper-button-prev">
                                     <i class="icon-left-arrow right"></i>
                                 </div>
@@ -760,8 +807,11 @@ include 'header.php';
                     </div>
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Testmonials Three-->
+</br>
+</br>
+</br>
 
         <?php
 include 'footer.php';
