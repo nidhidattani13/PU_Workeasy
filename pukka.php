@@ -217,7 +217,7 @@
                                 <div class="content-box text-center">
                                     <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="#">
+                                        <a class="thm-btn" href="https://www.instagram.com/pukkamedia.in/">
                                             <span class="txt">Pukka Media Instagram</span>
                                             <i class="icon-next"></i>
                                         </a>
