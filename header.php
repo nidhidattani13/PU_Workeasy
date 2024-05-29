@@ -95,6 +95,11 @@
                                                             <li><a href="pukka.php">Pukka Media</a></li>
                                                             <li><a href="learneasy.php">LearnEasy</a></li>
                                                             <li><a href="workeasy.php">WorkEasy</a></li>
+                                                            <li><a href="meet.php">MeetEasy</a></li>
+                                                            <li><a href="intern.php">Yo Internships</a></li>
+                                                            <li><a href="vaatche.php">Su Vaat Che</a></li>
+                                                            <li><a href="amar.php">Amar Estate Agency</a></li>
+                                                            
                                                         </ul>
                                                     </li>
                                                     <li><a href="about.php">Podcast</a></li>
