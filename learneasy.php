@@ -183,7 +183,7 @@ include 'header.php';
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="learneasy.php">Learneasy<span
+                                        <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
