@@ -9,7 +9,7 @@ include 'header.php';
                 <div class="page-header__inner">
                     <h2>Contact us</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
                         <li class="color-base">Contact us</li>
                     </ul>

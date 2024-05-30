@@ -3,22 +3,22 @@
         <footer class="footer-three">
             <!-- Start Footer Main -->
             <div class="footer-main footer-main__three">
-                <div class="footer-three__shape1">
+                <!-- <div class="footer-three__shape1">
                     <img src="assets/img/shape/footer-three__shape1.png" alt="shapes">
                 </div>
                 <div class="footer-three__shape2">
                     <img src="assets/img/shape/footer-three__shape2.png" alt="shapes">
-                </div>
+                </div> -->
                 <div class="container">
                     <!-- Start Footer Main Two Top-->
                     <div class="footer-main__three-top">
-                        <div class="footer-three__logo-box">
+                        <!-- <div class="footer-three__logo-box">
                             <a href="index.html">
                                 <img src="assets/img/logo/footer-three-1.png" alt="logo">
                             </a>
-                        </div>
+                        </div> -->
 
-                        <div class="footer-three__get-quote-form">
+                        <!-- <div class="footer-three__get-quote-form">
                             <div class="title-box">
                                 <h2>Get Free Quote</h2>
                                 <p>Best solutions for your company</p>
@@ -32,7 +32,7 @@
                                     </button>
                                 </div>
                             </form>
-                        </div>
+                        </div> -->
                     </div>
                     <!-- End Footer Main Two Top-->
 
@@ -86,19 +86,19 @@
                                         class="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
                                         <ul class="clearfix">
                                             <li>
-                                                <p><a href="about.html">Need a career?</a></p>
+                                                <p><a href="about.php">Need a career?</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="about.html">About Us</a></p>
+                                                <p><a href="about.php">About Us</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="web-development.html">Our Services</a></p>
+                                                <p><a href="ventures.php">Our Ventures</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="blog-details.html">Latest News</a></p>
+                                                <p><a href="blog-details.php">Latest News</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="contact.html">Contact Us</a></p>
+                                                <p><a href="contact.php">Contact Us</a></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -125,10 +125,16 @@
                                                 <p><a href="Learneasy.php">LearnEasy</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="#">MeetEasy</a></p>
+                                                <p><a href="meeteasy.php">MeetEasy</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="#">Su Vaat Che</a></p>
+                                                <p><a href="vaatche.php">Su Vaat Che</a></p>
+                                            </li>
+                                            <li>
+                                                <p><a href="amar.php">Amar Estate Agency</a></p>
+                                            </li>
+                                            <li>
+                                                <p><a href="intern.php">Yo Internship</a></p>
                                             </li>
                                         </ul>
                                     </div>
@@ -167,12 +173,12 @@
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="icon">
+                                                                <!-- <div class="icon">
                                                                     <span class="icon-time"></span>
                                                                 </div>
                                                                 <div class="text">
                                                                     <p>4 Min Read</p>
-                                                                </div>
+                                                                </div> -->
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -190,7 +196,7 @@
                                                     </h5>
                                                     <div class="date-box">
                                                         <ul class="clearfix">
-                                                            <li>
+                                                            <li> 
                                                                 <div class="icon">
                                                                     <span class="icon-calendar"></span>
                                                                 </div>
@@ -199,12 +205,12 @@
                                                                 </div>
                                                             </li>
                                                             <li>
-                                                                <div class="icon">
+                                                                <!-- <div class="icon">
                                                                     <span class="icon-time"></span>
                                                                 </div>
                                                                 <div class="text">
                                                                     <p>4 Min Read</p>
-                                                                </div>
+                                                                </div> -->
                                                             </li>
                                                         </ul>
                                                     </div>
@@ -223,7 +229,7 @@
                 <!-- End Footer Main -->
 
                 <!--Start Footer Bottom -->
-                <div class="footer-bottom footer-bottom-two footer-bottom-three">
+                <!-- <div class="footer-bottom footer-bottom-two footer-bottom-three">
                     <div class="container">
                         <div class="footer-bottom__inner footer-bottom__two-inner footer-bottom__three-inner">
                             <div class="copyright-text text-center">
@@ -233,7 +239,7 @@
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> -->
                 <!--End Footer Bottom -->
             </div>
         </footer>
