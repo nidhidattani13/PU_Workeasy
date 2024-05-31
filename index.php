@@ -61,22 +61,20 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
+             
+                    <img class="pu-img" src="./pavakk.PNG" alt="Profile Image">
+                         
+                    <!-- <div class="banner-three__img p-img">
+    <div class="square linkedin"> -->
+   
+        <span></span>
+        <span></span>
+        <!-- <img class="pu-img" src="./pavakk.PNG" alt="Profile Image"> -->
+    </div>
+</div>
 
-                    <div class="banner-three__img">
-                       
-                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active">
-    <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="https://iili.io/JQuAW1j.jpg" class="d-block w-100" alt="...">
-    </div>
-    <!-- <div class="carousel-item">
-      <img src="https://iili.io/JQuSKtS.jpg" class="d-block w-100" alt="...">
-    </div> -->
-  </div>
-  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+
+  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Previous</span>
   </button>
@@ -84,7 +82,7 @@ include 'header.php';
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="visually-hidden">Next</span>
   </button>
-</div>
+</div> -->
                             <!-- <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                                 <div class="banner-three__img-single instyle--2">
@@ -383,7 +381,142 @@ include 'header.php';
 
 
         <!--End About Three-->
+            <!-- about us section start -->
+            <section class="about-three">
+            <div class="about-three__shape1 float-bob-y">
+                <img src="assets/img/shape/about-three__shape1.png" alt="shapes">
+            </div>
+            <div class="about-three__shape2">
+                <img src="assets/img/shape/about-three__shape2.png" alt="shapes">
+            </div>
+            <div class="about-three__shape3">
+                <img src="assets/img/shape/about-three__shape3.png" alt="shapes">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-three__content">
+                            <div class="sec-title-four">
+                                <!-- <div class="sub-title">
+                                    <h4>Get To Know About Us</h4>
+                                </div> -->
+                                <h2>
+                                    ABOUT PAVAK UNADKAT
+                                </h2>
+                            </div>
+                            <div class="text">
+                                <p>Pavak Unadkat has always been an entrepreneur at heart. <br>
+                                    Seeking for a venture, a concept, an idea in everything.<br>
+                                     Everywhere he looks, he sees something to create.<br>
+                                      A practical yet empathetic soul, he looks for talent <br>
+                                      in his team members.<i> “Being a good human, is where you <br>
+                                      start. Then, you learn from your mistakes and become a 
+                                      better entrepreneur everyday”. </i> </p><br></br>
+                                      <h2><b><i>“I believe in the last man standing theory.”</i> </b></h2><br>
+                            </div>
+                            <div class="about-three__fact-box">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <!-- <div class="about-three__fact-single"> -->
+                                            <!-- <div class="count-outer count-box">
+                                                <h2 class="odometer" data-count="256">00</h2>
+                                                <i class="icon-plus-symbol-button"></i>
+                                            </div> -->
+                                            <!-- <div class="title">
+                                                <h3>Completed Projects</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>With 100% Satisfaction</p>
+                                            </div> -->
+                                        <!-- </div> -->
+                                    </div>
 
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <!-- <div class="about-three__fact-single"> -->
+                                            <!-- <div class="count-outer count-box">
+                                                <h2 class="odometer" data-count="8.9">00</h2>
+                                                <i class="icon-percentage"></i>
+                                            </div>
+                                            <div class="title">
+                                                <h3>Company Growth</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Avg. Every Year</p>
+                                            </div> -->
+                                        <!-- 
+                                            
+                                         -->
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="about-three__img">
+                                <!-- <div class="img-box">
+                                    <img src="assets/img/about/about-three__img1.jpg" alt="image">
+                                </div> -->
+                                <div class="title-box">
+                                    <h3>Explore Our About Us Page</h3>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="about.php">
+                                            <span class="txt">About Us</span>
+                                            <i class="icon-next"></i>
+                                        
+                                        </a>
+                                        <div class="banner-three__shape1 float-bob-x">
+                <img src="assets/img/shape/banner-three__shape1.png" alt="shapes">
+            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                   <div class="about-three__img-box">
+                            <ul>
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                   
+                                    <!-- <div class="single-about-three__img-box">
+                                        <img src="assets/img/blog/290.png" alt="image">
+                                    </div> -->
+                                   
+                                </li>
+
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    
+                                    <!-- <div class="single-about-three__img-box">
+                                        <img src="assets/img/blog/220.png" alt="image">
+                                    </div>
+                                    -->
+                                </li>
+                            </ul>
+
+                            <div class="about-three__img-box-bottom wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                              
+                                <div class="single-about-three__img-box">
+                                    <img src="assets/img/about/550.png" style="height:750px;"alt="image">
+                                </div>
+                                
+                            </div>
+
+                            <!-- <div class="overlay-box text-center"> -->
+                                <!-- <div class="outer-box"> -->
+                                    <!-- <div class="count-outer count-box">
+                                        <h2 class="odometer" data-count="15">00</h2>
+                                        <i class="icon-plus-symbol-button"></i>
+                                    </div>
+                                    <div class="title">
+                                        <p>Years Of<br>Experiences</p>
+                                    </div> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+            <!-- about us section end -->
         <!--Start Partner style3-->
         <section class="partner-style3 logo-gird" >
             <div class="container">
@@ -481,23 +614,137 @@ include 'header.php';
             <div class="container">
                 <div class="sec-title-three text-center">
                     <div class="sub-title">
-                        
+                        <h4>Cases Studies</h4>
                     </div>
                     <h2>
-                       Podcast
+                        Some Of Our Recent Works
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="project-two__single">
-    <div class="project-two__single-img">
-        <img src="https://iili.io/JQ7a2Ra.jpg" alt="Digital Marketing Growth">
+                        <div class="project-two__inner">
+                            <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+                                "loop": true,
+                                "pagination": {
+                                    "el": "#project-two__pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                    },
+                                "navigation": {
+                                    "nextEl": "#project-two__swiper-button-next",
+                                    "prevEl": "#project-two__swiper-button-prev"
+                                },
+                                "autoplay": { "delay": 5000 },
+                                "breakpoints": {
+                                    "0": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "375": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "575": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "768": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 2
+                                    },
+                                    "992": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 3
+                                    },
+                                    "1200": {
+                                        "spaceBetween": 16,
+                                        "slidesPerView": 4
+                                    }
+                                }}'>
+
+                                <div class="swiper-wrapper">
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img3.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-nav-style2 project-two__swiper-nav">
+                                    <div class="border1"></div>
+                                    <div class="border2"></div>
+                                    <div class="swiper-button-prev" id="project-two__swiper-button-prev">
+                                        <i class="icon-left-arrow right"></i>
+                                    </div>
+                                    <div class="swiper-button-next" id="project-two__swiper-button-next">
+                                        <i class="icon-right-arrow-angle left"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- <img src="https://iili.io/JQ7a2Ra.jpg" alt="Digital Marketing Growth">
         <div class="overlay-title">
             <h4>Podcast</h4>
             <h3><a href="#">Digital Marketing Growth</a></h3>
-        </div>
-    </div>
-</div>
+        </div> -->
+
                             <!-- <div class="thm-swiper__slider swiper-container" data-swiper-options='{
                                 "loop": true,
                                 "pagination": {
@@ -537,34 +784,14 @@ include 'header.php';
                                     }
                                 }}'>
 
-                                <div class="swiper-wrapper"> -->
+                                <div class="swiper-wrapper">  -->
 
-                                    <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
-                                        <div class="project-two__single">
-                                            <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
-                                                <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                    <!-- Start Single Project Two-->
+                                   
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
-                                        <div class="project-two__single">
-                                            <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
-                                                <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                 
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
@@ -582,22 +809,12 @@ include 'header.php';
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
-                                        <div class="project-two__single">
-                                            <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
-                                                <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
-                                                </div>
-                                            </div>
-                                        </div>
-                                    </div> -->
+                                  
                                     <!--End Single Project Two-->
 
                                 </div>
                                 <!-- If we need navigation buttons -->
-                                <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
+                               <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                     <div class="swiper-button-prev" id="project-two__swiper-button-prev">
@@ -607,7 +824,7 @@ include 'header.php';
                                         <i class="icon-right-arrow-angle left"></i>
                                     </div>
                                 </div> -->
-
+  
                             </div>
                         </div>
                     </div>
@@ -616,9 +833,8 @@ include 'header.php';
         </section>
         <!--End Project Two-->
 
-        <!--Start Cta Three-->
         <section class="cta-three">
-            <div class="cta-three__bg" style="background-image: url(assets/img/background/cta-three__bg.jpg);">
+            <div class="cta-three_bg" style="background-image: url(assets/img/background/cta-three_bg.jpg);">
             </div>
             <div class="container">
                 <div class="cta-three__inner">
@@ -628,20 +844,19 @@ include 'header.php';
                                 <h4>Get To Know About Us</h4>
                             </div>
                             <h2>
-                                Let’s Get To Work Together<br> Ready To Work Us
+                            YOUR NEXT GREAT IDEA<br> IS ONE CLICK AWAY
                             </h2>
                         </div>
                     </div>
                     <div class="cta-three__btn">
-                        <a class="thm-btn" href="#">
+                        <a class="thm-btn" href="contact.php">
                             <span class="txt">Get Started</span>
                             <i class="icon-next"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>
-        <!--End Cta Two-->
+        </section>   
 
         <!--Start Team Two-->
         <section class="team-two">

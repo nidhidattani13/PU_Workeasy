@@ -7,26 +7,7 @@
     height: 10px;
 }
 
-.project-two__single {
-    position: relative;
-    overflow: hidden;
-    width: 30%;
-    height: 600px;
-}
-
-.project-two__single-img {
-    position: relative;
-    width: 100%;
-    height:auto;
-}
-
-.project-two__single-img img {
-    width: 100%;
-    height: 600px;
-    display: block;
-}
-
-.overlay-title {
+/* .overlay-title {
     position: absolute;
     bottom: 20px;
     left: 20px;
@@ -35,8 +16,8 @@
     padding: 10px;
     border-radius: 5px;
 }
-
-.overlay-title h4 {
+/*  */
+/* .overlay-title h4 {
     margin: 0;
     font-size: 16px;
 }
@@ -49,8 +30,110 @@
 .overlay-title h3 a {
     color: white;
     text-decoration: none;
-}
+}  */
 /* .content-font p{
     font-style:	Times New Roman;
     font-size:4vw;
+} */
+.banner-three__img.p-img {
+    position: relative;
+    width: 100%;  /* Adjust width as needed */
+    height: 600; /* Maintain aspect ratio */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} 
+.p-img{
+    position: relative;
+  
+    width:600px; 
+}
+
+.pu-img {
+    position: absolute;
+    margin-left: 600px;
+    margin-top: 120px;
+    z-index: 1; 
+    width: 800px; /* Adjust as needed */
+    height: 600px; /* Maintain aspect ratio */
+    border-radius: 15px; /* Optional: to round the corners of the image */
+}
+
+.square {
+    position: relative;
+    margin: 0 10px;
+    width: 500px;
+    height: 500px;
+    display: flex;
+    margin-right: 80px;
+    justify-content: center;
+    align-items: center;
+}
+
+/* .square span:nth-child(1) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #D4F161;
+    border-radius: 32% 58% 69% 43% / 48% 32% 59% 55%;
+    transition: 0.5s;
+    animation: animate 6s linear infinite;
+} */
+
+/* .linkedin:hover span:nth-child(1) {
+    border: none;
+    background: #D4F161;
+} */
+/* .square span:nth-child(2) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: none;
+    background: #D4F161;
+    border-radius: 38% 62% 63% 37% / 41% 44% 56% 59%;
+    transition: 0.5s;
+    animation: animate 4s linear infinite;
+}
+.linkedin:hover span:nth-child(2) {
+    border: none;
+    background: #D4F161;
+} */
+/* .square span:nth-child(3) {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border: 2px solid black;
+    border-radius: 31% 45% 74% 35% / 38% 56% 51% 87%;
+    transition: 0.1s;
+    animation: animate2 10s linear infinite;
+}
+
+.linkedin:hover span:nth-child(3) {
+    border: none;
+    background: #D4F161;
+}
+
+@keyframes animate {
+    0% {
+        transform: rotate(0deg);
+    }
+    10% {
+        transform: rotate(10deg);
+    }
+}
+
+@keyframes animate2 {
+    0% {
+        transform: rotate(3deg);
+    }
+    10% {
+        transform: rotate(0deg);
+    }
 } */
