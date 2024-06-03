@@ -624,16 +624,16 @@ include 'header.php';
                 <div class="cta-three__inner">
                     <div class="cta-three__content">
                         <div class="sec-title-four">
-                            <div class="sub-title">
+                            <!-- <div class="sub-title">
                                 <h4>Get To Know About Us</h4>
-                            </div>
+                            </div> -->
                             <h2>
-                                Let’s Get To Work Together<br> Ready To Work Us
+                            YOUR NEXT GREAT IDEA<br> IS ONE CLICK AWAY
                             </h2>
                         </div>
                     </div>
                     <div class="cta-three__btn">
-                        <a class="thm-btn" href="#">
+                        <a class="thm-btn" href="contact.php">
                             <span class="txt">Get Started</span>
                             <i class="icon-next"></i>
                         </a>
@@ -662,11 +662,11 @@ include 'header.php';
             </div>
             <div class="container">
                 <div class="sec-title-three text-center">
-                    <div class="sub-title">
+                    <!-- <div class="sub-title">
                         <h4>Team Members</h4>
-                    </div>
+                    </div> -->
                     <h2>
-                        Creative Team Leaders
+                        Creative Team Members
                     </h2>
                 </div>
                 <div class="row">

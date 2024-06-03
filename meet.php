@@ -1,6 +1,6 @@
 <?php
-        include 'header.php';
-        ?>
+include 'header.php';
+?>
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -10,7 +10,7 @@
                 <div class="page-header__inner">
                     <h2>MeetEasy</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
                         <li class="color-base">MeetEasy</li>
                     </ul>
@@ -28,6 +28,7 @@
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
                                 <div class="img-box">
+<<<<<<< HEAD
                                     <img src="assets/img/service/service-details__img6.jpg" alt="image">
                                 </div>
                                 <div class="content-box">
@@ -37,8 +38,25 @@
                                     Going offline from social media is of utmost importance, almost a practice 
                                     of mental healthcare at this point. But leveraging social media to go offline?
                                     One could never fathom.  
+=======
+                                    <img src="assets/img/service/service-details__img5.jpg" alt="image">
+                                </div>
+                                <div class="content-box">
+                                    <h2>MeetEasy</h2>
+                                    <p>
+                                        <!-- Applications are like the lifeblood of mobile phones and tablets today. The true
+                                        potential of you mobile phone is harnessed by applications that can provide
+                                        utility. Apps come under of the various segments. Nowad technology has become
+                                        super advanced. Even normal people are getting themselves enrolled in coding and
+                                        programming and creating applications on their own. -->
+                                        Welcome to the world of offline social media! Going offline from 
+                                        social media is of utmost importance, almost a practice of mental 
+                                        healthcare at this point. But leveraging social media to go offline?
+                                         One could never fathom.  
+
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                     </p>
-                                    <ul class="list-item clearfix">
+                                    <!-- <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">
                                                 <span class="icon-check"></span>
@@ -63,11 +81,11 @@
                                                 <p>Real-life Community Meetups.</p>
                                             </div>
                                         </li>
-                                    </ul>
+                                    </ul> -->
                                 </div>
                             </div>
 
-                            <div class="service-details__text">
+                            <!-- <div class="service-details__text">
                                 <div class="title">
                                     <h3>Bridging Digital Communities with Real-life Connections for Gen Z</h3>
                                     <p>
@@ -82,7 +100,7 @@
                                     zen, open-minded spirit, it resonates with youthful Gen Z.
                                     </p>
                                 </div>
-                            </div>
+                            </div> -->
 
                             <div class="service-details__img-box2">
                                 <div class="row">
@@ -94,12 +112,25 @@
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
+<<<<<<< HEAD
                                             MeetEasy brings online communities to life by organizing inclusive and recreational 
                                             meetups across India. These events encourage members to connect face-to-face, fostering 
                                             genuine relationships and shared experiences. Embracing a zen philosophy, MeetEasy 
                                             promotes a free and open-minded environment. This approach resonates strongly with the 
                                             youthful and dynamic nature of Gen Z. By bridging digital connections with real-world 
                                             interactions, MeetEasy creates vibrant and engaging communities.     
+=======
+                                                <!-- Applications are like the lifeblood mobile phones and tablets today. The
+                                                true potential you mobile phone is harnessed applications that can
+                                                provide
+                                                utility. Apps come under of the various segments. Nowad technology has
+                                                become super advanced even normal people are getting themselves. -->
+                                                MeetEasy is a community building platform connecting like minded 
+                                                individuals, based on shared interests, but that’s not where it ends.
+                                                 MeetEasy brings these online communities to life by organizing meet 
+                                                 ups pan-India, inclusive and recreational. A zen concept identifying 
+                                                 with a free and open – minded nature of the youthful Gen Z.
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                             </p>
                                             <!-- <ul class="list-item clearfix">
                                                 <li>
@@ -126,7 +157,7 @@
                                 </div>
                             </div>
 
-                            <div class="service-details__prev-next-option blog-details__prev-next-option">
+                            <!-- <div class="service-details__prev-next-option blog-details__prev-next-option">
                                 <div class="single-box left">
                                     <!-- <div class="icon">
                                         <a href="#"><span class="icon-left-arrow"></span></a>
@@ -145,7 +176,7 @@
                                         <a href="#"><span class="icon-right-arrow-angle"></span></a>
                                     </div> -->
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>
@@ -171,7 +202,11 @@
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
+<<<<<<< HEAD
                                         <a href="learneasy.php">Learneasy<span
+=======
+                                        <a href="workeasy.php">WorkEasy<span
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -181,7 +216,11 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
+<<<<<<< HEAD
                                         <a href="workeasy.php">WorkEasy<span
+=======
+                                        <a href="amar.php">Amar Sate Agency<span
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -196,7 +235,11 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
+<<<<<<< HEAD
                                         <a href="amar.php">Amar Estate Agency<span
+=======
+                                        <a href="workeasy.php">workeasy<span
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                 </ul>
@@ -205,6 +248,7 @@
 
                             <!--Start Sidebar Single-->
                             <!-- <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
+<<<<<<< HEAD
     <div class="dwonlode-box">
         <a href="./Pukkabro.pdf" download>
             Download Pdf
@@ -213,6 +257,19 @@
     </div>
 </div> -->
 
+=======
+                                <div class="dwonlode-box">
+                                    <a href="#">
+                                        Download Doc
+                                        <i class="icon-download"></i>
+                                    </a>
+                                    <a href="#">
+                                        Download Pdf
+                                        <i class="icon-download"></i>
+                                    </a>
+                                </div>
+                            </div> -->
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
@@ -221,11 +278,19 @@
                                     style="background-image: url(assets/img/service/service-details-sideber__img1.jpg);">
                                 </div>
                                 <div class="content-box text-center">
+<<<<<<< HEAD
                                     <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
                                         <a class="thm-btn" href="https://www.instagram.com/pukkamedia.in/">
                                             <span class="txt">MeetEasy Instagram</span>
                                             <i class="icon-next"></i>
+=======
+                                   <h3>Learn more<br>about us</h3> 
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="#">
+                                            <span class="txt">MeetEasy Instagram</span>
+                                            <!-- <i class="icon-next"></i> -->
+>>>>>>> 98b1a6da93eafe040783f346eb2265957c007319
                                         </a>
                                     </div>
                                 </div>

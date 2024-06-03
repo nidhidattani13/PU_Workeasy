@@ -8,11 +8,11 @@ include 'header.php';
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Services</h2>
+                    <h2>Ventures</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">Services</li>
+                        <li class="color-base">Ventures</li>
                     </ul>
                 </div>
             </div>

@@ -9,7 +9,7 @@ include 'header.php';
                 <div class="page-header__inner">
                     <h2>About us</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
                         <li class="color-base">About us</li>
                     </ul>
@@ -76,7 +76,133 @@ include 'header.php';
                     <p style="font-size:larger"><i><b>“The person who has inspired me the most is my grandfather. 
                         The human being I am today is all because of his guidance.” </b></i></p>
                 </div>
+                <br></br><br></br>
+            </div>
+            <div class="pu-journey">
+                <div>
+                    <h4 style="font-size:25px;text-align: center; ">Pavak Unadkat</h4>
+                    <h2 style="font-size:50px;text-align: center;font-family:fantasy ">The Journey of Becoming</h2>
                 </div>
+                <br></br>
+                <div>
+                    <h2 style="font-family:Garamond;font-size:45px">THE INITIATION</h2>
+                    <p style="font-size:20px;font-family:Sans-serif">Pavak’s first venture was impressive and<br>
+                        proved he is an entrepreneur at heart and has<br>
+                        always been. He started off by selling practice<br>
+                        MCQ booklets for admission to CEPT.
+                    </p>
+                </div>
+                <br>
+                <div>
+                <h2 style="font-family:Garamond;text-align:right;font-size:45px"> 
+                    THE BIG BREAK<br></h2>
+                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
+                    “Yaar waffles miss ho rahe hai”<br>
+                     “Chalo phir khud hi banate hai”<br><br>
+                    That's how ‘The Waffling Station’ - waffles on wheels for the first time in Rajkot. Along with<br>
+                    co-founder and friend Garvesh from Pune, in the October of 2017, The Waffling Station<br>
+                    was born. Various marketing tactics and the introduction of waffles as a desert in Rajkot<br>
+                    meant a whooping amount of 26k on the first day itself. Needless to say, The Waffling<br>
+                    Station proved to be a smashing success. However, the Ahmedabad branch did not follow<br>
+                    the same trajectory. It provided a valuable lesson in marketing, the same strategies that<br>
+                    worked for marketing is Rajkot, did not appeal to the people of Ahmedabad.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h2 style="font-family:Garamond;font-size:45px">A LEARNING CURVE</h2>
+                    <p style="font-size:20px;font-family:Sans-serif">
+                    Rajkot social, a cafe ahead of its time, brought the art of<br>
+                    sipping coffee to life. However, it was a learning curve.<br>
+                    Being ahead of its time, the concept of coffee as opposed<br>
+                    to the Rajkot’s usual ‘chai’, did not make an impact that<br>
+                    huge.
+                    </p>
+                </div>
+                <br>
+                <div>
+                <h2 style="font-family:Garamond;text-align:right;font-size:45px"> 
+                PUKKA MEDIA</h2>
+                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
+                    At the precipice of covid in 2019, Pavak developed Pukka media along with his wife,<br>
+                    Mrs. Chandni Unadkat. ‘Social media is a sensation.’ that's how Pavak sees it. It’s a<br>
+                    sensation that can bring about impactful change. Pukka media brought a different<br>
+                    vision to marketing. A more viable, accessible and dynamic point of view to marketing<br>
+                    – via social media. Traditional marketing combined with social media marketing, Pavak<br>
+                    and his team at Pukka Media brought in substantial results for its clients.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h2 style="font-family:Garamond;font-size:45px">WORKEASY</h2>
+                    <p style="font-size:20px;font-family:Sans-serif">
+                    In July of 2020, the journey of how WorkEasy came<br> 
+                    to be started with the fresh concept of a coworking<br>
+                    space in Rajkot. From August 2020, the plan was placed <br>
+                    in motion, by November WorkEasy was inaugurated and soon<br>
+                    corporates such as Edelweiss (the 1st client) and<br>
+                    Bridgestone signed their contracts. It is now a one of<br>
+                    its kind office space in Rajkot.
+                    </p>
+                </div>
+                <br>
+                <div>
+                <h2 style="font-family:Garamond;text-align:right;font-size:45px">LEARNEASY</h2>
+                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
+                    LearnEasy is a skill development platform that offers practical, skill based learning,<br>
+                    breaking educational barriers. LearnEasy delivers a blend of online and offline experiences<br>
+                    taught by industry experts. Pavak started LearnEasy to equip pupils with tools and skillsets <br>
+                    necessary for personal as well as professional development in a rapidly evolving world. It <br>
+                    is an inclusive tool for lifelong learning.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h2 style="font-family:Garamond;font-size:45px">MEETEASY</h2>
+                    <p style="font-size:20px;font-family:Sans-serif">
+                    A zen concept identifying with a free and open – minded<br>
+                    nature of the youthful Gen Z.Leveraging social media to <br>
+                    draw together meet ups of like minded individuals,MeetEasy<br>
+                     makes friendships easy. Pavak started MeetEasy with <br>
+                     this unique concept and a target generation in mind.<br>
+                      MeetEasy is an applaudable start up.
+                    </p>
+                </div>
+                <br>
+                <div>
+                <h2 style="font-family:Garamond;text-align:right;font-size:45px">YO INTERNSHIPS</h2>
+                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
+                    Yo internships launches students and young adults or even anyone looking revive their career<br>
+                    and employs them with internships of all kinds from various fields. Yo Internships, similar<br> 
+                    to Pavak Unadkat, believes in being bold and free spirited and taking the leap.It looks <br>
+                    for talented young adults to help guide them through a an ever changing professional world.
+                    </p>
+                </div>
+                <br>
+                <div>
+                    <h2 style="font-family:Garamond;font-size:45px">SU VAAT CHE!</h2>
+                    <p style="font-size:20px;font-family:Sans-serif">
+                    Su Vaat Che is Pavak’s podcast of vyaktio, vaartao and <br>
+                    values. SVC is your go to podcast for all experiences,<br>
+                    old and new, ones you can sit and reminisce and ones<br>
+                    we can all learn from. It’s an attempt to connect to <br>
+                    people, through raw emotions and experiences.
+                    </p>
+                </div>
+                <br>
+                <div>
+                <h2 style="font-family:Garamond;text-align:right;font-size:45px">AMAR ESTATE AGENCY</h2>
+                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
+                    Ghar, home, familiarity. A dream home that the youth of every generation imagines to own.<br>
+                    Amar Estate Agency, established in 1981, is one of the leading realtors in the city of Rajkot.<br>
+                    They have, in their credit a long list of satisfied NRI clients from East Africa, Middle East,U.K.<br>
+                    & U.S.A. thanks to trustworthiness and professionally managed services.Pavak Unadkat’s family legacy<br>
+                    that is Amar Estate agency has grown and shone over the decades and continues to stay amar for the<br>
+                    coming decades. Pavak looks over Amar Estate Agency, the family business along with all his start - ups. 
+                    </p>
+                </div>
+            </div>
+            </section>
                 <!-- <div class="row">
                     <div class="col-xl-6">
                         <div class="about-three__content">
@@ -187,99 +313,99 @@ include 'header.php';
                     </div>
                 </div>
             </div> -->
-        </section>
+        
         <!--End About Three-->
 
         <!--Start Partner style3-->
-        <section class="partner-style3 logo-gird" >
+        <!-- <section class="partner-style3 logo-gird" >
             <div class="container">
-                <ul class="row clearfix list-one">
+                <ul class="row clearfix list-one"> -->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/Cii.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/NAR.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/nar.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/Reaar.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/reaar.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/Rotract.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/Rotractf.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
-                </ul>
+                <!-- </ul> -->
 
-                <ul class="row">
-                    <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                <!-- <ul class="row">-->
+                    <!-- Start Single Partner Logo Box -->
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/Rotry.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/Rotract.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li>  -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/yuva.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/yuva.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&W/Cii.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/cii.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
                     <!--Start Single Partner Logo Box-->
-                    <li class="col-xl-3 col-lg-3">
+                    <!-- <li class="col-xl-3 col-lg-3">
                         <div class="single-partner-style3-logo-box">
                             <a href="#">
                                 <img src="assets/img/brand/b&w/yi.png" alt="#">
                                 <img class="" src="assets/img/brand/Color/yi.png" alt="#">
                             </a>
                         </div>
-                    </li>
+                    </li> -->
                     <!--End Single Partner Logo Box-->
-                </ul>
+                <!-- </ul>
             </div>
-        </section>
+        </section> -->
         <!--End Partner style3-->
 
         <!--Start Service Three-->
@@ -809,9 +935,9 @@ include 'header.php';
             </div>
         </section> -->
         <!--End Testmonials Three-->
+<!-- </br>
 </br>
-</br>
-</br>
+</br> -->
 
         <?php
 include 'footer.php';
