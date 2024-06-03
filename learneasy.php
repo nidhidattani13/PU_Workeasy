@@ -41,7 +41,7 @@
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Voice for Mental Noise.</p>
+                                                <p>Practical, skill-based learning platform.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -49,7 +49,7 @@
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Window to Knowledge Stories. </p>
+                                                <p>Inclusive, lifelong learning tool. </p>
                                             </div>
                                         </li>
                                         <li>
@@ -57,7 +57,7 @@
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Worthwhile Podcast Experiences.</p>
+                                                <p>Personal and professional skill development.</p>
                                             </div>
                                         </li>
                                     </ul>
@@ -66,20 +66,14 @@
 
                             <div class="service-details__text">
                                 <div class="title">
-                                    <h3>Your Portal to Insightful Experiences</h3>
+                                    <h3>Empowering Skill Development Through Practical, Inclusive Learning</h3>
                                     <p>
-                                    SVC is your go-to podcast, serving as a voice for the noise in your head and a window 
-                                    into stories, pockets of knowledge, and anecdotes to learn from. The value of SVC lies
-                                     in providing an experience that is worth every second invested. Whether you're 
-                                     seeking to reminisce about old experiences or learn from new ones, SVC offers a
-                                      rich tapestry of content that caters to a wide array of interests and curiosities.
+                                    LearnEasy is a skill development platform focused on delivering practical, skill-based learning to break educational barriers. By providing a blend of online and offline experiences taught by industry experts, LearnEasy ensures comprehensive and relevant skill acquisition for its users.
                                     </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                    SVC, is your go-to podcast for insightful stories, knowledge, and anecdotes worth every second. It offers a blend of old and new experiences, providing entertainment and education in every episode.
-                                    </p>
-                                </div>
+                                    LearnEasy offers practical, skill-based learning through online and offline experiences. Founded by Pavak, it supports personal and professional growth in a rapidly evolving world.                                </div>
                             </div>
 
                             <div class="service-details__img-box2">
@@ -92,8 +86,7 @@
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
-                                            With SVC, listeners can immerse themselves in diverse narratives and insights, gaining both entertainment and education. The podcast is designed to be a reliable companion for those moments when you need a thoughtful distraction or a source of inspiration. By blending the old with the new and the familiar with the unfamiliar, SVC ensures that every episode leaves you with something valuable to ponder or apply in your own life.     
-                                            </p>
+                                            Founded by Pavak, LearnEasy aims to equip individuals with essential tools and skillsets necessary for personal and professional development in a rapidly evolving world. This inclusive platform fosters lifelong learning, making education accessible and beneficial for everyone.                                            </p>
                                             <!-- <ul class="list-item clearfix">
                                                 <li>
                                                     <div class="circle-box"></div>
@@ -174,7 +167,7 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="workeasy.php">WorkEasy<span
+                                        <a href="vaatche.php">Su Vaat Che<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -216,8 +209,8 @@
                                 <div class="content-box text-center">
                                     <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="https://www.instagram.com/pukkamedia.in/">
-                                            <span class="txt">Su Vaat Che Instagram</span>
+                                        <a class="thm-btn" href="https://www.instagram.com/learneasyskills.in/?next=https%3A%2F%2Fwww.instagram.com%2Fp%2FCHhcmFOKS0U%2Fc%2F17880495076919131%2F%3F__coig_login%3D1">
+                                            <span class="txt">LearnEasy Instagram</span>
                                             <i class="icon-next"></i>
                                         </a>
                                     </div>

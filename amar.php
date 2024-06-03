@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-?>
+        include 'header.php';
+        ?>
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -23,31 +23,26 @@ include 'header.php';
         <section class="service-details">
             <div class="container">
                 <div class="row">
+
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
                                 <div class="img-box">
-                                    <img src="assets/img/service/service-details__img5.jpg" alt="image">
+                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
                                 </div>
                                 <div class="content-box">
                                     <h2>Amar Estate Agency</h2>
+                                    <h4><i>Ghar, home, familiarity</i></h4></br>
                                     <p>
-                                        <!-- Applications are like the lifeblood of mobile phones and tablets today. The true
-                                        potential of you mobile phone is harnessed by applications that can provide
-                                        utility. Apps come under of the various segments. Nowad technology has become
-                                        super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own. -->
-                                        Ghar, home, familiarity. A dream home that the youth of every generation
-                                         imagines to own. 
-
+                                    A dream home that the youth of every generation imagines to own.                                   
                                     </p>
-                                    <!-- <ul class="list-item clearfix">
+                                    <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Leading Rajkot realtor since 1981.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -55,7 +50,7 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Trusted by NRIs globally. </p>
                                             </div>
                                         </li>
                                         <li>
@@ -63,31 +58,25 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Professional, reliable realty services.</p>
                                             </div>
                                         </li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__text">
+                            <div class="service-details__text">
                                 <div class="title">
-                                    <h3>Start with A Plan and Finish with Results</h3>
+                                    <h3>Amar Estate: Rajkot's Trusted Realtor</h3>
                                     <p>
-                                        The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                        your brand by zeroing in on your target market. Affordable, targeted media for
-                                        everyone.
+                                    Ghar, home, familiarity. A dream home that the youth of every generation imagines owning. Amar Estate Agency, established in 1981, is one of the leading realtors in Rajkot. They boast a long list of satisfied NRI clients from East Africa, the Middle East, the U.K., and the U.S.A., thanks to their trustworthiness and professionally managed services.                                    
                                     </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                        occaecati Lead generati inbound marketing, web development, and marketing
-                                        automation solutions.
-                                    </p>
+                                    Amar Estate Agency, founded in 1981, is a leading realtor in Rajkot with a global NRI client base. Known for trustworthy, professional services, it continues to thrive across generations.                                    </p>                               
                                 </div>
-                            </div> -->
+                            </div>
 
                             <div class="service-details__img-box2">
                                 <div class="row">
@@ -99,35 +88,24 @@ include 'header.php';
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
-                                                <!-- Applications are like the lifeblood mobile phones and tablets today. The
-                                                true potential you mobile phone is harnessed applications that can
-                                                provide
-                                                utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves. -->
-                                                Amar Estate Agency, established in 1981, is one of the leading realtors 
-                                                in the city of Rajkot. They have, in their credit a long list of satisfied 
-                                                NRI clients from East Africa, Middle East, U.K. & U.S.A. thanks to
-                                                 trustworthiness and professionally managed services. Pavak Unadkat’s 
-                                                 family legacy that is Amar Estate agency has grown and shone over 
-                                                 the decades and continues to stay amar for the coming decades.
-                                            </p>
+                                            Amar Estate Agency has grown and flourished over the decades. This legacy continues to stay amar (eternal) for the coming generations, ensuring exceptional realty services and unwavering client satisfaction.                                        </p>
                                             <!-- <ul class="list-item clearfix">
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Our services will feel like mint of creativity.</p>
+                                                        <p>Unified Vision for Innovative Strategies.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>We develop application excellent technology.</p>
+                                                        <p>Content That Engages and Inspires.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Practice for providing all application problems.</p>
+                                                        <p>Expertise in Market Trends and Technology.</p>
                                                     </div>
                                                 </li>
                                             </ul> -->
@@ -136,26 +114,26 @@ include 'header.php';
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__prev-next-option blog-details__prev-next-option">
+                            <div class="service-details__prev-next-option blog-details__prev-next-option">
                                 <div class="single-box left">
-                                    <div class="icon">
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-left-arrow"></span></a>
-                                    </div>
-                                    <div class="text">
+                                    </div> -->
+                                    <!-- <div class="text">
                                         <p>Prev service</p>
                                         <h3><a href="#">We grow your business</a></h3>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="single-box right">
-                                    <div class="text">
+                                    <!-- <div class="text">
                                         <p>Next service</p>
                                         <h3><a href="#">Think beyond the wave</a></h3>
-                                    </div>
-                                    <div class="icon">
+                                    </div> -->
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-right-arrow-angle"></span></a>
-                                    </div>
+                                    </div> -->
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
                     </div>
@@ -191,7 +169,7 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="meet.php">MeetEasy<span
+                                        <a href="vaatche.php">Su Vaat Che<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -201,27 +179,28 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="vaatche.php">Su Vaat Che<span
+                                        <a href="meet.php">MeetEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
-                                    
+                                    <li>
+                                        <div class="cercale-box"></div>
+                                        <a href="learneasy.php">LearnEasy<span
+                                                class="icon-right-arrow-angle"></span></a>
+                                    </li>
                                 </ul>
                             </div>
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
                             <!-- <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
-                                <div class="dwonlode-box">
-                                    <a href="#">
-                                        Download Doc
-                                        <i class="icon-download"></i>
-                                    </a>
-                                    <a href="#">
-                                        Download Pdf
-                                        <i class="icon-download"></i>
-                                    </a>
-                                </div>
-                            </div> -->
+    <div class="dwonlode-box">
+        <a href="./Pukkabro.pdf" download>
+            Download Pdf
+            <i class="icon-download"></i>
+        </a>
+    </div>
+</div> -->
+
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
@@ -230,11 +209,11 @@ include 'header.php';
                                     style="background-image: url(assets/img/service/service-details-sideber__img1.jpg);">
                                 </div>
                                 <div class="content-box text-center">
-                                   <h3>Learn more<br>about us</h3> 
+                                    <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="https://www.instagram.com/amarestateagency/">
+                                        <a class="thm-btn" href="https://www.instagram.com/amarestateagency/?next=%2Fp%2FBGxKmYkQrTN%2F&hl=zh-cn">
                                             <span class="txt">Amar Estate Agency Instagram</span>
-                                            <!-- <i class="icon-next"></i> -->
+                                            <i class="icon-next"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -249,7 +228,6 @@ include 'header.php';
             </div>
         </section>
         <!--End Blog Details-->
-
         <?php
         include 'footer.php';
         ?>
