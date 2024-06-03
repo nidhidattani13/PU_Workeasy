@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="content-box">
                                     <h2>Pukka Media</h2>
-                                    <h4>In the heart of the digital revolution, a dream took shape.</h4></br>
+                                    <h4><i>In the heart of the digital revolution, a dream took shape.</i></h4></br>
                                     <p>
                                     In the heart of the digital revolution, a dream took shape. In 2019, 
                                     a passionate visionary, Pavak Unadkat, observed a gap in the realm of social media - 
