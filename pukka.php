@@ -170,7 +170,7 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="pukka.php">Pukka Media<span
+                                        <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
