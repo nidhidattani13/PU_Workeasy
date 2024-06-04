@@ -157,6 +157,11 @@
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
+                                        <a class="active" href="learneasy.php">LearnEasy<span
+                                                class="icon-right-arrow-angle"></span></a>
+                                    </li>
+                                    <li>
+                                        <div class="cercale-box"></div>
                                         <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
@@ -172,7 +177,7 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a class="active" href="intern.php">Yo Internship<span
+                                        <a  href="intern.php">Yo Internship<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
