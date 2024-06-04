@@ -103,7 +103,7 @@
                                                         </ul>
                                                     </li>
                                                     <li><a href="about.php">Podcast</a></li>
-                                                    <li class="menu-item-has-children"><a href="ventures.php">Vlog</a>
+                                                    <li class="menu-item-has-children"><a href="ventures.php">Activity</a>
                                                         <ul class="sub-menu">
                                                             <li><a href="pukka.php">Vlog</a></li>
                                                             <li><a href="learneasy.php">Blog</a></li>

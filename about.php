@@ -86,7 +86,8 @@ include 'header.php';
                 <br></br>
                 <div>
                     <h2 style="font-family:Garamond;font-size:45px">THE INITIATION</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">Pavak’s first venture was impressive and<br>
+                    <p style="font-size:20px;font-family:Sans-serif">
+                    Pavak’s first venture was impressive and<br>
                         proved he is an entrepreneur at heart and has<br>
                         always been. He started off by selling practice<br>
                         MCQ booklets for admission to CEPT.

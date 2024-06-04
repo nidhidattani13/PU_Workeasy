@@ -201,7 +201,7 @@ include 'header.php';
                                     <h3><a href="#">MeetEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br></br>Social media meet ups for the newest generations</p>
+                                    <p>Social media meet ups for the newest generations</p>
                                 </div>
                             </div>
                         </div>
@@ -222,7 +222,7 @@ include 'header.php';
                                     <h3><a href="web-development.html">Yo Internships</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br></br>This is where you start.. <br></br></p>
+                                    <p><br>This is where you start.. </br></p>
                                 </div>
                             </div>
                         </div>
@@ -241,9 +241,7 @@ include 'header.php';
                                     <h3><a href="#">Su Vaat Che</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>Baatein aur mulakatein aisi,aap kahoge Su Vaat Che! / a jordaar 
-                                        podcast about Vaartao, vyaktiyo and values 
-                                    </p>
+                                    <p>A jordaar podcast about Vaartao, vyaktiyo and values</p>
                                 </div>
                             </div>
                         </div>
@@ -255,7 +253,140 @@ include 'header.php';
         <!--End Service Three-->
 
         <!--Start About Three-->
+        <section class="about-three">
+            <div class="about-three__shape1 float-bob-y">
+                <img src="assets/img/shape/about-three__shape1.png" alt="shapes">
+            </div>
+            <div class="about-three__shape2">
+                <img src="assets/img/shape/about-three__shape2.png" alt="shapes">
+            </div>
+            <div class="about-three__shape3">
+                <img src="assets/img/shape/about-three__shape3.png" alt="shapes">
+            </div>
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-6">
+                        <div class="about-three__content">
+                            <div class="sec-title-four">
+                                <!-- <div class="sub-title">
+                                    <h4>Get To Know About Us</h4>
+                                </div> -->
+                                <h2>
+                                    ABOUT PAVAK UNADKAT
+                                </h2>
+                            </div>
+                            <div class="text">
+                                <p>Pavak Unadkat has always been an entrepreneur at heart. <br>
+                                    Seeking for a venture, a concept, an idea in everything.<br>
+                                     Everywhere he looks, he sees something to create.<br>
+                                      A practical yet empathetic soul, he looks for talent <br>
+                                      in his team members.<i> “Being a good human, is where you <br>
+                                      start. Then, you learn from your mistakes and become a 
+                                      better entrepreneur everyday”. </i> </p><br></br>
+                                      <h2><b><i>“I believe in the last man standing theory.”</i> </b></h2><br>
+                            </div>
+                            <div class="about-three__fact-box">
+                                <div class="row">
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <!-- <div class="about-three__fact-single"> -->
+                                            <!-- <div class="count-outer count-box">
+                                                <h2 class="odometer" data-count="256">00</h2>
+                                                <i class="icon-plus-symbol-button"></i>
+                                            </div> -->
+                                            <!-- <div class="title">
+                                                <h3>Completed Projects</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>With 100% Satisfaction</p>
+                                            </div> -->
+                                        <!-- </div> -->
+                                    </div>
 
+                                    <div class="col-xl-6 col-lg-6 col-md-6">
+                                        <!-- <div class="about-three__fact-single"> -->
+                                            <!-- <div class="count-outer count-box">
+                                                <h2 class="odometer" data-count="8.9">00</h2>
+                                                <i class="icon-percentage"></i>
+                                            </div>
+                                            <div class="title">
+                                                <h3>Company Growth</h3>
+                                            </div>
+                                            <div class="text">
+                                                <p>Avg. Every Year</p>
+                                            </div> -->
+                                        <!-- 
+                                            
+                                         -->
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="about-three__img">
+                                <!-- <div class="img-box">
+                                    <img src="assets/img/about/about-three__img1.jpg" alt="image">
+                                </div> -->
+                                <div class="title-box">
+                                    <h3>Explore Our About Us Page</h3>
+                                    <div class="btn-box">
+                                        <a class="thm-btn" href="about.php">
+                                            <span class="txt">About Us</span>
+                                            <i class="icon-next"></i>
+                                        
+                                        </a>
+                                        <div class="banner-three__shape1 float-bob-x">
+                <img src="assets/img/shape/banner-three__shape1.png" alt="shapes">
+            </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6">
+                   <div class="about-three__img-box">
+                            <ul>
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                   
+                                    <!-- <div class="single-about-three__img-box">
+                                        <img src="assets/img/blog/290.png" alt="image">
+                                    </div> -->
+                                   
+                                </li>
+
+                                <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
+                                    
+                                    <!-- <div class="single-about-three__img-box">
+                                        <img src="assets/img/blog/220.png" alt="image">
+                                    </div>
+                                    -->
+                                </li>
+                            </ul>
+
+                            <div class="about-three__img-box-bottom wow fadeInLeft" data-wow-delay="0ms"
+                                data-wow-duration="1500ms">
+                              
+                                <div class="single-about-three__img-box">
+                                    <img src="assets/img/about/550.png" style="height:750px;"alt="image">
+                                </div>
+                                
+                            </div>
+
+                            <!-- <div class="overlay-box text-center"> -->
+                                <!-- <div class="outer-box"> -->
+                                    <!-- <div class="count-outer count-box">
+                                        <h2 class="odometer" data-count="15">00</h2>
+                                        <i class="icon-plus-symbol-button"></i>
+                                    </div>
+                                    <div class="title">
+                                        <p>Years Of<br>Experiences</p>
+                                    </div> -->
+                                <!-- </div> -->
+                            <!-- </div> -->
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
 
         <!-- <section class="about-three">
             <div class="about-three__shape1 float-bob-y">
@@ -480,25 +611,17 @@ include 'header.php';
         <section class="project-two">
             <div class="container">
                 <div class="sec-title-three text-center">
-                    <div class="sub-title">
-                        
-                    </div>
+                    <!-- <div class="sub-title">
+                        <h4>Cases Studies</h4>
+                    </div> -->
                     <h2>
-                       Podcast
+                     Podcast
                     </h2>
                 </div>
                 <div class="row">
                     <div class="col-xl-12">
-                        <div class="project-two__single">
-    <div class="project-two__single-img">
-        <img src="https://iili.io/JQ7a2Ra.jpg" alt="Digital Marketing Growth">
-        <div class="overlay-title">
-            <h4>Podcast</h4>
-            <h3><a href="#">Digital Marketing Growth</a></h3>
-        </div>
-    </div>
-</div>
-                            <!-- <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+                        <div class="project-two__inner">
+                            <div class="thm-swiper__slider swiper-container" data-swiper-options='{
                                 "loop": true,
                                 "pagination": {
                                     "el": "#project-two__pagination",
@@ -537,10 +660,10 @@ include 'header.php';
                                     }
                                 }}'>
 
-                                <div class="swiper-wrapper"> -->
+                                <div class="swiper-wrapper">
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
+                                    <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img1.jpg" alt="image">
@@ -550,11 +673,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
+                                    <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img2.jpg" alt="image">
@@ -564,11 +687,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
+                                    <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img3.jpg" alt="image">
@@ -578,11 +701,11 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <!--End Single Project Two-->
 
                                     <!--Start Single Project Two-->
-                                    <!-- <div class="swiper-slide">
+                                    <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
                                                 <img src="assets/img/project/project-two__img4.jpg" alt="image">
@@ -592,12 +715,12 @@ include 'header.php';
                                                 </div>
                                             </div>
                                         </div>
-                                    </div> -->
+                                    </div>
                                     <!--End Single Project Two-->
 
                                 </div>
                                 <!-- If we need navigation buttons -->
-                                <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
+                                <div class="swiper-nav-style2 project-two__swiper-nav">
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                     <div class="swiper-button-prev" id="project-two__swiper-button-prev">
@@ -606,7 +729,7 @@ include 'header.php';
                                     <div class="swiper-button-next" id="project-two__swiper-button-next">
                                         <i class="icon-right-arrow-angle left"></i>
                                     </div>
-                                </div> -->
+                                </div>
 
                             </div>
                         </div>
@@ -614,6 +737,7 @@ include 'header.php';
                 </div>
             </div>
         </section>
+
         <!--End Project Two-->
 
         <!--Start Cta Three-->
@@ -644,7 +768,186 @@ include 'header.php';
         <!--End Cta Two-->
 
         <!--Start Team Two-->
-        <section class="team-two">
+        <section class="project-two">
+            <div class="container">
+                <div class="sec-title-three text-center">
+                    <!-- <div class="sub-title">
+                        <h4>Cases Studies</h4>
+                    </div> -->
+                    <h2>
+                        Our Team 
+                    </h2>
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="project-two__inner">
+                            <div class="thm-swiper__slider swiper-container" data-swiper-options='{
+                                "loop": true,
+                                "pagination": {
+                                    "el": "#project-two__pagination",
+                                    "type": "bullets",
+                                    "clickable": true
+                                    },
+                                "navigation": {
+                                    "nextEl": "#project-two__swiper-button-next",
+                                    "prevEl": "#project-two__swiper-button-prev"
+                                },
+                                "autoplay": { "delay": 5000 },
+                                "breakpoints": {
+                                    "0": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "375": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "575": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 1
+                                    },
+                                    "768": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 2
+                                    },
+                                    "992": {
+                                        "spaceBetween": 30,
+                                        "slidesPerView": 3
+                                    },
+                                    "1200": {
+                                        "spaceBetween": 16,
+                                        "slidesPerView": 4
+                                    }
+                                }}'>
+
+                                <div class="swiper-wrapper">
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img3.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <!--End Single Project Two-->
+
+                                    <!--Start Single Project Two-->
+                                    <div class="swiper-slide">
+                                        <div class="project-two__single">
+                                            <div class="project-two__single-img">
+                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
+                                                <div class="overlay-title">
+                                                    <h4>Marketing</h4>
+                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/project/project-two__img4.jpg" alt="Finance Team">
+                                        <div class="overlay-title">
+                                            <h4>Finance</h4>
+                                            <h3><a href="#">Financial Planning</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/project/project-two__img4.jpg" alt="Human Resources">
+                                        <div class="overlay-title">
+                                            <h4>Human Resources</h4>
+                                            <h3><a href="#">HR Management</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/project/project-two__img4.jpg" alt="IT Support">
+                                        <div class="overlay-title">
+                                            <h4>IT Support</h4>
+                                            <h3><a href="#">Technical Assistance</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/project/project-two__img4.jpg" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Creative Team</h4>
+                                            <h3><a href="#">Content Creation</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                                    <!--End Single Project Two-->
+
+                                </div>
+                                <!-- If we need navigation buttons -->
+                                <div class="swiper-nav-style2 project-two__swiper-nav">
+                                    <div class="border1"></div>
+                                    <div class="border2"></div>
+                                    <div class="swiper-button-prev" id="project-two__swiper-button-prev">
+                                        <i class="icon-left-arrow right"></i>
+                                    </div>
+                                    <div class="swiper-button-next" id="project-two__swiper-button-next">
+                                        <i class="icon-right-arrow-angle left"></i>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- <section class="team-two">
             <div class="team-two__shape1">
                 <img src="assets/img/shape/team-two__shape1.png" alt="shapes">
             </div>
@@ -661,11 +964,11 @@ include 'header.php';
                 <img src="assets/img/shape/team-two__shape5.png" alt="shapes">
             </div>
             <div class="container">
-                <div class="sec-title-three text-center">
+                <div class="sec-title-three text-center"> -->
                     <!-- <div class="sub-title">
                         <h4>Team Members</h4>
                     </div> -->
-                    <h2>
+                    <!-- <h2>
                         Creative Team Members
                     </h2>
                 </div>
@@ -675,7 +978,7 @@ include 'header.php';
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image"> -->
                                 <!-- <div class="social-share-box">
                                     <span class="icon-plus"></span>
                                     <ul class="clearfix">
@@ -696,7 +999,7 @@ include 'header.php';
                                         </li>
                                     </ul>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                             <div class="team-two__single-content">
                                 <h3><a href="#">ADITYA DODIYA</a></h3>
                                 <p>Operation's Head</p>
@@ -742,7 +1045,7 @@ include 'header.php';
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
-                                <img src="assets/img/team/team-v2-2.jpg" alt="image">
+                                <img src="assets/img/team/team-v2-2.jpg" alt="image"> -->
                                 <!-- <div class="social-share-box">
                                     <span class="icon-plus"></span>
                                     <ul class="clearfix">
@@ -763,7 +1066,7 @@ include 'header.php';
                                         </li>
                                     </ul>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                             <div class="team-two__single-content">
                                 <h3><a href="#">NIDHI DATTANI</a></h3>
                                 <p>Web Development Intern</p>
@@ -775,7 +1078,7 @@ include 'header.php';
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
-                                <img src="assets/img/team/team-v2-3.jpg" alt="image">
+                                <img src="assets/img/team/team-v2-3.jpg" alt="image"> -->
                                 <!-- <div class="social-share-box">
                                     <span class="icon-plus"></span>
                                     <ul class="clearfix">
@@ -796,7 +1099,7 @@ include 'header.php';
                                         </li>
                                     </ul>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                             <div class="team-two__single-content">
                                 <h3><a href="#">SHREEL FALDU</a></h3>
                                 <p>Web Development Intern</p>
@@ -807,7 +1110,7 @@ include 'header.php';
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image"> -->
                                 <!-- <div class="social-share-box">
                                     <span class="icon-plus"></span>
                                     <ul class="clearfix">
@@ -828,7 +1131,7 @@ include 'header.php';
                                         </li>
                                     </ul>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                             <div class="team-two__single-content">
                                 <h3><a href="#">PREYA SANGHVI</a></h3>
                                 <p>Web Development Intern</p>
@@ -839,7 +1142,7 @@ include 'header.php';
                         <div class="team-two__single">
                             <div class="team-two__single-overlay-bg"></div>
                             <div class="team-two__single-img">
-                                <img src="assets/img/team/team-v2-1.jpg" alt="image">
+                                <img src="assets/img/team/team-v2-1.jpg" alt="image"> -->
                                 <!-- <div class="social-share-box">
                                     <span class="icon-plus"></span>
                                     <ul class="clearfix">
@@ -860,7 +1163,7 @@ include 'header.php';
                                         </li>
                                     </ul>
                                 </div> -->
-                            </div>
+                            <!-- </div>
                             <div class="team-two__single-content">
                                 <h3><a href="#">VIDYA SINHA</a></h3>
                                 <p>Web Development Intern</p>
@@ -871,7 +1174,7 @@ include 'header.php';
 
                 </div>
             </div>
-        </section>
+        </section> -->
         <!--End Team Two-->
 
         <!--Start Working Process One-->
@@ -1129,7 +1432,7 @@ include 'header.php';
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="blog-three__single">
                             <div class="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img1.jpg" alt="#">
+                                <img src="assets/img/blog/vlog2.png" alt="#">
                             </div>
                             <div class="blog-three__single-content">
                                 <div class="meta-box">
@@ -1204,7 +1507,7 @@ include 'header.php';
                     <div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
                         <div class="blog-three__single">
                             <div class="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img3.jpg" alt="#">
+                                <img src="assets/img/blog/vlog1.png" alt="#">
                             </div>
                             <div class="blog-three__single-content">
                                 <div class="meta-box">
