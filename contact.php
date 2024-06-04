@@ -83,7 +83,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                                         <div class="content-box">
                                             <h4>Address</h4>
-                                            <p>254, North City, Bulex Center, New York</p>
+                                            <p>
+                                            2nd Floor, Cross Roads, Kalavad Rd,<br>
+                                            above Jaddus Food Field Restaurant,<br>
+                                            near RPJ Hotel, Jai Bhimnagar, <br>
+                                            Nana Mava, Rajkot, Gujarat 360001
+                                            </p>
                                         </div>
                                     </div>
                                 </li>
@@ -123,9 +128,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
                 <div class="col-xl-6 col-lg-6">
                     <div class="contact-page__google-map">
-                        <iframe
-                            src="https://maps.app.goo.gl/8GTEwU2vwTGju4TE6"
-                            class="contact-page-google-map__one" allowfullscreen></iframe>
+                        
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.818427513445!2d70.75460681680632!3d22.273805662140347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959d322969ef6b9%3A0xd85f069decfc51eb!2sWorkEasy%20Coworking%20Space%20(Kalawad%20Road%20Centre)!5e0!3m2!1sen!2sin!4v1717502755715!5m2!1sen!2sin" 
+                                class="contact-page-google-map__one" allowfullscreen ></iframe>
                     </div>
                 </div>
             </div>
