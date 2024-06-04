@@ -1,6 +1,7 @@
 <?php
 include 'header.php';
 ?>
+<link rel="stylesheet" href="assets/css/about2.css">
         <!--Start Page Header-->
         <section class="page-header">
             <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
@@ -31,7 +32,7 @@ include 'header.php';
             </div>
             <div class="container">
                 <h1>About Us</h1>
-</br>
+                </br>
                 <div class="ni">
                 <p style="font-size: large;">
                 Pavak Unadkat has always been an entrepreneur at heart. Seeking for a venture, 
@@ -56,7 +57,7 @@ include 'header.php';
                     the world of waffles to Rajkot – a venture that was a roaring success.  
                 </p>
                 </div>
-</br>
+                </br>
                 <div class="vi">
                     <h4>The entrepreneurial gene runs in the family.</h4>
                     <p style="font-size:large">Pavak’s grandfather tried out over 20 businesses before launching a very succesful 
@@ -71,7 +72,7 @@ include 'header.php';
                         the most. His guidance and his role as an idol in Pavak’s life influenced his professional 
                         decisions and assisted him in staying on paths morally correct. </p>
                 </div>
-</br>
+                </br>
                 <div class="dy">
                     <p style="font-size:larger"><i><b>“The person who has inspired me the most is my grandfather. 
                         The human being I am today is all because of his guidance.” </b></i></p>
@@ -83,126 +84,120 @@ include 'header.php';
                     <h4 style="font-size:25px;text-align: center; ">Pavak Unadkat</h4>
                     <h2 style="font-size:50px;text-align: center;font-family:fantasy ">The Journey of Becoming</h2>
                 </div>
-                <br></br>
-                <div>
-                    <h2 style="font-family:Garamond;font-size:45px">THE INITIATION</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">Pavak’s first venture was impressive and<br>
-                        proved he is an entrepreneur at heart and has<br>
-                        always been. He started off by selling practice<br>
-                        MCQ booklets for admission to CEPT.
-                    </p>
-                </div>
                 <br>
-                <div>
-                <h2 style="font-family:Garamond;text-align:right;font-size:45px"> 
-                    THE BIG BREAK<br></h2>
-                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
-                    “Yaar waffles miss ho rahe hai”<br>
-                     “Chalo phir khud hi banate hai”<br><br>
-                    That's how ‘The Waffling Station’ - waffles on wheels for the first time in Rajkot. Along with<br>
-                    co-founder and friend Garvesh from Pune, in the October of 2017, The Waffling Station<br>
-                    was born. Various marketing tactics and the introduction of waffles as a desert in Rajkot<br>
-                    meant a whooping amount of 26k on the first day itself. Needless to say, The Waffling<br>
-                    Station proved to be a smashing success. However, the Ahmedabad branch did not follow<br>
-                    the same trajectory. It provided a valuable lesson in marketing, the same strategies that<br>
-                    worked for marketing is Rajkot, did not appeal to the people of Ahmedabad.
-                    </p>
-                </div>
-                <br>
-                <div>
-                    <h2 style="font-family:Garamond;font-size:45px">A LEARNING CURVE</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">
-                    Rajkot social, a cafe ahead of its time, brought the art of<br>
-                    sipping coffee to life. However, it was a learning curve.<br>
-                    Being ahead of its time, the concept of coffee as opposed<br>
-                    to the Rajkot’s usual ‘chai’, did not make an impact that<br>
-                    huge.
-                    </p>
-                </div>
-                <br>
-                <div>
-                <h2 style="font-family:Garamond;text-align:right;font-size:45px"> 
-                PUKKA MEDIA</h2>
-                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
-                    At the precipice of covid in 2019, Pavak developed Pukka media along with his wife,<br>
-                    Mrs. Chandni Unadkat. ‘Social media is a sensation.’ that's how Pavak sees it. It’s a<br>
-                    sensation that can bring about impactful change. Pukka media brought a different<br>
-                    vision to marketing. A more viable, accessible and dynamic point of view to marketing<br>
-                    – via social media. Traditional marketing combined with social media marketing, Pavak<br>
-                    and his team at Pukka Media brought in substantial results for its clients.
-                    </p>
-                </div>
-                <br>
-                <div>
-                    <h2 style="font-family:Garamond;font-size:45px">WORKEASY</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">
-                    In July of 2020, the journey of how WorkEasy came<br> 
-                    to be started with the fresh concept of a coworking<br>
-                    space in Rajkot. From August 2020, the plan was placed <br>
-                    in motion, by November WorkEasy was inaugurated and soon<br>
-                    corporates such as Edelweiss (the 1st client) and<br>
-                    Bridgestone signed their contracts. It is now a one of<br>
-                    its kind office space in Rajkot.
-                    </p>
-                </div>
-                <br>
-                <div>
-                <h2 style="font-family:Garamond;text-align:right;font-size:45px">LEARNEASY</h2>
-                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
-                    LearnEasy is a skill development platform that offers practical, skill based learning,<br>
-                    breaking educational barriers. LearnEasy delivers a blend of online and offline experiences<br>
-                    taught by industry experts. Pavak started LearnEasy to equip pupils with tools and skillsets <br>
-                    necessary for personal as well as professional development in a rapidly evolving world. It <br>
-                    is an inclusive tool for lifelong learning.
-                    </p>
-                </div>
-                <br>
-                <div>
-                    <h2 style="font-family:Garamond;font-size:45px">MEETEASY</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">
-                    A zen concept identifying with a free and open – minded<br>
-                    nature of the youthful Gen Z.Leveraging social media to <br>
-                    draw together meet ups of like minded individuals,MeetEasy<br>
-                     makes friendships easy. Pavak started MeetEasy with <br>
-                     this unique concept and a target generation in mind.<br>
-                      MeetEasy is an applaudable start up.
-                    </p>
-                </div>
-                <br>
-                <div>
-                <h2 style="font-family:Garamond;text-align:right;font-size:45px">YO INTERNSHIPS</h2>
-                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
-                    Yo internships launches students and young adults or even anyone looking revive their career<br>
-                    and employs them with internships of all kinds from various fields. Yo Internships, similar<br> 
-                    to Pavak Unadkat, believes in being bold and free spirited and taking the leap.It looks <br>
-                    for talented young adults to help guide them through a an ever changing professional world.
-                    </p>
-                </div>
-                <br>
-                <div>
-                    <h2 style="font-family:Garamond;font-size:45px">SU VAAT CHE!</h2>
-                    <p style="font-size:20px;font-family:Sans-serif">
-                    Su Vaat Che is Pavak’s podcast of vyaktio, vaartao and <br>
-                    values. SVC is your go to podcast for all experiences,<br>
-                    old and new, ones you can sit and reminisce and ones<br>
-                    we can all learn from. It’s an attempt to connect to <br>
-                    people, through raw emotions and experiences.
-                    </p>
-                </div>
-                <br>
-                <div>
-                <h2 style="font-family:Garamond;text-align:right;font-size:45px">AMAR ESTATE AGENCY</h2>
-                    <p style="font-size:20px;font-family:Sans-serif;text-align:right;"> 
-                    Ghar, home, familiarity. A dream home that the youth of every generation imagines to own.<br>
-                    Amar Estate Agency, established in 1981, is one of the leading realtors in the city of Rajkot.<br>
-                    They have, in their credit a long list of satisfied NRI clients from East Africa, Middle East,U.K.<br>
-                    & U.S.A. thanks to trustworthiness and professionally managed services.Pavak Unadkat’s family legacy<br>
-                    that is Amar Estate agency has grown and shone over the decades and continues to stay amar for the<br>
-                    coming decades. Pavak looks over Amar Estate Agency, the family business along with all his start - ups. 
-                    </p>
+            </div>
+            <div class="container">  
+                <div class="timeline">
+                    <div class="outer">
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">THE INITIATION</h3>
+                                <p>Pavak’s first venture was impressive and
+                                proved he is an entrepreneur at heart and has
+                                always been. He started off by selling practice
+                                MCQ booklets for admission to CEPT.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">THE BIG BREAK</h3>
+                                <p>That's how ‘The Waffling Station’ - waffles on wheels for the first time in Rajkot. Along with
+                                co-founder and friend Garvesh from Pune, in the October of 2017, The Waffling Station
+                                was born. Various marketing tactics and the introduction of waffles as a desert in Rajkot
+                                meant a whooping amount of 26k on the first day itself. Needless to say, The Waffling
+                                Station proved to be a smashing success. However, the Ahmedabad branch did not follow
+                                the same trajectory. It provided a valuable lesson in marketing, the same strategies that
+                                worked for marketing is Rajkot, did not appeal to the people of Ahmedabad.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">A LEARNING CURVE</h3>
+                                <p>Rajkot social, a cafe ahead of its time, brought the art of
+                                sipping coffee to life. However, it was a learning curve.
+                                Being ahead of its time, the concept of coffee as opposed
+                                to the Rajkot’s usual ‘chai’, did not make an impact that
+                                huge.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">PUKKA MEDIA</h3>
+                                <p>At the precipice of covid in 2019, Pavak developed Pukka media along with his wife,
+                                Mrs. Chandni Unadkat. ‘Social media is a sensation.’ that's how Pavak sees it. It’s a
+                                sensation that can bring about impactful change. Pukka media brought a different
+                                vision to marketing. A more viable, accessible and dynamic point of view to marketing
+                                – via social media. Traditional marketing combined with social media marketing, Pavak
+                                and his team at Pukka Media brought in substantial results for its clients.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">WORKEASY</h3>
+                                <p>In July of 2020, the journey of how WorkEasy came
+                                to be started with the fresh concept of a coworking
+                                space in Rajkot. From August 2020, the plan was placed
+                                in motion, by November WorkEasy was inaugurated and soon
+                                corporates such as Edelweiss (the 1st client) and
+                                Bridgestone signed their contracts. It is now a one of
+                                its kind office space in Rajkot.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">LEARNEASY</h3>
+                                <p>LearnEasy is a skill development platform that offers practical, skill based learning,
+                                breaking educational barriers. LearnEasy delivers a blend of online and offline experiences
+                                taught by industry experts. Pavak started LearnEasy to equip pupils with tools and skillsets
+                                necessary for personal as well as professional development in a rapidly evolving world. It
+                                is an inclusive tool for lifelong learning.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">MEETEASY</h3>
+                                <p>A zen concept identifying with a free and open – minded
+                                nature of the youthful Gen Z.Leveraging social media to
+                                draw together meet ups of like minded individuals,MeetEasy
+                                makes friendships easy. Pavak started MeetEasy with
+                                this unique concept and a target generation in mind.
+                                MeetEasy is an applaudable start up.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">YO INTERNSHIPS</h3>
+                                <p>Yo internships launches students and young adults or even anyone looking revive their career
+                                and employs them with internships of all kinds from various fields. Yo Internships, similar
+                                to Pavak Unadkat, believes in being bold and free spirited and taking the leap.It looks
+                                for talented young adults to help guide them through a an ever changing professional world.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">SU VAAT CHE!</h3>
+                                <p>Su Vaat Che is Pavak’s podcast of vyaktio, vaartao and
+                                values. SVC is your go to podcast for all experiences,
+                                old and new, ones you can sit and reminisce and ones
+                                we can all learn from. It’s an attempt to connect to
+                                people, through raw emotions and experiences.</p>
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="info">
+                                <h3 class="title">AMAR ESTATE AGENCY</h3>
+                                <p>Ghar, home, familiarity. A dream home that the youth of every generation imagines to own.
+                                Amar Estate Agency, established in 1981, is one of the leading realtors in the city of Rajkot.
+                                They have, in their credit a long list of satisfied NRI clients from East Africa, Middle East,U.K.
+                                & U.S.A. thanks to trustworthiness and professionally managed services.Pavak Unadkat’s family legacy
+                                that is Amar Estate agency has grown and shone over the decades and continues to stay amar for the
+                                coming decades. Pavak looks over Amar Estate Agency, the family business along with all his start - ups.</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            </section>
+        </section>
                 <!-- <div class="row">
                     <div class="col-xl-6">
                         <div class="about-three__content">
@@ -266,8 +261,8 @@ include 'header.php';
                                     </div>
                                 </div>
                             </div>
-                        </div> -->
-                    </div>
+                        </div> 
+                    </div> -->
                     <!-- <div class="col-xl-6">
                         <div class="about-three__img-box">
                             <ul>
@@ -623,8 +618,8 @@ include 'header.php';
                                 <h3><a href="#">Daniel Stiphen</a></h3>
                                 <p>Web Developerr</p>
                             </div>
-                        </div> -->
-                    </div>
+                        </div> 
+                    </div> -->
                     <!--End Team Two Single-->
 
                     <!--Start Team Two Single-->
