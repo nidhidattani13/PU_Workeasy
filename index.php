@@ -61,7 +61,12 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-             
+             <div class="png1">
+<img src="./assets/img/shape/rocket.png" alt="img">
+             </div>     
+             <div class="png2">
+                <img src="./assets/img/shape/arrow2.png" alt="img" srcset="">
+             </div>
                     <img class="pu-img" src="./pavakk.PNG" alt="Profile Image">
                          
                     <!-- <div class="banner-three__img p-img">
