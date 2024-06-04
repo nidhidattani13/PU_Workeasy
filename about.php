@@ -83,10 +83,8 @@ include 'header.php';
                     <h4 style="font-size:25px;text-align: center; ">Pavak Unadkat</h4>
                     <h2 style="font-size:50px;text-align: center;font-family:fantasy ">The Journey of Becoming</h2>
                 </div>
-<<<<<<< HEAD
-=======
                 <br></br>
-                <div>
+                <!-- <div>
                     <h2 style="font-family:Garamond;font-size:45px">THE INITIATION</h2>
                     <p style="font-size:20px;font-family:Sans-serif">
                     Pavak’s first venture was impressive and<br>
@@ -94,8 +92,7 @@ include 'header.php';
                         always been. He started off by selling practice<br>
                         MCQ booklets for admission to CEPT.
                     </p>
-                </div>
->>>>>>> 36d7dac9fe712260f88abdbbb77a1f678275404c
+                </div> -->
                 <br>
             </div>
             <div class="container">  
