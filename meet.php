@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-?>
+        include 'header.php';
+        ?>
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -23,33 +23,26 @@ include 'header.php';
         <section class="service-details">
             <div class="container">
                 <div class="row">
+
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
                                 <div class="img-box">
-                                    <img src="assets/img/service/service-details__img5.jpg" alt="image">
+                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
                                 </div>
                                 <div class="content-box">
                                     <h2>MeetEasy</h2>
+                                    <h4><i>Welcome to the world of offline social media!</i></h4></br>
                                     <p>
-                                        <!-- Applications are like the lifeblood of mobile phones and tablets today. The true
-                                        potential of you mobile phone is harnessed by applications that can provide
-                                        utility. Apps come under of the various segments. Nowad technology has become
-                                        super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own. -->
-                                        Welcome to the world of offline social media! Going offline from 
-                                        social media is of utmost importance, almost a practice of mental 
-                                        healthcare at this point. But leveraging social media to go offline?
-                                         One could never fathom.  
-
+                                    Going offline from social media is of utmost importance, almost a practice of mental healthcare at this point. But leveraging social media to go offline? One could never fathom.                                    
                                     </p>
-                                    <!-- <ul class="list-item clearfix">
+                                    <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Offline Social Media Revolutionized.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -57,7 +50,7 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Connecting Online Communities Offline. </p>
                                             </div>
                                         </li>
                                         <li>
@@ -65,31 +58,24 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Pan-India Inclusive Recreational Meetups.</p>
                                             </div>
                                         </li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__text">
+                            <div class="service-details__text">
                                 <div class="title">
-                                    <h3>Start with A Plan and Finish with Results</h3>
+                                    <h3>Bridging Online to Offline Communities</h3>
                                     <p>
-                                        The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                        your brand by zeroing in on your target market. Affordable, targeted media for
-                                        everyone.
-                                    </p>
+                                    Welcome to the world of offline social media! Going offline from social media is of utmost importance, almost a practice of mental healthcare at this point. But leveraging social media to go offline? One could never fathom. MeetEasy is a community building platform connecting like-minded individuals, based on shared interests, but that’s not where it ends.                                    </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                        occaecati Lead generati inbound marketing, web development, and marketing
-                                        automation solutions.
-                                    </p>
+                                    MeetEasy bridges online communities into real-life connections through inclusive, pan-India recreational meetups, offering a zen-like approach for the free-spirited Gen Z.                                </p>                               
                                 </div>
-                            </div> -->
+                            </div>
 
                             <div class="service-details__img-box2">
                                 <div class="row">
@@ -101,34 +87,24 @@ include 'header.php';
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
-                                                <!-- Applications are like the lifeblood mobile phones and tablets today. The
-                                                true potential you mobile phone is harnessed applications that can
-                                                provide
-                                                utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves. -->
-                                                MeetEasy is a community building platform connecting like minded 
-                                                individuals, based on shared interests, but that’s not where it ends.
-                                                 MeetEasy brings these online communities to life by organizing meet 
-                                                 ups pan-India, inclusive and recreational. A zen concept identifying 
-                                                 with a free and open – minded nature of the youthful Gen Z.
-                                            </p>
+                                            MeetEasy brings these online communities to life by organizing meetups pan-India, inclusive and recreational. A zen concept identifying with a free and open-minded nature of the youthful Gen Z.                                   </p>
                                             <!-- <ul class="list-item clearfix">
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Our services will feel like mint of creativity.</p>
+                                                        <p>Unified Vision for Innovative Strategies.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>We develop application excellent technology.</p>
+                                                        <p>Content That Engages and Inspires.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Practice for providing all application problems.</p>
+                                                        <p>Expertise in Market Trends and Technology.</p>
                                                     </div>
                                                 </li>
                                             </ul> -->
@@ -137,26 +113,26 @@ include 'header.php';
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__prev-next-option blog-details__prev-next-option">
+                            <div class="service-details__prev-next-option blog-details__prev-next-option">
                                 <div class="single-box left">
-                                    <div class="icon">
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-left-arrow"></span></a>
-                                    </div>
-                                    <div class="text">
+                                    </div> -->
+                                    <!-- <div class="text">
                                         <p>Prev service</p>
                                         <h3><a href="#">We grow your business</a></h3>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="single-box right">
-                                    <div class="text">
+                                    <!-- <div class="text">
                                         <p>Next service</p>
                                         <h3><a href="#">Think beyond the wave</a></h3>
-                                    </div>
-                                    <div class="icon">
+                                    </div> -->
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-right-arrow-angle"></span></a>
-                                    </div>
+                                    </div> -->
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
                     </div>
@@ -192,7 +168,7 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="amar.php">Amar Sate Agency<span
+                                        <a href="vaatche.php">Su Vaat Che<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -202,12 +178,12 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="vaatche.php">Su Vaat Che<span
+                                        <a href="amar.php">Amar Estate Agency<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="workeasy.php">workeasy<span
+                                        <a href="learneasy.php">LearnEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                 </ul>
@@ -216,17 +192,14 @@ include 'header.php';
 
                             <!--Start Sidebar Single-->
                             <!-- <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
-                                <div class="dwonlode-box">
-                                    <a href="#">
-                                        Download Doc
-                                        <i class="icon-download"></i>
-                                    </a>
-                                    <a href="#">
-                                        Download Pdf
-                                        <i class="icon-download"></i>
-                                    </a>
-                                </div>
-                            </div> -->
+    <div class="dwonlode-box">
+        <a href="./Pukkabro.pdf" download>
+            Download Pdf
+            <i class="icon-download"></i>
+        </a>
+    </div>
+</div> -->
+
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
@@ -235,11 +208,11 @@ include 'header.php';
                                     style="background-image: url(assets/img/service/service-details-sideber__img1.jpg);">
                                 </div>
                                 <div class="content-box text-center">
-                                   <h3>Learn more<br>about us</h3> 
+                                    <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
                                         <a class="thm-btn" href="#">
                                             <span class="txt">MeetEasy Instagram</span>
-                                            <!-- <i class="icon-next"></i> -->
+                                            <i class="icon-next"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -254,7 +227,6 @@ include 'header.php';
             </div>
         </section>
         <!--End Blog Details-->
-
         <?php
         include 'footer.php';
         ?>
