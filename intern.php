@@ -158,6 +158,11 @@
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
+                                        <a class="active" href="intern.php">Yo internships<span
+                                                class="icon-right-arrow-angle"></span></a>
+                                    </li>
+                                    <li>
+                                        <div class="cercale-box"></div>
                                         <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
@@ -173,7 +178,7 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a class="active" href="amar.php">Amar Estate Agency<span
+                                        <a  href="amar.php">Amar Estate Agency<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -211,7 +216,7 @@
                                     <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
                                         <a class="thm-btn" href="#">
-                                            <span class="txt">Amar Estate Agency Instagram</span>
+                                            <span class="txt">Yo Internships Instagram</span>
                                             <i class="icon-next"></i>
                                         </a>
                                     </div>

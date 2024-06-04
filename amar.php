@@ -159,7 +159,7 @@
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="workeasy.php">WorkEasy<span
+                                        <a class="active" href="amar.php">Amar Estate Agency<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -169,12 +169,17 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
+                                        <a href="workeasy.php">Workeasy<span
+                                                class="icon-right-arrow-angle"></span></a>
+                                    </li>
+                                    <li>
+                                        <div class="cercale-box"></div>
                                         <a href="vaatche.php">Su Vaat Che<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a class="active" href="intern.php">Yo Internship<span
+                                        <a  href="intern.php">Yo Internship<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
