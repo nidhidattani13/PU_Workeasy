@@ -161,6 +161,8 @@
                 </nav>
             </div>
             <div class="menu-backdrop"></div>
+            <body class="body-gray-bg <?php if (basename($_SERVER["PHP_SELF"]) != "index.php") { echo 'not-home'; } ?>">
+
             <!-- End Mobile Menu -->
         </header>
         <!--End Main Header One -->

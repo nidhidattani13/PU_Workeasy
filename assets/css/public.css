@@ -3,9 +3,7 @@
 }
 .sub-title{
     height: 10px;
-<<<<<<< HEAD
-}
-=======
+
 }
 
 /* .overlay-title {
@@ -31,7 +29,6 @@
 .overlay-title h3 a {
     color: white;
     text-decoration: none;
-<<<<<<< HEAD
 }  */
 /* .content-font p{
     font-style:	Times New Roman;
@@ -81,7 +78,7 @@
 }
 
 
-<<<<<<< HEAD
+
 .timeline {
     background: var(--primary-color);
     margin: 20px auto;
@@ -167,7 +164,7 @@
 .timeline .card:nth-child(even) > .info > .title::before {
     right: -45px;
 }
-=======
+
 @keyframes float {
     0% {
         transform: translateY(0);
@@ -257,9 +254,14 @@
         transform: rotate(0deg);
     }
 } */
-=======
+/* Make the hamburger icon white for all pages except the home page */
+.not-home .mobile-nav-toggler.alt i {
+    color: white;
 }
 
->>>>>>> f13ae8a1d57f0e15802f25958353f53a2c68dafd
->>>>>>> f58b74f253bb2d4df3ec7503f738fab9d64852b8
->>>>>>> 36d7dac9fe712260f88abdbbb77a1f678275404c
+
+/* Change the hamburger icon color to green when hovered */
+.not-home .mobile-nav-toggler.alt i:hover {
+    color: green;
+}
+
