@@ -10,7 +10,7 @@
                 <div class="page-header__inner">
                     <h2>Pukka Media</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
                         <li class="color-base">Media Agency</li>
                     </ul>
@@ -32,7 +32,7 @@
                                 </div>
                                 <div class="content-box">
                                     <h2>Pukka Media</h2>
-                                    <h4>In the heart of the digital revolution, a dream took shape.</h4></br>
+                                    <h4><i>In the heart of the digital revolution, a dream took shape.</i></h4></br>
                                     <p>
                                     In the heart of the digital revolution, a dream took shape. In 2019, 
                                     a passionate visionary, Pavak Unadkat, observed a gap in the realm of social media - 
@@ -170,7 +170,7 @@
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="pukka.php">Pukka Media<span
+                                        <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>

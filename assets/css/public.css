@@ -1,10 +1,11 @@
 .logo-gird {
     margin-top: 50px;
 }
-
-
 .sub-title{
     height: 10px;
+<<<<<<< HEAD
+}
+=======
 }
 
 /* .overlay-title {
@@ -30,6 +31,7 @@
 .overlay-title h3 a {
     color: white;
     text-decoration: none;
+<<<<<<< HEAD
 }  */
 /* .content-font p{
     font-style:	Times New Roman;
@@ -168,3 +170,8 @@
         transform: rotate(0deg);
     }
 } */
+=======
+}
+
+>>>>>>> f13ae8a1d57f0e15802f25958353f53a2c68dafd
+>>>>>>> f58b74f253bb2d4df3ec7503f738fab9d64852b8

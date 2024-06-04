@@ -1,6 +1,6 @@
 <?php
-include 'header.php';
-?>
+        include 'header.php';
+        ?>
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -8,11 +8,11 @@ include 'header.php';
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>LearnEasy</h2>
+                    <h2>learnEasy</h2>
                     <ul class="thm-breadcrumb">
-                        <li><a href="index.html"><span class="fa fa-home"></span> Home</a></li>
+                        <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">LearnEasy</li>
+                        <li class="color-base">learnEasy</li>
                     </ul>
                 </div>
             </div>
@@ -23,34 +23,25 @@ include 'header.php';
         <section class="service-details">
             <div class="container">
                 <div class="row">
+
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
                                 <div class="img-box">
-                                    <img src="assets/img/service/service-details__img5.jpg" alt="image">
+                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
                                 </div>
                                 <div class="content-box">
-                                    <h2>LearnEasy</h2>
+                                    <h2>learnEasy</h2>
+                                    <h4><i>Where Practical Beats Theoretical, Every Time</i></h4></br>
                                     <p>
-                                        <!-- Applications are like the lifeblood of mobile phones and tablets today. The true
-                                        potential of you mobile phone is harnessed by applications that can provide
-                                        utility. Apps come under of the various segments. Nowad technology has become
-                                        super advanced. Even normal people are getting themselves enrolled in coding and
-                                        programming and creating applications on their own. -->
-                                        Collaboration and community, sustainability and accessibility – the defining 
-                                        values of WorkEasy, also defines how this coactive coworking space came to be.
-                                         In the midst of a world-wide pandemic, when schools and offices all resorted 
-                                         to going online, Pavak Unadkat believed that working in a community was what
-                                          people needed. 
-
-                                    </p>
-                                    <!-- <ul class="list-item clearfix">
+                                    LearnEasy is a skill development platform that offers practical, skill based learning, breaking educational barriers.                                    </p>
+                                    <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Practical, skill-based learning platform.</p>
                                             </div>
                                         </li>
                                         <li>
@@ -58,7 +49,7 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Inclusive, lifelong learning tool. </p>
                                             </div>
                                         </li>
                                         <li>
@@ -66,31 +57,24 @@ include 'header.php';
                                                 <span class="icon-check"></span>
                                             </div>
                                             <div class="text">
-                                                <p>Our services will feel like A mint of creativity.</p>
+                                                <p>Personal and professional skill development.</p>
                                             </div>
                                         </li>
-                                    </ul> -->
+                                    </ul>
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__text">
+                            <div class="service-details__text">
                                 <div class="title">
-                                    <h3>Start with A Plan and Finish with Results</h3>
+                                    <h3>Empowering Skill Development Through Practical, Inclusive Learning</h3>
                                     <p>
-                                        The magic of marketing, the science of sales. Build your brand’s voice. Grow
-                                        your brand by zeroing in on your target market. Affordable, targeted media for
-                                        everyone.
+                                    LearnEasy is a skill development platform focused on delivering practical, skill-based learning to break educational barriers. By providing a blend of online and offline experiences taught by industry experts, LearnEasy ensures comprehensive and relevant skill acquisition for its users.
                                     </p>
                                 </div>
                                 <div class="text">
                                     <p>
-                                        At vero eos et accusamus et iust odio dignissimos ducimus blanditiis praesentium
-                                        voluptatum deleniti atque corrupti quos dol quamolestias excepturi sint
-                                        occaecati Lead generati inbound marketing, web development, and marketing
-                                        automation solutions.
-                                    </p>
-                                </div>
-                            </div> -->
+                                    LearnEasy offers practical, skill-based learning through online and offline experiences. Founded by Pavak, it supports personal and professional growth in a rapidly evolving world.                                </div>
+                            </div>
 
                             <div class="service-details__img-box2">
                                 <div class="row">
@@ -102,34 +86,24 @@ include 'header.php';
                                     <div class="col-xl-6 col-lg-6">
                                         <div class="content-box">
                                             <p>
-                                                <!-- Applications are like the lifeblood mobile phones and tablets today. The
-                                                true potential you mobile phone is harnessed applications that can
-                                                provide
-                                                utility. Apps come under of the various segments. Nowad technology has
-                                                become super advanced even normal people are getting themselves. -->
-                                                In July of 2020, the journey of how WorkEasy came to be started
-                                           with the fresh concept of  a coworking space in Rajkot. From August 2020, 
-                                           the plan was placed in motion, by November WorkEasy was inaugurated and 
-                                           soon corporates such as Edelweiss (the 1st  client) and Bridgestone signed
-                                            their contracts. It is now a one of its kind office space in Rajkot. 
-                                            </p>
+                                            Founded by Pavak, LearnEasy aims to equip individuals with essential tools and skillsets necessary for personal and professional development in a rapidly evolving world. This inclusive platform fosters lifelong learning, making education accessible and beneficial for everyone.                                            </p>
                                             <!-- <ul class="list-item clearfix">
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Our services will feel like mint of creativity.</p>
+                                                        <p>Unified Vision for Innovative Strategies.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>We develop application excellent technology.</p>
+                                                        <p>Content That Engages and Inspires.</p>
                                                     </div>
                                                 </li>
                                                 <li>
                                                     <div class="circle-box"></div>
                                                     <div class="text">
-                                                        <p>Practice for providing all application problems.</p>
+                                                        <p>Expertise in Market Trends and Technology.</p>
                                                     </div>
                                                 </li>
                                             </ul> -->
@@ -138,26 +112,26 @@ include 'header.php';
                                 </div>
                             </div>
 
-                            <!-- <div class="service-details__prev-next-option blog-details__prev-next-option">
+                            <div class="service-details__prev-next-option blog-details__prev-next-option">
                                 <div class="single-box left">
-                                    <div class="icon">
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-left-arrow"></span></a>
-                                    </div>
-                                    <div class="text">
+                                    </div> -->
+                                    <!-- <div class="text">
                                         <p>Prev service</p>
                                         <h3><a href="#">We grow your business</a></h3>
-                                    </div>
+                                    </div> -->
                                 </div>
                                 <div class="single-box right">
-                                    <div class="text">
+                                    <!-- <div class="text">
                                         <p>Next service</p>
                                         <h3><a href="#">Think beyond the wave</a></h3>
-                                    </div>
-                                    <div class="icon">
+                                    </div> -->
+                                    <!-- <div class="icon">
                                         <a href="#"><span class="icon-right-arrow-angle"></span></a>
-                                    </div>
+                                    </div> -->
                                 </div>
-                            </div> -->
+                            </div>
 
                         </div>
                     </div>
@@ -183,7 +157,7 @@ include 'header.php';
                                 <ul class="sidebar__category-list">
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="learneasy.php">Learneasy<span
+                                        <a href="workeasy.php">WorkEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -193,7 +167,7 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="meet.php">MeetEasy<span
+                                        <a href="vaatche.php">Su Vaat Che<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -203,7 +177,7 @@ include 'header.php';
                                     </li>
                                     <li>
                                         <div class="cercale-box"></div>
-                                        <a href="vaatche.php">Su Vaat Che<span
+                                        <a href="meet.php">MeetEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
                                     <li>
@@ -217,17 +191,14 @@ include 'header.php';
 
                             <!--Start Sidebar Single-->
                             <!-- <div class="sidebar__single sidebar__dwonlode-box wow fadeInUp" data-wow-delay=".5s">
-                                <div class="dwonlode-box">
-                                    <a href="#">
-                                        Download Doc
-                                        <i class="icon-download"></i>
-                                    </a>
-                                    <a href="#">
-                                        Download Pdf
-                                        <i class="icon-download"></i>
-                                    </a>
-                                </div>
-                            </div> -->
+    <div class="dwonlode-box">
+        <a href="./Pukkabro.pdf" download>
+            Download Pdf
+            <i class="icon-download"></i>
+        </a>
+    </div>
+</div> -->
+
                             <!--End Sidebar Single-->
 
                             <!--Start Sidebar Single-->
@@ -236,11 +207,11 @@ include 'header.php';
                                     style="background-image: url(assets/img/service/service-details-sideber__img1.jpg);">
                                 </div>
                                 <div class="content-box text-center">
-                                   <h3>Learn more<br>about us</h3> 
+                                    <!-- <h3>Have Any Discussio<br>About Project?</h3> -->
                                     <div class="btn-box">
-                                        <a class="thm-btn" href="https://www.instagram.com/learneasyskills.in/">
+                                        <a class="thm-btn" href="https://www.instagram.com/learneasyskills.in/?next=https%3A%2F%2Fwww.instagram.com%2Fp%2FCHhcmFOKS0U%2Fc%2F17880495076919131%2F%3F__coig_login%3D1">
                                             <span class="txt">LearnEasy Instagram</span>
-                                            <!-- <i class="icon-next"></i> -->
+                                            <i class="icon-next"></i>
                                         </a>
                                     </div>
                                 </div>
@@ -255,7 +226,6 @@ include 'header.php';
             </div>
         </section>
         <!--End Blog Details-->
-
         <?php
         include 'footer.php';
         ?>
