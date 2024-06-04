@@ -99,7 +99,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                             <p><a href="tel:123456789">09 (354) 587 874</a> or <a
                                                     href="tel:123456789">10 (698) 852 741</a></p>
                                         </div>
-                                    </div>
+                                    </div> 
                                 </li>
 
                                 <li>
