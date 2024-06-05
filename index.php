@@ -162,7 +162,7 @@ include 'header.php';
                                     <h3><a href="learneasy.php">LearnEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>Skill up, rise up!</p>
+                                    <p>Learn with Ease Succeed with Skill</p>
                                 </div>
                             </div>
                         </div>
@@ -225,7 +225,7 @@ include 'header.php';
                                     <h3><a href="web-development.html">Yo Internships</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>This is where you start.. </br></p>
+                                    <p>Your Matchmaker to find the perfect internship</p>
                                 </div>
                             </div>
                         </div>
@@ -878,7 +878,7 @@ include 'header.php';
                                     <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/project/project-two__img4.jpg" alt="Finance Team">
+                                        <img src="assets/img/Our team/1.png" alt="Finance Team">
                                         <div class="overlay-title">
                                             <h4>Finance</h4>
                                             <h3><a href="#">Financial Planning</a></h3>
@@ -890,7 +890,7 @@ include 'header.php';
                             <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/project/project-two__img4.jpg" alt="Human Resources">
+                                        <img src="assets/img/Our team/2.png" alt="Human Resources">
                                         <div class="overlay-title">
                                             <h4>Human Resources</h4>
                                             <h3><a href="#">HR Management</a></h3>
@@ -902,7 +902,7 @@ include 'header.php';
                             <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/project/project-two__img4.jpg" alt="IT Support">
+                                        <img src="assets/img/Our team/3.png" alt="IT Support">
                                         <div class="overlay-title">
                                             <h4>IT Support</h4>
                                             <h3><a href="#">Technical Assistance</a></h3>
@@ -1422,7 +1422,7 @@ include 'header.php';
                         <h4>Blog & Airticle</h4>
                     </div> -->
                     <h2>
-                        Read Our Latest Airticle
+                        View Our Latest Content  
                     </h2>
                 </div>
                 <div class="row">
@@ -1451,10 +1451,10 @@ include 'header.php';
                                     </ul>
                                 </div>
                                 <div class="title-box">
-                                    <h3><a href="blog-details.html">vlog</a></h3>
+                                    <h3><a href="https://www.youtube.com/watch?v=VwVkBU8nx9k">vlog</a></h3>
                                 </div>
                                 <div class="btn-box">
-                                    <a href="blog-details.html">
+                                    <a href="https://www.youtube.com/watch?v=VwVkBU8nx9k">
                                         Read More
                                         <i class="icon-right"></i>
                                     </a>
@@ -1468,7 +1468,7 @@ include 'header.php';
                     <div class="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
                         <div class="blog-three__single">
                             <div class="blog-three__single-img">
-                                <img src="assets/img/blog/blog-three__img2.jpg" alt="#">
+                                <img src="assets/img/blog/blog.png" alt="#">
                             </div>
                             <div class="blog-three__single-content">
                                 <div class="meta-box">
