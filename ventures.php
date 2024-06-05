@@ -169,21 +169,22 @@ include 'header.php';
 
                     <!--Start Single Service Three-->
                     <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms" >
-                        <div class="service-three__single">
-                            <div class="service-three__single-icon">
-                                <span class="icon-business-strategy"></span>
-                            </div>
-                            <div class="service-three__single-content">
-                                <div class="title">
-                                    <h3><a href="#">Amar Estate Agency</a></h3>
-                                </div>
-                                <div class="text">
-                                    <p>Ghar, home, familiarity</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+                        data-wow-duration="1500ms">
+                    <div class="service-three__single">
+                        <div class="service-three__single-icon">
+                        <span class="icon-business-strategy"></span>
+        </div>
+        <div class="service-three__single-content">
+            <div class="title">
+                <h3><a href="#">Amar Estate Agency</a></h3>
+            </div>
+            <div class="text">
+                <p>Ghar, home, familiarity</p>
+            </div>
+        </div>
+    </div>
+</div>
+
                     <!--End Single Service Three-->
                 </div>
             </div>
