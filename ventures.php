@@ -53,11 +53,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Design Strategy</a></h3>
+                                    <h3><a href="workeasy.php">WorkEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p> To Democratise Awesome WorkSpace</p>
                                 </div>
                             </div>
                         </div>
@@ -76,11 +75,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Web Development</a></h3>
+                                    <h3><a href="learneasy.php">LearnEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p><br>Skill up, rise up!</p>
                                 </div>
                             </div>
                         </div>
@@ -98,11 +96,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Digital Marketing</a></h3>
+                                    <h3><a href="pukka.php">Pukka Media</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Creating content that speaks, engages and inspires.</p>
                                 </div>
                             </div>
                         </div>
@@ -120,11 +117,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Email Marketing</a></h3>
+                                    <h3><a href="#">MeetEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>Social media meet ups for the newest generations</p>
                                 </div>
                             </div>
                         </div>
@@ -142,11 +138,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Product Development</a></h3>
+                                    <h3><a href="web-development.html">Yo Internships</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p><br>This is where you start.. </br></p>
                                 </div>
                             </div>
                         </div>
@@ -162,11 +157,29 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="web-development.html">Business Strategy</a></h3>
+                                    <h3><a href="#">Su Vaat Che</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>All trials are our Pro planed by default you
-                                        can try out all the features available.</p>
+                                    <p>A jordaar podcast about Vaartao, vyaktiyo and values</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--End Single Service Three-->
+
+                    <!--Start Single Service Three-->
+                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
+                        data-wow-duration="1500ms" >
+                        <div class="service-three__single">
+                            <div class="service-three__single-icon">
+                                <span class="icon-business-strategy"></span>
+                            </div>
+                            <div class="service-three__single-content">
+                                <div class="title">
+                                    <h3><a href="#">Amar Estate Agency</a></h3>
+                                </div>
+                                <div class="text">
+                                    <p>Ghar, home, familiarity</p>
                                 </div>
                             </div>
                         </div>
@@ -176,6 +189,7 @@ include 'header.php';
             </div>
         </section>
         <!--End Service Three-->
+
 
         <!--Start Fact Counter One-->
         <section class="fact-counter-one about">
