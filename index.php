@@ -742,29 +742,29 @@ include 'header.php';
         <!--End Project Two-->
 
         <section class="cta-three">
-            <div class="cta-three_bg" style="background-image: url(assets/img/background/cta-three_bg.jpg);">
+            <div class="cta-three__bg" style="background-image: url(assets/img/background/cta-three__bg.jpg);">
             </div>
             <div class="container">
                 <div class="cta-three__inner">
                     <div class="cta-three__content">
                         <div class="sec-title-four">
-                            <!-- <div class="sub-title">
+                            <div class="sub-title">
                                 <h4>Get To Know About Us</h4>
-                            </div> -->
+                            </div>
                             <h2>
-                            YOUR NEXT GREAT IDEA<br> IS ONE CLICK AWAY
+                                Let’s Get To Work Together<br> Ready To Work Us
                             </h2>
                         </div>
                     </div>
                     <div class="cta-three__btn">
-                        <a class="thm-btn" href="contact.php">
+                        <a class="thm-btn" href="#">
                             <span class="txt">Get Started</span>
                             <i class="icon-next"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>   
+        </section>  
 
         <!--Start Team Two-->
         <section class="project-two">
