@@ -262,6 +262,6 @@
 
 /* Change the hamburger icon color to green when hovered */
 .not-home .mobile-nav-toggler.alt i:hover {
-    color: green;
+    color: #d4f161;
 }
 
