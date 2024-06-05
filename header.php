@@ -102,7 +102,7 @@
                                                             
                                                         </ul>
                                                     </li>
-                                                    <li><a href="about.php">Podcast</a></li>
+                                                    <li><a href="podcast.php">Podcast</a></li>
                                                     <li><a href="vlog.php">Vlog</a>
                                                         <!-- <ul class="sub-menu">
                                                             <li><a href="pukka.php">Vlog</a></li>
