@@ -97,7 +97,7 @@
                                                             <li><a href="pukka.php">Pukka Media</a></li>
                                                             <li><a href="learneasy.php">LearnEasy</a></li>
                                                             <li><a href="workeasy.php">WorkEasy</a></li>
-                                                            <li><a href="meet.php">MeetEasy</a></li>
+                                                            <!-- <li><a href="meet.php">MeetEasy</a></li> -->
                                                             <li><a href="intern.php">Yo Internships</a></li>
                                                             <li><a href="vaatche.php">Su Vaat Che</a></li>
                                                             <li><a href="amar.php">Amar Estate Agency</a></li>
@@ -120,13 +120,13 @@
                                 </div>
                             </div>
 
-                            <div class="main-header-three__bottom-right">
+                            <!-- <div class="main-header-three__bottom-right">
                                 <div class="header-btn-box-one">
                                     <a class="thm-btn" href="contact.php">
                                         <span class="txt">Contact Us<i class="icon-next"></i></span>
                                     </a>
                                 </div>
-                            </div>
+                            </div> -->
 
                         </div>
                     </div>

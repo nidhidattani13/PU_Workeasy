@@ -15,24 +15,25 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $response_code = 400;
     } else {
         // Set the recipient email address.
-        $recipient = "preyasanghvi@gmail.com";
-
-        // Set the email subject.
+        $recipient = "dattaninidhi37@gmail.com";
         $email_subject = "New contact from $name: $subject";
-
-        // Build the email content.
-        $email_content = "Name: $name\n";
-        $email_content .= "Email: $email\n";
-        $email_content .= "Phone: $phone\n\n";
-        $email_content .= "Message:\n$message\n";
-
-        // Build the email headers.
+        $email_content = "Name: $name\nEmail: $email\nPhone: $phone\n\nMessage:\n$message\n";
         $email_headers = "From: $name <$email>";
 
-        // Send the email.
+        // Send the email to the recipient
         if (mail($recipient, $email_subject, $email_content, $email_headers)) {
-            $response_message = "Thank you! Your message has been sent.";
-            $response_code = 200;
+            // Send a copy to the user
+            $copy_subject = "Copy of your contact form submission: $subject";
+            $copy_content = "Dear $name,\n\nThank you for reaching out to us. Here is a copy of your message:\n\n$email_content";
+            $copy_headers = "From: your_email@example.com";
+
+            if (mail($email, $copy_subject, $copy_content, $copy_headers)) {
+                $response_message = "Thank you! Your message has been sent and a copy has been emailed to you.";
+                $response_code = 200;
+            } else {
+                $response_message = "Thank you! Your message has been sent, but we couldn't send a copy to your email.";
+                $response_code = 200;
+            }
         } else {
             $response_message = "Oops! Something went wrong, we couldn't send your message.";
             $response_code = 500;
@@ -41,7 +42,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 }
 ?>
 
-<!--Start Page Header-->
+<!-- Start Page Header -->
 <section class="page-header">
     <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
     <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
@@ -56,9 +57,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </div>
 </section>
-<!--End Page Header-->
+<!-- End Page Header -->
 
-<!--Start Contact Page-->
+<!-- Start Contact Page -->
 <section class="contact-page">
     <div class="contact-page__top">
         <div class="container">
@@ -67,57 +68,35 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                     <div class="contact-page__top-content">
                         <div class="contact-page__top-content-top">
                             <h2>Get in Touch</h2>
-                            <p>A vast majority of the app marketers mainly concent post-launch app marketing
-                                techniques and measures while completely missing pre-launch campaign. This
-                                prevents the </p>
+                            <p>A vast majority of the app marketers mainly concentrate on post-launch app marketing techniques and measures while completely missing pre-launch campaign. This prevents the </p>
                         </div>
-
                         <div class="contact-page__top-content-bottom">
                             <h2>Contact Info</h2>
                             <ul>
                                 <li>
                                     <div class="inner">
-                                        <div class="icon-box">
-                                            <span class="icon-pin"></span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="icon-pin"></span></div>
                                         <div class="content-box">
                                             <h4>Address</h4>
-                                            <p>
-                                            2nd Floor, Cross Roads, Kalavad Rd,<br>
-                                            above Jaddus Food Field Restaurant,<br>
-                                            near RPJ Hotel, Jai Bhimnagar, <br>
-                                            Nana Mava, Rajkot, Gujarat 360001
-                                            </p>
+                                            <p>2nd Floor, Cross Roads, Kalavad Rd,<br>above Jaddus Food Field Restaurant,<br>near RPJ Hotel, Jai Bhimnagar,<br>Nana Mava, Rajkot, Gujarat 360001</p>
                                         </div>
                                     </div>
                                 </li>
-
                                 <li>
                                     <div class="inner">
-                                        <div class="icon-box">
-                                            <span class="icon-phone-call"></span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="icon-phone-call"></span></div>
                                         <div class="content-box">
                                             <h4>Phone</h4>
-                                            <p><a href="tel:123456789">09 (354) 587 874</a> or <a
-                                                    href="tel:123456789">10 (698) 852 741</a></p>
+                                            <p><a href="tel:123456789">09 (354) 587 874</a> or <a href="tel:123456789">10 (698) 852 741</a></p>
                                         </div>
-                                    </div> 
+                                    </div>
                                 </li>
-
                                 <li>
                                     <div class="inner">
-                                        <div class="icon-box">
-                                            <span class="icon-email"></span>
-                                        </div>
-
+                                        <div class="icon-box"><span class="icon-email"></span></div>
                                         <div class="content-box">
                                             <h4>Email</h4>
-                                            <p><a href="mailto:yourmail@email.com">info@example.com</a>
-                                                or <a href="mailto:yourmail@email.com">info@example.com</a>
-                                            </p>
+                                            <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
                                         </div>
                                     </div>
                                 </li>
@@ -125,12 +104,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         </div>
                     </div>
                 </div>
-
                 <div class="col-xl-6 col-lg-6">
                     <div class="contact-page__google-map">
-                        
-                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.818427513445!2d70.75460681680632!3d22.273805662140347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959d322969ef6b9%3A0xd85f069decfc51eb!2sWorkEasy%20Coworking%20Space%20(Kalawad%20Road%20Centre)!5e0!3m2!1sen!2sin!4v1717502755715!5m2!1sen!2sin" 
-                                class="contact-page-google-map__one" allowfullscreen ></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3379.818427513445!2d70.75460681680632!3d22.273805662140347!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3959d322969ef6b9%3A0xd85f069decfc51eb!2sWorkEasy%20Coworking%20Space%20(Kalawad%20Road%20Centre)!5e0!3m2!1sen!2sin!4v1717502755715!5m2!1sen!2sin" class="contact-page-google-map__one" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
@@ -138,7 +114,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     </div>
 
     <div class="contact-page__bottom">
-        <!--Start Contact Two-->
+        <!-- Start Contact Two -->
         <div class="contact-page__bottom-form">
             <div class="container">
                 <div class="contact-page__bottom-form-inner">
@@ -183,10 +159,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <textarea name="message" placeholder="Write Message*" required></textarea>
                                     </div>
                                     <div class="contact-page__btn">
-                                        <button class="thm-btn" type="submit" data-loading-text="Please wait...">
-                                            <span class="txt">
-                                                Send Message
-                                            </span>
+                                        <button class="thm-btn" name="submit" type="submit" data-loading-text="Please wait...">
+                                            <span class="txt">Send Message</span>
                                         </button>
                                     </div>
                                 </div>
@@ -196,10 +170,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </div>
             </div>
         </div>
-        <!--End Contact Two-->
+        <!-- End Contact Two -->
     </div>
 </section>
-<!--End Contact Page-->
+<!-- End Contact Page -->
 
 <?php
 include 'footer.php';

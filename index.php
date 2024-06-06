@@ -2,6 +2,9 @@
 <?php
 include 'header.php';
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
+<link rel="stylesheet" href="assets/css/public.css">
         <!--Start Banner Two-->
         <section class="banner-three">
             <div class="banner-three__shape1 float-bob-x">
@@ -41,12 +44,19 @@ include 'header.php';
                             </p>
                         </div>
                         <div class="btn-box">
-                            <a class="thm-btn" href="#">
+                            <!-- <a class="thm-btn" href="#">
                                 <span class="txt">
                                     Get Started
                                     <i class="icon-next"></i>
                                 </span>
-                            </a>
+                            </a> -->
+                            <div class="large-social-icons">
+                            <a href="#" class="fa fa-facebook"></a>
+                            <a href="#" class="fa fa-twitter"></a>
+                            <a href="#" class="fa fa-instagram"></a>
+                            <a href="#" class="fa fa-youtube"></a>
+                            <a href="#" class="fa fa-linkedin"></a>
+    </div>
                             <div class="video-gallery">
                                 <div class="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <a class="video-popup" title="Video Gallery"
@@ -201,10 +211,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="#">MeetEasy</a></h3>
+                                    <h3><a href="#">Amar Estate Agency</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>Social media meet ups for the newest generations</p>
+                                    <p><br>Ghar, Home, Familiarity</p>
                                 </div>
                             </div>
                         </div>
@@ -1175,8 +1185,8 @@ include 'header.php';
             </div>
         </section> -->
         <!--End Team Two-->
-
-        <!--Start Working Process One-->
+<!-- 
+        Start Working Process One
         <section class="working-process-one">
             <div class="working-process-one__shape1 float-bob-x">
                 <img src="assets/img/shape/working-process__shape1.png" alt="shapes">
@@ -1196,7 +1206,7 @@ include 'header.php';
                 </div>
                 <div class="row">
 
-                    <!--Start Single Working Process One-->
+                    Start Single Working Process One
                     <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
                         <div class="working-process-one__single text-center">
                             <div class="icon-box">
@@ -1216,9 +1226,9 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Working Process One-->
+                    End Single Working Process One
 
-                    <!--Start Single Working Process One-->
+                    Start Single Working Process One
                     <div class="col-xl-4 col-lg-4 wow fadeInRight" data-wow-delay="100ms" data-wow-duration="1500ms">
                         <div class="working-process-one__single text-center">
                             <div class="working-process-one__shape3">
@@ -1241,9 +1251,9 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Working Process One-->
+                    End Single Working Process One
 
-                    <!--Start Single Working Process One-->
+                    Start Single Working Process One
                     <div class="col-xl-4 col-lg-4 wow fadeInLeft" data-wow-delay="200ms" data-wow-duration="1500ms">
                         <div class="working-process-one__single text-center">
                             <div class="working-process-one__shape4">
@@ -1266,14 +1276,14 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Working Process One-->
+                    End Single Working Process One
 
                 </div>
             </div>
         </section>
-        <!--End Working Process One-->
+        End Working Process One -->
 
-        <!--Start Testmonials Three-->
+        <!-- Start Testmonials Three
         <section class="testimonials-three">
             <div class="testimonials-three__shape1 rotate-me">
                 <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes">
@@ -1290,27 +1300,27 @@ include 'header.php';
                         <div class="testimonials-three__img">
                             <ul>
                                 <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Two Img-->
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
-                                        <!-- <div class="inner">
+                                        <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image">
-                                        </div> -->
+                                        </div>
                                     </div>
-                                    <!--End About Two Img-->
-                                    <!--Single About Two Img-->
+                                    End About Two Img
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
-                                        <!-- <div class="inner">
+                                        <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image">
-                                        </div> -->
+                                        </div>
                                     </div>
-                                    <!--End About Two Img-->
+                                    End About Two Img
                                 </li>
                                 <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Two Img-->
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
                                         <img src="https://iili.io/JQl68Ux.jpg" alt="image">
                                     </div>
-                                    <!--End About Two Img-->
+                                    End About Two Img
                                 </li>
                             </ul>
                         </div>
@@ -1319,15 +1329,15 @@ include 'header.php';
                     <div class="col-xl-7">
                         <div class="testimonials-three__content">
                             <div class="sec-title-four">
-                                <!-- <div class="sub-title">
+                                <div class="sub-title">
                                     <h4>Customers Feedback</h4>
-                                </div> -->
+                                </div>
                                 <h2>
                                     What Says Our Client’s<br>About Diligent
                                 </h2>
                             </div>
 
-                            <!-- If we need navigation buttons -->
+                            If we need navigation buttons
                             <div class="swiper-nav-style2 testimonials-three__swiper-nav-style">
                                 <div class="swiper-button-prev" id="testimonials-three__swiper-button-prev">
                                     <i class="icon-left-arrow right"></i>
@@ -1406,7 +1416,7 @@ include 'header.php';
                 </div>
             </div>
         </section>
-        <!--End Testmonials Three-->
+        End Testmonials Three -->
 
         <!--Start Blog Three-->
         <section class="blog-three">
@@ -1451,7 +1461,7 @@ include 'header.php';
                                     </ul>
                                 </div>
                                 <div class="title-box">
-                                    <h3><a href="blog-details.html">vlog</a></h3>
+                                    <h3><a href="blog-details.html">Latest vlog</a></h3>
                                 </div>
                                 <div class="btn-box">
                                     <a href="blog-details.html">
@@ -1488,7 +1498,7 @@ include 'header.php';
                                     </ul>
                                 </div>
                                 <div class="title-box">
-                                    <h3><a href="blog-details.html">blog</a>
+                                    <h3><a href="blog-details.html">Trending blog</a>
                                     </h3>
                                 </div>
                                 <div class="btn-box">
@@ -1526,7 +1536,7 @@ include 'header.php';
                                     </ul>
                                 </div>
                                 <div class="title-box">
-                                    <h3><a href="blog-details.html">vlog </a></h3>
+                                    <h3><a href="blog-details.html">Trending vlog </a></h3>
                                 </div>
                                 <div class="btn-box">
                                     <a href="blog-details.html">
