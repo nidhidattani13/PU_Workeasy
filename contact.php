@@ -101,12 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <div class="icon-box"><span class="icon-email"></span></div>
                                         <div class="content-box">
                                             <h4>Email</h4>
-<<<<<<< HEAD
                                             <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
-=======
-                                            <p><a href="mailto:pavakdunadkat@gmail.com">pavakdunadkat@gmail.com</a>
-                                            </p>
->>>>>>> 5be8468cd6093b4564e761341c2279583cafa99f
                                         </div>
                                     </div>
                                 </li>
