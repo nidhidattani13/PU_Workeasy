@@ -1,5 +1,8 @@
+
+<?php include_once('contact-mail.php'); ?>
 <?php
 include 'header.php';
+<<<<<<< HEAD
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
@@ -40,6 +43,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+=======
+>>>>>>> 5be8468cd6093b4564e761341c2279583cafa99f
 ?>
 
 <!-- Start Page Header -->
@@ -96,7 +101,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <div class="icon-box"><span class="icon-email"></span></div>
                                         <div class="content-box">
                                             <h4>Email</h4>
+<<<<<<< HEAD
                                             <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
+=======
+                                            <p><a href="mailto:pavakdunadkat@gmail.com">pavakdunadkat@gmail.com</a>
+                                            </p>
+>>>>>>> 5be8468cd6093b4564e761341c2279583cafa99f
                                         </div>
                                     </div>
                                 </li>
@@ -123,12 +133,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>Your email address will not be published. Required fields are marked *</p>
                     </div>
                     <div class="contact-page__bottom-form-inner-box">
-                        <?php if ($_SERVER["REQUEST_METHOD"] == "POST"): ?>
-                            <div class="response-message">
-                                <p><?php echo $response_message; ?></p>
-                            </div>
-                        <?php endif; ?>
-                        <form method="post" class="contact-page__form contact-form-validated">
+                        <form class="contact-page__form" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">

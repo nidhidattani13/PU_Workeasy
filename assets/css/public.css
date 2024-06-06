@@ -6,6 +6,7 @@
 
 }
 
+
 /* .overlay-title {
     position: absolute;
     bottom: 20px;
@@ -77,8 +78,12 @@
     opacity: 0.6; /* Make the image less opaque */
 }
 
-
-
+.paraa{
+    color: #fff;
+}
+.outer {
+    margin: 0 auto;
+}
 .timeline {
     background: var(--primary-color);
     margin: 20px auto;
@@ -88,7 +93,8 @@
 .timeline .card {
     position: relative;
     background: transparent;
-    max-width: 100%;
+    max-width: 70%;
+    margin: 0 auto;
 }
 .timeline .card:nth-child(odd) {
     padding: 30px 0 30px 30px;
@@ -114,6 +120,15 @@
         top: -5px;
         bottom: -5px;
    }
+}
+
+@media only screen and (max-width: 70px){
+    .timeline .card {
+        position: relative;
+        background: transparent;
+        max-width: 100%;
+        margin: 0 auto;
+    }
 }
 .timeline .card:nth-child(even)::before {
     right: 0;
@@ -145,18 +160,20 @@
 .timeline .title {
     color: #d4f161;
     position: relative;
+    padding-bottom: 20px;
 }
 .timeline .title::before {
     content: "";
     position: absolute;
-    width: 10px;
-    height: 10px;
+    width: 15px;
+    height: 15px;
     background: white;
     border-radius: 999px;
-    border: 3px solid #d4f161;
+    border: 4px solid #d4f161;
 }
 .timeline .card:nth-child(even) > .info > .title {
     text-align: right;
+    padding-bottom: 20px;
 }
 .timeline .card:nth-child(odd) > .info > .title::before {
     left: -45px;
@@ -262,7 +279,7 @@
 
 /* Change the hamburger icon color to green when hovered */
 .not-home .mobile-nav-toggler.alt i:hover {
-    color: #d4f161;
+    color: green;
 }
 
 .large-social-icons .fa {
