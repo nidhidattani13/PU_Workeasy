@@ -36,7 +36,8 @@
     <link rel="stylesheet" href="assets/css/public.css">
 </head>
 
-<body class="body-gray-bg">
+<body class="body-gray-bg <?php if (basename($_SERVER["PHP_SELF"]) != "index.php") { echo 'not-home'; } ?>">
+
 
     <!-- preloader -->
     <div id="preloader">
@@ -52,6 +53,7 @@
     <div class="page-wrapper">
 
         <!--Start Main Header One -->
+        
         <header class="  <?php if (basename($_SERVER["PHP_SELF"]) == "index.php") { echo 'main-header main-header-three'; } else { echo 'main-header main-header-three about'; } ?> ">
             <div class="main-header-three__top">
                 <div class="container">

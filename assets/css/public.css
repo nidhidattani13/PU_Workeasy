@@ -6,6 +6,7 @@
 
 }
 
+
 /* .overlay-title {
     position: absolute;
     bottom: 20px;
@@ -121,7 +122,7 @@
    }
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 70px){
     .timeline .card {
         position: relative;
         background: transparent;

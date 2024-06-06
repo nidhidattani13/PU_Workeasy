@@ -19,17 +19,17 @@ include 'header.php';
             <div class="banner-three__shape5">
                 <img src="assets/img/shape/banner-three__shape5.png" alt="shapes">
             </div>
-            <!-- <div class="banner-three__shape6 float-bob-y">
+            <div class="banner-three__shape6 float-bob-y">
                 <img src="assets/img/shape/banner-three__shape6.png" alt="shapes">
-            </div> -->
+            </div>
             <div class="container">
                 <div class="banner-three__content">
 
                     <div class="banner-three__content-inner">
                         <div class="sec-title-four">
-                            <div class="sub-title">
-                                <!-- <h4>Welcome To Diligent</h4> -->
-                            </div>
+                            <!-- <div class="sub-title">
+                                <h4>Welcome To Diligent</h4>
+                            </div> -->
                             <h2>
                                 Digital Agency<br>For Growth
                             </h2>
@@ -54,40 +54,24 @@ include 'header.php';
                                         <span class="icon-play"></span>
                                     </a>
                                 </div>
-                                <!-- <div class="text2">
+                                <div class="text2">
                                     <p>Watch Our</p>
                                     <p>Demo Video</p>
-                                </div> -->
+                                </div>
                             </div>
                         </div>
                     </div>
-             <div class="png1">
-<img src="./assets/img/shape/rocket.png" alt="img">
-             </div>     
-             <div class="png2">
-                <img src="./assets/img/shape/arrow2.png" alt="img" srcset="">
-             </div>
-                    <img class="pu-img" src="./pavakk.PNG" alt="Profile Image">
-                         
-                    <!-- <div class="banner-three__img p-img">
-    <div class="square linkedin"> -->
-   
-        <span></span>
-        <span></span>
-        <!-- <img class="pu-img" src="./pavakk.PNG" alt="Profile Image"> -->
-    </div>
-</div>
 
-
-  <!-- <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Previous</span>
-  </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="visually-hidden">Next</span>
-  </button>
-</div> -->
+                    <div class="banner-three__img">
+                        <ul>
+                            <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
+                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
+                                <div class="banner-three__img-single">
+                                    <div class="inner">
+                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image">
+                                    </div>
+                                </div>
+                            </li>
                             <!-- <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
                                 <div class="banner-three__img-single instyle--2">
@@ -96,7 +80,7 @@ include 'header.php';
                                     </div>
                                 </div>
                             </li> -->
-                       
+                        </ul>
                     </div>
 
                 </div>
@@ -368,7 +352,7 @@ include 'header.php';
                                 data-wow-duration="1500ms">
                               
                                 <div class="single-about-three__img-box">
-                                    <img src="assets/img/about/550.png" style="height:750px;"alt="image">
+                                    <img src="assets/img/about/550.png" style="width:550px;"alt="image">
                                 </div>
                                 
                             </div>
@@ -519,6 +503,9 @@ include 'header.php';
         <!--Start Partner style3-->
         <section class="partner-style3 logo-gird" >
             <div class="container">
+                    <h2 class="sec-title-three text-center">
+                     Communities
+                    </h2>
                 <ul class="row clearfix list-one">
                     <!--Start Single Partner Logo Box-->
                     <li class="col-xl-3 col-lg-3">
@@ -742,29 +729,29 @@ include 'header.php';
         <!--End Project Two-->
 
         <section class="cta-three">
-            <div class="cta-three_bg" style="background-image: url(assets/img/background/cta-three_bg.jpg);">
+            <div class="cta-three__bg" style="background-image: url(assets/img/background/cta-three__bg.jpg);">
             </div>
             <div class="container">
                 <div class="cta-three__inner">
                     <div class="cta-three__content">
                         <div class="sec-title-four">
-                            <!-- <div class="sub-title">
+                            <div class="sub-title">
                                 <h4>Get To Know About Us</h4>
-                            </div> -->
+                            </div>
                             <h2>
-                            YOUR NEXT GREAT IDEA<br> IS ONE CLICK AWAY
+                                Let’s Get To Work Together<br> Ready To Work Us
                             </h2>
                         </div>
                     </div>
                     <div class="cta-three__btn">
-                        <a class="thm-btn" href="contact.php">
+                        <a class="thm-btn" href="#">
                             <span class="txt">Get Started</span>
                             <i class="icon-next"></i>
                         </a>
                     </div>
                 </div>
             </div>
-        </section>   
+        </section>  
 
         <!--Start Team Two-->
         <section class="project-two">

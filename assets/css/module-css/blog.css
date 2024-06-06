@@ -331,7 +331,7 @@
 .blog-three {
     position: relative;
     display: block;
-    background-color: var(--thm-white);
+    background-color: var(--thm-black);
     padding: 110px 0px 110px;
     z-index: 10;
 }
@@ -572,7 +572,7 @@
     bottom: 0;
     right: 0;
     opacity: 0;
-    background: linear-gradient(0deg, #FF5A79 -1.22%, rgba(var(--thm-secondary-rgb), 0.70) 60.99%);
+    background: linear-gradient(#d4f161, transparent);
     transition: opacity 0.5s ease;
     transition: all 0.5s ease;
     z-index: 1;

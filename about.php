@@ -98,7 +98,8 @@ include 'header.php';
             <div class="container">  
             <div class="timeline">
                 <div class="outer">
-                    <div class="card">
+                    <div class="card wow fadeInLeft" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">THE INITIATION</h3>
                             <p class="paraa">Pavak’s first venture was impressive and
@@ -107,7 +108,8 @@ include 'header.php';
                             MCQ booklets for admission to CEPT.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInRight" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">THE BIG BREAK</h3>
                             <p class="paraa">That's how ‘The Waffling Station’ - waffles on wheels for the first time in Rajkot. Along with
@@ -119,7 +121,8 @@ include 'header.php';
                             worked for marketing is Rajkot, did not appeal to the people of Ahmedabad.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInLeft" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">A LEARNING CURVE</h3>
                             <p class="paraa">Rajkot social, a cafe ahead of its time, brought the art of
@@ -129,7 +132,8 @@ include 'header.php';
                             huge.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInRight" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">PUKKA MEDIA</h3>
                             <p class="paraa">At the precipice of covid in 2019, Pavak developed Pukka media along with his wife,
@@ -140,7 +144,8 @@ include 'header.php';
                             and his team at Pukka Media brought in substantial results for its clients.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInLeft" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">WORKEASY</h3>
                             <p class="paraa">In July of 2020, the journey of how WorkEasy came
@@ -152,7 +157,8 @@ include 'header.php';
                             its kind office space in Rajkot.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInRight" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">LEARNEASY</h3>
                             <p class="paraa">LearnEasy is a skill development platform that offers practical, skill based learning,
@@ -162,7 +168,8 @@ include 'header.php';
                             is an inclusive tool for lifelong learning.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInLeft" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">MEETEASY</h3>
                             <p class="paraa">A zen concept identifying with a free and open – minded
@@ -173,7 +180,8 @@ include 'header.php';
                             MeetEasy is an applaudable start up.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInRight" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">YO INTERNSHIPS</h3>
                             <p class="paraa">Yo internships launches students and young adults or even anyone looking revive their career
@@ -182,7 +190,8 @@ include 'header.php';
                             for talented young adults to help guide them through a an ever changing professional world.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInLeft" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">SU VAAT CHE!</h3>
                             <p class="paraa">Su Vaat Che is Pavak’s podcast of vyaktio, vaartao and
@@ -192,7 +201,8 @@ include 'header.php';
                             people, through raw emotions and experiences.</p>
                         </div>
                         </div>
-                        <div class="card">
+                        <div class="card wow fadeInRight" data-wow-delay="0ms"
+                        data-wow-duration="1500ms">
                         <div class="info">
                             <h3 class="title">AMAR ESTATE AGENCY</h3>
                             <p class="paraa">Ghar, home, familiarity. A dream home that the youth of every generation imagines to own.
