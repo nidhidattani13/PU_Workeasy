@@ -1,11 +1,6 @@
 
  <?php include_once('file-mail.php'); ?>
 
-
-   
-
-
-
         <form method="post" enctype="multipart/form-data">
                                 <div class="row">
                                     <div class="col-lg-6">

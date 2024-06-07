@@ -47,15 +47,16 @@
                                     <div
                                         class="single-footer-widget-box single-footer-widget__about single-footer-widget__about--2">
                                         <div class="text">
-                                            <p>Need any support?</p>
+                                        <p><a href="mailto:pavakdunadkat@gmail.com">Need any support?</a></p>
                                         </div>
+
                                         <ul class="clearfix">
                                             <li>
                                                 <div class="icon">
                                                     <span class="icon-pin"></span>
                                                 </div>
-                                                <p>WorkEasy 2nd Floor,Above Jadoos restaurant,<br>
-                                                kalawad Road,Rajkot 360005
+                                                <p>WorkEasy Co-Working Space 2nd Floor,Above Jaddu's food field restaurant,<br>
+                                                kalawad Road, Rajkot, Gujarat, India
                                             </p>
                                             </li>
                                             <li>
@@ -92,7 +93,7 @@
                                                 <p><a href="about.php">About Us</a></p>
                                             </li>
                                             <li>
-                                                <p><a href="ventures.php">Our Ventures</a></p>
+                                                <p><a href="ventures.php">Ventures</a></p>
                                             </li>
                                             <li>
                                                 <p><a href="blog-details.php">Latest News</a></p>
@@ -110,7 +111,7 @@
                             <div class="col-xl-3 col-lg-6 col-md-6 wow fadeInUp" data-wow-delay=".3s">
                                 <div class="single-footer-widget single-footer-widget-style2 ml50">
                                     <div class="title">
-                                        <h3>Our Services</h3>
+                                        <h3>Ventures</h3>
                                     </div>
                                     <div
                                         class="single-footer-widget-box single-footer-widget__links single-footer-widget__links-style2">
@@ -124,9 +125,9 @@
                                             <li>
                                                 <p><a href="Learneasy.php">LearnEasy</a></p>
                                             </li>
-                                            <li>
+                                            <!-- <li>
                                                 <p><a href="meeteasy.php">MeetEasy</a></p>
-                                            </li>
+                                            </li> -->
                                             <li>
                                                 <p><a href="vaatche.php">Su Vaat Che</a></p>
                                             </li>

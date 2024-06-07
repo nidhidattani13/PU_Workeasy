@@ -1,3 +1,4 @@
+
 <?php
 
 $message = '';
@@ -24,7 +25,7 @@ if (isset($_POST["submit"])) {
 				<td width="70%">' . $_POST["subject"] . '</td>
 			</tr>
 			<tr>
-				<td width="30%">Message</td>
+				<td width="30%">Messge</td>
 				<td width="70%">' . $_POST["message"] . '</td>
 			</tr>
 		</table>
@@ -37,12 +38,12 @@ if (isset($_POST["submit"])) {
 
 // ADD YOUR DETAILS HERE
     $mail->Host = 'smtp.gmail.com';        //Sets the SMTP hosts of your Email hosting, this for Godaddy
-    $mail->Port = '465';                                //Sets the default SMTP server port
+    $mail->Port = '25';                                //Sets the default SMTP server port
     $mail->SMTPAuth = true;                            //Sets SMTP authentication. Utilizes the Username and Password variables
-    $mail->Username = 'workeasy.enquiry.send@gmail.com';                    //Sets SMTP username
-    $mail->Password = 'kvujkjlsbfwmamoq';                    //Sets SMTP password
+    $mail->Username = 'patellusi2305@gmail.com';                    //Sets SMTP username
+    $mail->Password = 'Gkxp@603';                    //Sets SMTP password
     $mail->SMTPSecure = 'ssl';                            //Sets connection prefix. Options are "", "ssl" or "tls"
-    $mail->From = 'shreel.faldu110427@marwadiuniversity.ac.in';                    //Sets the From email address for the message
+    $mail->From = 'patellusi2305@gmail.com';                    //Sets the From email address for the message
     $mail->FromName = 'Work Easy';                //Sets the From name of the message
     $mail->AddAddress('dattaninidhi37@gmail.com', 'PU');        //Adds a "To" address
 // ADD YOUR DETAILS HERE

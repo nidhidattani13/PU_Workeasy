@@ -50,6 +50,7 @@
     --thm-secondary-rgb: 218, 226, 107;
 
     --thm-body-font-color: #6A6A6A;
+    --thm-body-font-two-color: #fcffec;
     --thm-body-font-size: 16px;
     --thm-body-font-line-height: 28px;
     --thm-body-font-weight: 400;
@@ -573,7 +574,10 @@ h6 a {
     position: relative;
     display: block;
     top: 0px;
+    font-weight: 700;
+    font-size: 48px;
     padding-bottom: 58px;
+    color: var(--thm-white);
 }
 
 .sec-title-three .sub-title {
@@ -592,7 +596,7 @@ h6 a {
 }
 
 .sec-title-three h2 {
-    color: var(--thm-black);
+    color: var(--thm-white);
     font-size: 48px;
     line-height: 1.2em;
     font-family: var(--thm-heading-font);
@@ -2197,7 +2201,7 @@ label {
     position: relative;
     display: block;
     background-color: var(--thm-white);
-    padding: 140px 0 140px;
+    padding: 50px 0 140px;
     z-index: 10;
 }
 

@@ -117,10 +117,10 @@ include 'header.php';
                             </div>
                             <div class="service-three__single-content">
                                 <div class="title">
-                                    <h3><a href="#">MeetEasy</a></h3>
+                                    <h3><a href="#">Amar Estate Agency</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p>Social media meet ups for the newest generations</p>
+                                    <p><br>Ghar, Home, Familiarity</p>
                                 </div>
                             </div>
                         </div>
@@ -166,32 +166,13 @@ include 'header.php';
                         </div>
                     </div>
                     <!--End Single Service Three-->
-
-                    <!--Start Single Service Three-->
-                    <div class="col-xl-4 col-lg-6 col-md-6 wow fadeInLeft" data-wow-delay="200ms"
-                        data-wow-duration="1500ms" >
-                        <div class="service-three__single">
-                            <div class="service-three__single-icon">
-                                <span class="icon-business-strategy"></span>
-                            </div>
-                            <div class="service-three__single-content">
-                                <div class="title">
-                                    <h3><a href="#">Amar Estate Agency</a></h3>
-                                </div>
-                                <div class="text">
-                                    <p>Ghar, home, familiarity</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <!--End Single Service Three-->
                 </div>
             </div>
         </section>
         <!--End Service Three-->
 
 
-        <!--Start Fact Counter One-->
+        <!-- Start Fact Counter One
         <section class="fact-counter-one about">
             <div class="shape1"><img src="assets/img/shape/fact-counter-one-about-shape1.png" alt=""></div>
             <div class="shape2"><img src="assets/img/shape/fact-counter-one-about-shape2.png" alt=""></div>
@@ -199,7 +180,7 @@ include 'header.php';
             <div class="shape4"><img src="assets/img/shape/fact-counter-one-about-shape4.png" alt=""></div>
             <div class="container">
                 <div class="row">
-                    <!--Start Single Fact Counter-->
+                    Start Single Fact Counter
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".1s">
                             <div class="single-fact-counter-inner">
@@ -219,8 +200,8 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Fact Counter-->
-                    <!--Start Single Fact Counter-->
+                    End Single Fact Counter
+                    Start Single Fact Counter
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".2s">
                             <div class="single-fact-counter-inner">
@@ -241,8 +222,8 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Fact Counter-->
-                    <!--Start Single Fact Counter-->
+                    End Single Fact Counter
+                    Start Single Fact Counter
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".3s">
                             <div class="single-fact-counter-inner">
@@ -261,8 +242,8 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Fact Counter-->
-                    <!--Start Single Fact Counter-->
+                    End Single Fact Counter
+                    Start Single Fact Counter
                     <div class="col-xl-3 col-lg-6 col-md-6">
                         <div class="single-fact-counter wow fadeInUp" data-wow-delay=".4s">
                             <div class="single-fact-counter-inner">
@@ -283,14 +264,14 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-                    <!--End Single Fact Counter-->
+                    End Single Fact Counter
                 </div>
             </div>
         </section>
-        <!--End Fact Counter One-->
+        End Fact Counter One -->
 
 
-        <!--Start Testmonials Three-->
+        <!-- Start Testmonials Three
         <section class="testimonials-three about">
             <div class="testimonials-three__shape1 rotate-me">
                 <img src="assets/img/shape/testimonials-three__shape1.png" alt="shapes">
@@ -307,27 +288,27 @@ include 'header.php';
                         <div class="testimonials-three__img">
                             <ul>
                                 <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Two Img-->
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
                                         <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img1.jpg" alt="image">
                                         </div>
                                     </div>
-                                    <!--End About Two Img-->
-                                    <!--Single About Two Img-->
+                                    End About Two Img
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
                                         <div class="inner">
                                             <img src="assets/img/testimonial/testimonials-three__img2.jpg" alt="image">
                                         </div>
                                     </div>
-                                    <!--End About Two Img-->
+                                    End About Two Img
                                 </li>
                                 <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms">
-                                    <!--Single About Two Img-->
+                                    Single About Two Img
                                     <div class="single-testimonials-three__img-box">
                                         <img src="assets/img/testimonial/testimonials-three__img3.jpg" alt="image">
                                     </div>
-                                    <!--End About Two Img-->
+                                    End About Two Img
                                 </li>
                             </ul>
                         </div>
@@ -344,7 +325,7 @@ include 'header.php';
                                 </h2>
                             </div>
 
-                            <!-- If we need navigation buttons -->
+                            If we need navigation buttons
                             <div class="swiper-nav-style2 testimonials-three__swiper-nav-style">
                                 <div class="swiper-button-prev" id="testimonials-three__swiper-button-prev">
                                     <i class="icon-left-arrow right"></i>
@@ -423,7 +404,7 @@ include 'header.php';
                 </div>
             </div>
         </section>
-        <!--End Testmonials Three-->
+        End Testmonials Three -->
 
 
         <?php

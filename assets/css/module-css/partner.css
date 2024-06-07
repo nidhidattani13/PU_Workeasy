@@ -172,8 +172,9 @@
 .partner-style3 {
     position: relative;
     display: block;
-    background-color: transparent;
+    background-color: var(--thm-black);
     z-index: 10;
+    padding: 50px 50px 100px 50px;
 }
 
 .partner-style3 .row {
@@ -248,6 +249,7 @@
     display: block;
     width: auto;
     opacity: 0.6;
+    filter: invert(100%);
     -webkit-transition: all 500ms ease;
     -moz-transition: all 500ms ease;
     -ms-transition: all 500ms ease;

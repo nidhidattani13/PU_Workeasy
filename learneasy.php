@@ -180,11 +180,11 @@
                                         <a  href="intern.php">Yo Internship<span
                                                 class="icon-right-arrow-angle"></span></a>
                                     </li>
-                                    <li>
+                                    <!-- <li>
                                         <div class="cercale-box"></div>
                                         <a href="meet.php">MeetEasy<span
                                                 class="icon-right-arrow-angle"></span></a>
-                                    </li>
+                                    </li> -->
                                     <li>
                                         <div class="cercale-box"></div>
                                         <a href="amar.php">Amar Estate Agency<span
