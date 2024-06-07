@@ -1,6 +1,10 @@
 <?php
 include 'header.php';
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
 <section class="page-header">
             <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
@@ -16,143 +20,192 @@ include 'header.php';
                 </div>
             </div>
         </section>
-<section class="blog-three">
-            <div class="blog-three__shape1 float-bob-y">
-                <img src="assets/img/shape/blog-three__shape1.png" alt="shapes">
-            </div>
-            <div class="blog-three__shape2">
-                <img src="assets/img/shape/blog-three__shape2.png" alt="shapes">
-            </div>
-            <div class="container">
-           
-                <div class="sec-title-three text-center">
-                    <!-- <div class="sub-title">
-                        <h4>Blog & Airticle</h4>
-                    </div> -->
-                    <h2>
-                      Watch our latest Vlogs
-                    </h2>
-                </div>
-                <div class="row">
-
-
-<!--Start Single Blog Three-->
-<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-    <div class="blog-three__single">
-        <div class="blog-three__single-img">
-            <img src="assets/img/blog/vlog2.png" alt="#">
-        </div>
-        <div class="blog-three__single-content">
-            <div class="meta-box">
-                <ul class="meta-info">
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-calendar"></span>
-                        </div> -->
-                        <!-- <p>Sep 30, 2022</p> -->
-                    </li>
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-time"></span>
-                        </div> -->
-                        <!-- <p>5 Min Read</p> -->
-                    </li>
-                </ul>
-            </div>
-            <div class="title-box">
-                <h3><a href="blog-details.html">vlog</a></h3>
-            </div>
-            <div class="btn-box">
-                <a href="blog-details.html">
-                    Read More
-                    <i class="icon-right"></i>
-                </a>
+        <section class="Start">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 start-left">
+        <img src="./pavak2.png" alt="Image" class="img-fluid">
+      </div>
+      <div class="col-md-6 start-right">
+        <p class="blog-heading">
+          Marketing Mingle
+        </p>  
+        <a href="#">
+          <h2 class="heading">Skill India : Tomorrow's Skill, Today's Mission</h2>
+          <p class="more">In today's ever-changing world, acquiring relevant skills is crucial. Industries require adaptable and versatile professionals with the right expertise. Initiatives like Skill India bridge the gap between aspirations and capabilities, paving the way for a brighter future.</p>
+        </a>
+        <div class="profile_container">
+            <div class="profile-image-container">
+                  <img src="./pavakkk.jpg" alt="My Profile Image">
+              </div>
+              <div class="namepos">
+                   <div class="name">
+                       Pavak Unadkat
+                   </div>
+                   <div class="pos">
+                     CEO & Founder
+                   </div>
+             </div>
+            <div class="date">
+             5 June 2024
             </div>
         </div>
+        
+      </div>
     </div>
-</div>
-<!--End Single Blog Three-->
+   
+  </div>
 
-<!--Start Single Blog Three-->
-<div class="col-xl-4 col-lg-4 wow fadeInDown" data-wow-delay=".3s">
-    <div class="blog-three__single">
-        <div class="blog-three__single-img">
-            <img src="assets/img/blog/blog-three__img2.jpg" alt="#">
-        </div>
-        <div class="blog-three__single-content">
-            <div class="meta-box">
-                <ul class="meta-info">
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-calendar"></span>
-                        </div> -->
-                        <!-- <p>Sep 30, 2022</p> -->
-                    </li>
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-time"></span>
-                        </div> -->
-                        <!-- <p>5 Min Read</p> -->
-                    </li>
-                </ul>
-            </div>
-            <div class="title-box">
-                <h3><a href="https://youtu.be/VwVkBU8nx9k?si=G8QRyWyX7fTvfhqk">Vlog</a>
-                </h3>
-            </div>
-            <div class="btn-box">
-                <a href="blog-details.html">
-                    Read More
-                    <i class="icon-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End Single Blog Three-->
 
-<!--Start Single Blog Three-->
-<div class="col-xl-4 col-lg-4 wow fadeInUp" data-wow-delay=".3s">
-    <div class="blog-three__single">
-        <div class="blog-three__single-img">
-            <img src="assets/img/blog/vlog1.png" alt="#">
-        </div>
-        <div class="blog-three__single-content">
-            <div class="meta-box">
-                <ul class="meta-info">
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-calendar"></span>
-                        </div> -->
-                        <!-- <p>Sep 30, 2022</p> -->
-                    </li>
-                    <li>
-                        <!-- <div class="icon">
-                            <span class="icon-time"></span>
-                        </div> 
-                         <p>5 Min Read</p>  -->
-                    </li>
-                </ul>
-            </div>
-            <div class="title-box">
-                <h3><a href="https://youtu.be/GH97ZuAs7BM?si=4mCiSh6II_68NUE1">vlog </a></h3>
-            </div>
-            <div class="btn-box">
-                <a href="blog-details.html">
-                    Watch
-                    <i class="icon-right"></i>
-                </a>
-            </div>
-        </div>
-    </div>
-</div>
-<!--End Single Blog Three-->
 
-</div>
-</div>
 </section>
-
+<div class="card_head">
+  <h1>Must Watch Vlogs</h1>
 </div>
+<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+    </div>
+    <div class="card-content">
+    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 1</h3></a>
+      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
+      </p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
+    </div>
+    <div class="card-content">
+    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 2</h3></a>
+      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+    </div>
+    <div class="card-content">
+    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 3</h3></a>
+      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae?</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 4">
+    </div>
+    <div class="card-content">
+      <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 4</h3></a>
+      <p class="card-description">This is a short description of the blog post 4. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit ab id, nemo officia optio culpa officiis! Possimus, odio. Perspiciatis?
+      </p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 5">
+    </div>
+    <div class="card-content">
+    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 5</h3></a>
+      <p class="card-description">This is a short description of the blog post 5. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius amet similique eos debitis eaque commodi aut ex? Accusamus, ab unde.</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 6">
+    </div>
+    <div class="card-content">
+    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 6</h3></a>
+      <p class="card-description">This is a short description of the blog post 6. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quaerat accusantium quos minus suscipit! Ipsa nesciunt repellat ut commodi laborum!</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+</div>
+
+
+
+
+
+
+<div class="card_head">
+  <h1>Our Case Studies</h1>
+</div>
+<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title"> Case Title 1Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
+      </p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Case Title 2 Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Case Title 3 Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae? Lorem ipsum dolor sit amet consectetur.
+      </p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  
+
+
+  
+</div>
+
 <?php
 include 'footer.php';
 ?>

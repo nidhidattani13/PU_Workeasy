@@ -1,14 +1,17 @@
 <?php
 include 'header.php';
 ?>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 
-        <!--Start Page Header-->
-        <section class="page-header">
+    <link rel="stylesheet" href="assets/css/blog.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
+<section class="page-header">
             <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Blog</h2>
+                    <h2>BLOG</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
@@ -17,319 +20,194 @@ include 'header.php';
                 </div>
             </div>
         </section>
-        <!--End Page Header-->
-
-
-        <!--Start Blog Page-->
-        <section class="blog-page">
-            <div class="container">
-                <div class="row">
-                    <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
-                        <div class="blog-page__content">
-                            <!--Start Single Blog Page-->
-                            <div class="blog-page__single">
-                                <div class="blog-page__single-img">
-                                    <img src="assets/img/blog/blog-page1__img1.jpg" alt="image">
-                                </div>
-                                <div class="blog-page__single-content">
-                                    <div class="meta-box">
-                                        <ul class="meta-info">
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-user"></span>
-                                                </div>
-                                                <p><a href="#">Admin</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-calendar"></span>
-                                                </div>
-                                                <p><a href="#">Oct 14, 2022</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-comment"></span>
-                                                </div>
-                                                <p><a href="#">0 Comments</a></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>
-                                            <a href="blog-details.html">Communicate The Message Your Audience is
-                                                <br>Waiting for Products
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="btn-box">
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icon-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Blog Page-->
-
-                            <!--Start Single Blog Page-->
-                            <div class="blog-page__single">
-                                <div class="blog-page__single-img">
-                                    <img src="assets/img/blog/blog-page1__img2.jpg" alt="image">
-                                </div>
-                                <div class="blog-page__single-content">
-                                    <div class="meta-box">
-                                        <ul class="meta-info">
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-user"></span>
-                                                </div>
-                                                <p><a href="#">Admin</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-calendar"></span>
-                                                </div>
-                                                <p><a href="#">Oct 14, 2022</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-comment"></span>
-                                                </div>
-                                                <p><a href="#">0 Comments</a></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>
-                                            <a href="blog-details.html">Digital Marketing is The Backbone of
-                                                Your<br>Business Growth
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="btn-box">
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icon-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Blog Page-->
-
-                            <!--Start Single Blog Page-->
-                            <div class="blog-page__single">
-                                <div class="blog-page__single-img">
-                                    <img src="assets/img/blog/blog-page1__img3.jpg" alt="image">
-                                </div>
-                                <div class="blog-page__single-content">
-                                    <div class="meta-box">
-                                        <ul class="meta-info">
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-user"></span>
-                                                </div>
-                                                <p><a href="#">Admin</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-calendar"></span>
-                                                </div>
-                                                <p><a href="#">Oct 14, 2022</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-comment"></span>
-                                                </div>
-                                                <p><a href="#">0 Comments</a></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>
-                                            <a href="blog-details.html">Our Mission is to Help The Entire World
-                                                Do<br>Business Online
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="btn-box">
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icon-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Blog Page-->
-
-                            <!--Start Single Blog Page-->
-                            <div class="blog-page__single">
-                                <div class="blog-page__single-img">
-                                    <img src="assets/img/blog/blog-page1__img4.jpg" alt="image">
-                                </div>
-                                <div class="blog-page__single-content">
-                                    <div class="meta-box">
-                                        <ul class="meta-info">
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-user"></span>
-                                                </div>
-                                                <p><a href="#">Admin</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-calendar"></span>
-                                                </div>
-                                                <p><a href="#">Oct 14, 2022</a></p>
-                                            </li>
-                                            <li>
-                                                <div class="icon">
-                                                    <span class="icon-comment"></span>
-                                                </div>
-                                                <p><a href="#">0 Comments</a></p>
-                                            </li>
-                                        </ul>
-                                    </div>
-                                    <div class="title-box">
-                                        <h3>
-                                            <a href="blog-details.html">Making Your Business A Success with Cutting
-                                                <br>Edge Technology
-                                            </a>
-                                        </h3>
-                                    </div>
-                                    <div class="btn-box">
-                                        <a href="blog-details.html">
-                                            Read More
-                                            <i class="icon-right"></i>
-                                        </a>
-                                    </div>
-                                </div>
-                            </div>
-                            <!--End Single Blog Page-->
-                        </div>
-                    </div>
-
-                    <!--Start Sidebar-->
-                    <div class="col-xl-4">
-                        <div class="blog-page__sidebar">
-                            <!--Start Sidebar Single-->
-                            <div class="sidebar__single sidebar__search wow fadeInUp" data-wow-delay=".1s">
-                                <form action="#" class="sidebar__search-form">
-                                    <input type="search" placeholder="Search here...">
-                                    <button type="submit"><i class="icon-magnifying-glass"></i></button>
-                                </form>
-                            </div>
-                            <!--End Sidebar Single-->
-
-                            <!--Start Sidebar Single-->
-                            <div class="sidebar__single sidebar__latest-blog wow fadeInUp" data-wow-delay=".4s">
-                                <div class="title-box">
-                                    <h2>Latest From Blog</h2>
-                                </div>
-
-                                <ul class="sidebar__latest-blog-list">
-                                    <li>
-                                        <div class="img-box">
-                                            <img src="assets/img/blog/blog-page1-sideber__img1.jpg" alt="">
-                                        </div>
-                                        <div class="content-box">
-                                            <h4><a href="#">Powerful Ideas & Sales<br>Acceleration</a></h4>
-                                            <p><span class="icon-calendar"></span> September 10, 2022</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="img-box">
-                                            <img src="assets/img/blog/blog-page1-sideber__img2.jpg" alt="">
-                                        </div>
-                                        <div class="content-box">
-                                            <h4><a href="#">Craft Digital Marketing<br>That Converts</a></h4>
-                                            <p><span class="icon-calendar"></span> December 12, 2022</p>
-                                        </div>
-                                    </li>
-                                    <li>
-                                        <div class="img-box">
-                                            <img src="assets/img/blog/blog-page1-sideber__img3.jpg" alt="">
-                                        </div>
-                                        <div class="content-box">
-                                            <h4><a href="#">Start with A Plan and<br>Finish with Results.</a></h4>
-                                            <p><span class="icon-calendar"></span> November 08, 2022</p>
-                                        </div>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--End Sidebar Single-->
-                            <!--Start Sidebar Single-->
-                            <div class="sidebar__single sidebar__category wow fadeInUp" data-wow-delay=".3s">
-                                <div class="title-box">
-                                    <h2>Categories</h2>
-                                </div>
-
-                                <ul class="sidebar__category-list">
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> Business Agency <span>(8)</span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> UI/UX Designer <span>(12)</span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> Web Developer <span>(20)</span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> Financial Strategy <span>(15)</span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> Digital Marketing <span>(9)</span></a>
-                                    </li>
-                                    <li>
-                                        <div class="cercale-box"></div>
-                                        <a href="#"> Corporate Agency <span>(12)</span></a>
-                                    </li>
-                                </ul>
-                            </div>
-                            <!--End Sidebar Single-->
-
-                            <!--Start Sidebar Single-->
-                            <div class="sidebar__single sidebar__tags wow fadeInUp" data-wow-delay=".5s">
-                                <div class="title-box">
-                                    <h2>Popular Tags</h2>
-                                </div>
-
-                                <ul class="sidebar__tags-list clearfix">
-                                    <li> <a href="#">Design</a> </li>
-                                    <li> <a href="#">Development</a> </li>
-                                    <li> <a href="#">Agency</a> </li>
-                                    <li> <a href="#">UI/UX</a> </li>
-                                    <li> <a href="#">Marketing</a> </li>
-                                    <li> <a href="#">Business</a> </li>
-                                    <li> <a href="#">Financial</a> </li>
-                                    <li> <a href="#">App UI</a> </li>
-                                    <li> <a href="#">Corporate</a> </li>
-                                    <li> <a href="#">Design Studio</a> </li>
-                                    <li> <a href="#">Web App</a> </li>
-                                </ul>
-                            </div>
-                            <!--End Sidebar Single-->
-                        </div>
-                    </div>
-                    <!--End Sidebar-->
-
-                </div>
-                <ul class="styled-pagination text-center clearfix">
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li>
-                        <a href="#"><span class="icon-right-arrow-angle right"></span></a>
-                    </li>
-                </ul>
+        <section class="Start">
+  <div class="container">
+    <div class="row align-items-center">
+      <div class="col-md-6 start-left">
+        <img src="./pavak2.png" alt="Image" class="img-fluid">
+      </div>
+      <div class="col-md-6 start-right">
+        <p class="blog-heading">
+          Marketing Mingle
+        </p>  
+        <a href="#">
+          <h2 class="heading">Skill India : Tomorrow's Skill, Today's Mission</h2>
+          <p class="more">In today's ever-changing world, acquiring relevant skills is crucial. Industries require adaptable and versatile professionals with the right expertise. Initiatives like Skill India bridge the gap between aspirations and capabilities, paving the way for a brighter future.</p>
+        </a>
+        <div class="profile_container">
+            <div class="profile-image-container">
+                  <img src="./pavakkk.jpg" alt="My Profile Image">
+              </div>
+              <div class="namepos">
+                   <div class="name">
+                       Pavak Unadkat
+                   </div>
+                   <div class="pos">
+                     CEO & Founder
+                   </div>
+             </div>
+            <div class="date">
+             5 June 2024
             </div>
-        </section>
-        <!--End Blog Three-->
-        <?php
+        </div>
+        
+      </div>
+    </div>
+   
+  </div>
+
+
+
+</section>
+<div class="card_head">
+  <h1>Must Read Articles</h1>
+</div>
+<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 1</h3>
+      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
+      </p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 2</h3>
+      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 3</h3>
+      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae?</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 4">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 4</h3>
+      <p class="card-description">This is a short description of the blog post 4. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit ab id, nemo officia optio culpa officiis! Possimus, odio. Perspiciatis?
+      </p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 5">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 5</h3>
+      <p class="card-description">This is a short description of the blog post 5. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius amet similique eos debitis eaque commodi aut ex? Accusamus, ab unde.</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 6">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Blog Title 6</h3>
+      <p class="card-description">This is a short description of the blog post 6. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quaerat accusantium quos minus suscipit! Ipsa nesciunt repellat ut commodi laborum!</p>
+    </div>
+    <div class="card-date">
+    June 5, 2024
+    </div>
+  </div>
+</div>
+
+
+
+
+
+<div class="card_head">
+  <h1>Our Case Studies</h1>
+</div>
+<div class="card-container">
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title"> Case Title 1Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
+      </p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Case Title 2 Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  <div class="card">
+    <div class="card-image">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+    </div>
+    <div class="card-content">
+      <h3 class="card-title">Case Title 3 Lorem ipsum dolor sit amet.</h3>
+      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae? Lorem ipsum dolor sit amet consectetur.
+      </p>
+    </div>
+    <div class="card-view">
+    <a href="#">
+      View Project <i class="fas fa-arrow-right"></i>
+    </a>
+  </div>
+  </div>
+
+  
+
+
+  
+</div>
+
+
+
+
+<?php
 include 'footer.php';
 ?>

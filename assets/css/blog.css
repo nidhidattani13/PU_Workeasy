@@ -1,0 +1,281 @@
+.Start {
+  padding: 50px 0; /* Adjust padding as needed */
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.start-left {
+  text-align: center;
+  padding: 20px; /* Adjust padding as needed */
+  flex: 1 1 40%; /* Allow the left side to take up to 40% of the container */
+  max-width: 40%; /* Ensure max width */
+}
+
+.start-left img {
+  max-width: 100%; /* Ensure image responsiveness */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Remove default inline spacing */
+  margin: 0 auto; /* Center image horizontally */
+  border-radius: 4%; /* Rounded corners */
+}
+
+.start-right {
+  padding: 20px; /* Adjust padding as needed */
+  flex: 1 1 50%; /* Allow the right side to take up to 50% of the container */
+  max-width: 50%; /* Ensure max width */
+}
+
+.blog-heading {
+  font-size: 1.2em;
+  margin-bottom: 50px;
+  padding: 10px;
+  width: fit-content;
+  border-radius: 10px;
+  font-weight: 300;
+  background-color: #F2F5F7;
+}
+
+.more {
+  margin-top: 30px;
+  padding-right:60px ;
+}
+
+.heading {
+  font-size: 2em;
+  color: #323131;
+  /* padding-right: 60px; */
+  text-decoration: none;
+}
+
+.profile_container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  align-items: center; /* Align items vertically in the center */
+  padding: 0 20px; /* Adjust padding as needed */
+  /* background-color: #f0f0f0; */
+}
+
+.profile-image-container {
+  flex: 0 0 auto; /* Prevent image from growing or shrinking */
+  margin-right: 20px; /* Optional: Adjust spacing between image and text */
+}
+
+.profile-image-container img {
+  width: 70px; /* Adjust image width */
+  height: 70px; /* Adjust image height */
+  border-radius: 50%; /* Rounded border for circular effect */
+}
+
+.details-container {
+  flex: 1; /* Expand to fill remaining space */
+  display: flex;
+  flex-direction: column; /* Arrange items in a column */
+  margin-right: 20px; /* Adjust spacing */
+}
+
+.namepos {
+  margin-bottom: 10px; /* Optional: Adjust spacing between name/position and date */
+}
+
+.date {
+  text-align: right; /* Align date to the right */
+  font-style: italic; /* Optional: Apply italic style to date */
+  color: #666;
+  margin-left: 40%; /* Optional: Adjust text color */
+}
+
+.card_head{
+  padding: 50px;
+  text-align: center;
+
+}
+.card-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+  justify-content: center;
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-image img {
+  width: 100%;
+  height: auto;
+}
+
+.card-content {
+  padding: 15px;
+}
+
+.card-title {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  color: #121212;
+}
+
+.card-description {
+  font-size: 1em;
+  color: #414040;
+  font-weight: 500;
+  /* background-color: #f0f0f0; */
+}
+
+.card-date {
+  text-align: left;
+  padding: 10px;
+ font-size: 0.8em;
+  /* background-color: #f0f0f0; Optional: Different background color for the date section */
+  /* border-top: 1px solid #ddd; Optional: Add a top border to separate the date section */
+}
+
+
+.card-view {
+  text-align: left;
+  padding: 30px;
+ font-size: 0.8em;
+  /* Different background color for the view section */
+ /* Add a top border to separate the view section */
+}
+
+.card-view a {
+  text-decoration: none;
+  font-size: 1.2em;
+  color: rgb(254, 0, 0); /* Blue color for the link */
+  font-weight: 500;
+}
+
+.card-view a:hover {
+  text-decoration: none;
+  color: brown; /* Underline on hover */
+}
+.card-view a i {
+  margin-left: 5px;
+  transition: transform 0.3s ease; /* Add transition for smooth effect */
+}
+
+.card-view a:hover i {
+  transform: translateY(-5px) rotate(-45deg); /* Tilt and move up on hover */
+}
+
+
+
+
+/* Responsive adjustments */
+@media (max-width: 900px) {
+  .card-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  }
+}
+
+@media (max-width: 600px) {
+  .card-title {
+    font-size: 1em;
+  }
+
+  .card-description {
+    font-size: 0.9em;
+  }
+}
+
+/* Media Queries for Responsiveness */
+
+@media (max-width: 768px) {
+  .Start {
+      flex-direction: column;
+      padding: 20px;
+  }
+
+  .start-left, .start-right {
+      max-width: 100%;
+      flex: 1 1 100%;
+  }
+
+  .profile_container {
+      flex-direction: column;
+      align-items: flex-start;
+  }
+
+  .details-container {
+      margin-right: 0;
+  }
+
+  .namepos {
+      margin-right: 0;
+  }
+
+  .date {
+      text-align: left;
+      margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  .Start {
+      padding: 20px;
+  }
+
+  .start-left, .start-right {
+      flex: 1 1 100%;
+      max-width: 100%;
+  }
+
+  .profile_container {
+      flex-direction: row;
+  }
+
+  .profile-image-container img {
+      width: 50px; /* Smaller image width */
+      height: 50px; /* Smaller image height */
+  }
+
+  .blog-heading {
+      font-size: 1.2em;
+      margin-bottom: 30px;
+  }
+
+  .heading {
+      font-size: 1.5em;
+  }
+
+  .date {
+      font-size: 0.8em; /* Smaller font size for date */
+  }
+}
+
+@media (max-width: 480px) {
+  .profile_container{
+    padding: 0;
+  }
+  .profile-image-container img {
+      width: 40px; /* Smaller image width */
+      height: 40px; /* Smaller image height */
+  }
+
+  .blog-heading {
+      font-size: 1em;
+  }
+
+  .heading {
+      font-size: 1.2em;
+  }
+
+  .date {
+      font-size: 1em;
+      margin-left:80px; /* Smaller font size for date */
+  }
+}
