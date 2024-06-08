@@ -56,6 +56,7 @@ include 'header.php';
                             <a href="#" class="fa fa-instagram"></a>
                             <a href="#" class="fa fa-youtube"></a>
                             <a href="#" class="fa fa-linkedin"></a>
+                            
     </div>
                             <div class="video-gallery">
                                 <div class="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
@@ -822,10 +823,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
+                                                <img src="assets/img/Our team/Aarchi.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Aarchi Maniyar</h4>
+                                                    <h3><a href="#">Senior Communittee Manager</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -836,10 +837,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
+                                                <img src="assets/img/Our team/Aditya.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Aditya Dodiya</h4>
+                                                    <h3><a href="#">Chief Media Officer</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -850,10 +851,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img3.jpg" alt="image">
+                                                <img src="assets/img/Our team/Neha.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Neha Malvi</h4>
+                                                    <h3><a href="#">Social Media Manager</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -864,10 +865,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
+                                                <img src="assets/img/Our team/Twisha.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Twisha Joshi</h4>
+                                                    <h3><a href="#">Graphic Designer</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -875,10 +876,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/Our team/1.png" alt="Finance Team">
+                                        <img src="assets/img/Our team/Nidhi.png" alt="Finance Team">
                                         <div class="overlay-title">
-                                            <h4>Finance</h4>
-                                            <h3><a href="#">Financial Planning</a></h3>
+                                            <h4>Nidhi Dattani</h4>
+                                            <h3><a href="#">Web Developer</a></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -887,10 +888,10 @@ include 'header.php';
                             <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/Our team/2.png" alt="Human Resources">
+                                        <img src="assets/img/Our team/Vidhya.png" alt="Human Resources">
                                         <div class="overlay-title">
-                                            <h4>Human Resources</h4>
-                                            <h3><a href="#">HR Management</a></h3>
+                                            <h4>Vidya Sinha</h4>
+                                            <h3><a href="#">Web Developer</a></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -899,10 +900,10 @@ include 'header.php';
                             <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/Our team/3.png" alt="IT Support">
+                                        <img src="assets/img/Our team/Preya.png" alt="IT Support">
                                         <div class="overlay-title">
-                                            <h4>IT Support</h4>
-                                            <h3><a href="#">Technical Assistance</a></h3>
+                                            <h4>Preya Sanghavi</h4>
+                                            <h3><a href="#">Web Developer</a></h3>
                                         </div>
                                     </div>
                                 </div>
@@ -911,9 +912,64 @@ include 'header.php';
                             <div class="swiper-slide">
                                 <div class="project-two__single">
                                     <div class="project-two__single-img">
-                                        <img src="assets/img/project/project-two__img4.jpg" alt="Creative Team">
+                                        <img src="assets/img/Our team/Vidhisha.png" alt="Creative Team">
                                         <div class="overlay-title">
-                                            <h4>Creative Team</h4>
+                                            <h4>Vidhisha Maradiya</h4>
+                                            <h3><a href="#">Web Developer</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/Our team/Arshdeep.png" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Arshdeep Singh Makhija</h4>
+                                            <h3><a href="#">Video Editor</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/Our team/Shreel.png" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Shreel Faldu</h4>
+                                            <h3><a href="#">Web Developer</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/Our team/Jyoti.png" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Jyoti Karamchandani</h4>
+                                            <h3><a href="#">Content Creation</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/Our team/Niyati.png" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Niyati Ambaliya</h4>
+                                            <h3><a href="#">Content Creation</a></h3>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="project-two__single">
+                                    <div class="project-two__single-img">
+                                        <img src="assets/img/Our team/Jamila.png" alt="Creative Team">
+                                        <div class="overlay-title">
+                                            <h4>Jamila Malkani</h4>
                                             <h3><a href="#">Content Creation</a></h3>
                                         </div>
                                     </div>
@@ -1414,14 +1470,9 @@ include 'header.php';
                 <img src="assets/img/shape/blog-three__shape2.png" alt="shapes">
             </div>
             <div class="container">
-                <div class="sec-title-three text-center">
-                    <!-- <div class="sub-title">
-                        <h4>Blog & Airticle</h4>
-                    </div> -->
-                    <h2>
+                    <h2 class="sec-title-three text-center">
                         View Our Latest Content  
                     </h2>
-                </div>
                 <div class="row">
 
                     <!--Start Single Blog Three-->
