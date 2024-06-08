@@ -199,7 +199,8 @@ include 'header.php';
                                     <h3><a href="#">Amar Estate Agency</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>Ghar, Home, Familiarity</p>
+                                    <p>Trusted name in real estate since 1981
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -772,7 +773,7 @@ include 'header.php';
                         <h4>Cases Studies</h4>
                     </div> -->
                     <h2>
-                        Our Team 
+                        Squad Spotlight 
                     </h2>
                 </div>
                 <div class="row">
@@ -1471,7 +1472,7 @@ include 'header.php';
             </div>
             <div class="container">
                     <h2 class="sec-title-three text-center">
-                        View Our Latest Content  
+                        Catch the Latest Buzz  
                     </h2>
                 <div class="row">
 
@@ -1592,5 +1593,5 @@ include 'header.php';
         </section>
         <!--End Blog Three-->
 <?php
-        include 'footer.php';
+    include 'footer.php';
 ?>

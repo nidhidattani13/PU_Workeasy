@@ -85,7 +85,7 @@ include 'header.php';
                         <p>Your email address will not be published. Required fields are marked *</p>
                     </div>
                     <div class="contact-page__bottom-form-inner-box">
-                        <form class="contact-page__form" action="" method="post" enctype="multipart/form-data">
+                    <form class="contact-page__form" action="send_mail.php" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
@@ -116,15 +116,8 @@ include 'header.php';
                                         <textarea name="message" placeholder="Write Message*" id="message" required></textarea>
                                     </div>
                                     <div class="contact-page__btn">
-<<<<<<< HEAD
-                                        <button class="thm-btn" type="submit" data-loading-text="Please wait...">
-                                            <span class="txt">
-                                                Send Message 
-                                            </span>
-=======
                                         <button class="thm-btn" name="submit" type="submit" data-loading-text="Please wait...">
                                             <span class="txt">Send Message</span>
->>>>>>> 19063aab5dd924eceb200ed21daf30235b1d0b28
                                         </button>
                                     </div>
                                 </div>
