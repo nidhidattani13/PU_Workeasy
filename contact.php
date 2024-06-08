@@ -1,9 +1,7 @@
-
 <?php include_once('contact-mail.php'); ?>
-<?php
-include 'header.php';
-<<<<<<< HEAD
+<?php include 'header.php'; ?>
 
+<?php
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     // Get form data
     $name = strip_tags(trim($_POST["name"]));
@@ -43,10 +41,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-=======
->>>>>>> 5be8468cd6093b4564e761341c2279583cafa99f
 ?>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
+<link rel="stylesheet" href="assets/css/public.css">
 <!-- Start Page Header -->
 <section class="page-header">
     <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
@@ -102,6 +100,18 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <div class="content-box">
                                             <h4>Email</h4>
                                             <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-page__top-content-bottom">
+                                        <h4><br>Connect with US</h4>
+                                        <!-- Social Media Icons -->
+                                        <div class="large-social-icons">
+                                            <br>
+                                            <a href="https://www.facebook.com/pavakunadkat/" class="fa fa-facebook"></a>
+                                            <a href="https://x.com/pavakunadkat" class="fa fa-twitter"></a>
+                                            <a href="https://www.instagram.com/pavak.unadkat/?hl=en" class="fa fa-instagram"></a>
+                                            <a href="https://www.youtube.com/@pavak.unadkat?app=desktop" class="fa fa-youtube"></a>
+                                            <a href="https://in.linkedin.com/in/pavakunadkat" class="fa fa-linkedin"></a>
                                         </div>
                                     </div>
                                 </li>
@@ -175,6 +185,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 </section>
 <!-- End Contact Page -->
 
-<?php
-include 'footer.php';
-?>
+<?php include 'footer.php'; ?>
