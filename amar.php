@@ -27,9 +27,11 @@
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
                             <div class="service-details__img-box1">
-                                <div class="img-box">
-                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
-                                </div>
+                            <div class="col-xl-6 col-lg-6">
+                                        <div class="img-box">
+                                            <img src="assets/img/service/service-details__img2.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 <div class="content-box">
                                     <h2>Amar Estate Agency</h2>
                                     <h4><i>Ghar, home, familiarity</i></h4></br>

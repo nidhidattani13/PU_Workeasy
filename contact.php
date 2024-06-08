@@ -1,9 +1,55 @@
-
 <?php include_once('contact-mail.php'); ?>
+<<<<<<< HEAD
+<?php include 'header.php'; ?>
+
+<?php
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+    // Get form data
+    $name = strip_tags(trim($_POST["name"]));
+    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
+    $phone = strip_tags(trim($_POST["phone"]));
+    $subject = strip_tags(trim($_POST["subject"]));
+    $message = trim($_POST["message"]);
+
+    // Check that data was sent to the mailer.
+    if (empty($name) || empty($email) || empty($phone) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        $response_message = "Please complete the form and try again.";
+        $response_code = 400;
+    } else {
+        // Set the recipient email address.
+        $recipient = "dattaninidhi37@gmail.com";
+        $email_subject = "New contact from $name: $subject";
+        $email_content = "Name: $name\nEmail: $email\nPhone: $phone\n\nMessage:\n$message\n";
+        $email_headers = "From: $name <$email>";
+
+        // Send the email to the recipient
+        if (mail($recipient, $email_subject, $email_content, $email_headers)) {
+            // Send a copy to the user
+            $copy_subject = "Copy of your contact form submission: $subject";
+            $copy_content = "Dear $name,\n\nThank you for reaching out to us. Here is a copy of your message:\n\n$email_content";
+            $copy_headers = "From: your_email@example.com";
+
+            if (mail($email, $copy_subject, $copy_content, $copy_headers)) {
+                $response_message = "Thank you! Your message has been sent and a copy has been emailed to you.";
+                $response_code = 200;
+            } else {
+                $response_message = "Thank you! Your message has been sent, but we couldn't send a copy to your email.";
+                $response_code = 200;
+            }
+        } else {
+            $response_message = "Oops! Something went wrong, we couldn't send your message.";
+            $response_code = 500;
+        }
+    }
+}
+=======
 <?php
 include 'header.php';
+>>>>>>> 9d95787a8fab0990f7b34926796d6e3c0b9217d1
 ?>
-
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
+<link rel="stylesheet" href="assets/css/public.css">
 <!-- Start Page Header -->
 <section class="page-header">
     <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
@@ -59,6 +105,18 @@ include 'header.php';
                                         <div class="content-box">
                                             <h4>Email</h4>
                                             <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
+                                        </div>
+                                    </div>
+                                    <div class="contact-page__top-content-bottom">
+                                        <h4><br>Connect with US</h4>
+                                        <!-- Social Media Icons -->
+                                        <div class="large-social-icons">
+                                            <br>
+                                            <a href="https://www.facebook.com/pavakunadkat/" class="fa fa-facebook"></a>
+                                            <a href="https://x.com/pavakunadkat" class="fa fa-twitter"></a>
+                                            <a href="https://www.instagram.com/pavak.unadkat/?hl=en" class="fa fa-instagram"></a>
+                                            <a href="https://www.youtube.com/@pavak.unadkat?app=desktop" class="fa fa-youtube"></a>
+                                            <a href="https://in.linkedin.com/in/pavakunadkat" class="fa fa-linkedin"></a>
                                         </div>
                                     </div>
                                 </li>
@@ -132,6 +190,4 @@ include 'header.php';
 </section>
 <!-- End Contact Page -->
 
-<?php
-include 'footer.php';
-?>
+<?php include 'footer.php'; ?>

@@ -51,13 +51,12 @@ include 'header.php';
                                 </span>
                             </a> -->
                             <div class="large-social-icons">
-                            <a href="#" class="fa fa-facebook"></a>
-                            <a href="#" class="fa fa-twitter"></a>
-                            <a href="#" class="fa fa-instagram"></a>
-                            <a href="#" class="fa fa-youtube"></a>
-                            <a href="#" class="fa fa-linkedin"></a>
-                            
-    </div>
+                            <a href="https://www.facebook.com/pavakunadkat/" class="fa fa-facebook"></a>
+                            <a href="https://x.com/pavakunadkat" class="fa fa-twitter"></a>
+                            <a href="https://www.instagram.com/pavak.unadkat/?hl=en" class="fa fa-instagram"></a>
+                            <a href="https://www.youtube.com/@pavak.unadkat?app=desktop" class="fa fa-youtube"></a>
+                            <a href="https://in.linkedin.com/in/pavakunadkat" class="fa fa-linkedin"></a>
+                            </div>
                             <div class="video-gallery">
                                 <div class="icon wow zoomIn animated" data-wow-delay="300ms" data-wow-duration="1500ms">
                                     <a class="video-popup" title="Video Gallery"
