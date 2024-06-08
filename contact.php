@@ -1,4 +1,5 @@
 <?php include_once('contact-mail.php'); ?>
+<<<<<<< HEAD
 <?php include 'header.php'; ?>
 
 <?php
@@ -41,6 +42,10 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
+=======
+<?php
+include 'header.php';
+>>>>>>> 9d95787a8fab0990f7b34926796d6e3c0b9217d1
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
@@ -138,39 +143,46 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>Your email address will not be published. Required fields are marked *</p>
                     </div>
                     <div class="contact-page__bottom-form-inner-box">
-                        <form class="contact-page__form" method="post" enctype="multipart/form-data">
+                        <form class="contact-page__form" action="" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
-                                        <input type="text" placeholder="Your Name*" name="name" required>
+                                        <input type="text" placeholder="Your Name*" id="fullname" name="name" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
-                                        <input type="email" placeholder="Your Email*" name="email" required>
+                                        <input type="email" placeholder="Your Email*" id="email_address" name="email" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
-                                        <input type="text" placeholder="Phone*" name="phone" required>
+                                        <input type="tel" maxlength="10" placeholder="Phone*" id="phone" name="phone" required>
                                     </div>
                                 </div>
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
-                                        <input type="text" placeholder="Subject*" name="subject" required>
+                                        <input type="text" placeholder="Subject*" id="subject" name="subject" required>
                                     </div>
                                 </div>
                             </div>
                             <div class="row">
                                 <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12">
                                     <div class="contact-page__input-box">
-                                        <textarea name="message" placeholder="Write Message*" required></textarea>
+                                        <textarea name="message" placeholder="Write Message*" id="message" required></textarea>
                                     </div>
                                     <div class="contact-page__btn">
+<<<<<<< HEAD
+                                        <button class="thm-btn" type="submit" data-loading-text="Please wait...">
+                                            <span class="txt">
+                                                Send Message 
+                                            </span>
+=======
                                         <button class="thm-btn" name="submit" type="submit" data-loading-text="Please wait...">
                                             <span class="txt">Send Message</span>
+>>>>>>> 19063aab5dd924eceb200ed21daf30235b1d0b28
                                         </button>
                                     </div>
                                 </div>
