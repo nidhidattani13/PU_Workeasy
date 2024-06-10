@@ -34,11 +34,11 @@
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Amar Estate Agency</h2>
+                    <h2>Su Vaat Che</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">Amar Estate Agency</li>
+                        <li class="color-base">Su Vaat Che</li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +47,7 @@
 
         <!--Start Service Details-->
         <section class="service-details">
-        <h1>Amar Estate Agency</h1>
+        <h1>Su Vaat Che</h1>
             <div class="container">
                 <div class="row">
 
@@ -62,7 +62,8 @@
                                         </div>
                                     </div>
                                 <div class="content-box">
-                                    <h2>Su Vaat Che</h2>
+                                    
+                                    <!-- <h2>Su Vaat Che</h2> -->
                                     <h4><i>Baatein aur mulakatein aisi, aap kahoge Su Vaat Che!</i></h4></br>
                                     <p>
                                     A bg voice for the noise in your head. A window into stories, pockets of knowledge and anecdotes to learn from.  

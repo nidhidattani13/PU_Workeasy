@@ -291,13 +291,8 @@
     <script src="assets/vendor/jarallax/jarallax.min.js"></script>
     <script src="assets/vendor/marquee/marquee.min.js"></script>
     <script src="assets/vendor/odometer/odometer.min.js"></script>
-
-
-
-
     <script src="assets/js/main.js"></script>
-
-
+    <script src="assets/js/timeline.js"></script>
 </body>
 
 </html>
