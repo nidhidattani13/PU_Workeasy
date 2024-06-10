@@ -252,7 +252,8 @@ include 'header.php';
                                     <h3><a href="#">Amar Estate Agency</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>Ghar, Home, Familiarity</p>
+                                    <p>Trusted name in real estate since 1981
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -718,10 +719,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -732,10 +733,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -746,10 +747,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img3.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -760,10 +761,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -825,7 +826,7 @@ include 'header.php';
                         <h4>Cases Studies</h4>
                     </div> -->
                     <h2>
-                        Our Team 
+                        Squad Spotlight 
                     </h2>
                 </div>
                 <div class="row">
@@ -955,7 +956,7 @@ include 'header.php';
                                     <div class="project-two__single-img">
                                         <img src="assets/img/Our team/Preya.png" alt="IT Support">
                                         <div class="overlay-title">
-                                            <h4>Preya Sanghavi</h4>
+                                            <h4>Preya Sanghvi</h4>
                                             <h3><a href="#">Web Developer</a></h3>
                                         </div>
                                     </div>
@@ -1524,7 +1525,7 @@ include 'header.php';
             </div>
             <div class="container">
                     <h2 class="sec-title-three text-center">
-                        View Our Latest Content  
+                        Catch the Latest Buzz  
                     </h2>
                 <div class="row">
 
@@ -1645,5 +1646,5 @@ include 'header.php';
         </section>
         <!--End Blog Three-->
 <?php
-        include 'footer.php';
+    include 'footer.php';
 ?>

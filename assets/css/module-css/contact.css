@@ -179,7 +179,10 @@ Contact Page Css
 }
 
 .contact-page__form input[type="text"],
-.contact-page__form input[type="email"] {
+.contact-page__form input[type="email"],
+.contact-page__form input[type="tel"]
+
+ {
     color: var(--thm-body-font-color);
     font-size: 16px;
     font-weight: 400;

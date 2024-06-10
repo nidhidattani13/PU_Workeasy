@@ -7,7 +7,7 @@
     position: relative;
     display: block;
     background: var(--thm-black);
-    padding: 282px 0px 133px;
+    padding: 170px 0px 50px;
     z-index: 1;
 }
 
@@ -38,6 +38,7 @@
     font-weight: 700;
     text-transform: capitalize;
     margin-bottom: 26px;
+    margin-top: 20px;
 }
 
 

@@ -1,47 +1,5 @@
-<?php include_once('contact-mail.php'); ?>
 <?php include 'header.php'; ?>
-
-<?php
-if ($_SERVER["REQUEST_METHOD"] == "POST") {
-    // Get form data
-    $name = strip_tags(trim($_POST["name"]));
-    $email = filter_var(trim($_POST["email"]), FILTER_SANITIZE_EMAIL);
-    $phone = strip_tags(trim($_POST["phone"]));
-    $subject = strip_tags(trim($_POST["subject"]));
-    $message = trim($_POST["message"]);
-
-    // Check that data was sent to the mailer.
-    if (empty($name) || empty($email) || empty($phone) || empty($subject) || empty($message) || !filter_var($email, FILTER_VALIDATE_EMAIL)) {
-        $response_message = "Please complete the form and try again.";
-        $response_code = 400;
-    } else {
-        // Set the recipient email address.
-        $recipient = "dattaninidhi37@gmail.com";
-        $email_subject = "New contact from $name: $subject";
-        $email_content = "Name: $name\nEmail: $email\nPhone: $phone\n\nMessage:\n$message\n";
-        $email_headers = "From: $name <$email>";
-
-        // Send the email to the recipient
-        if (mail($recipient, $email_subject, $email_content, $email_headers)) {
-            // Send a copy to the user
-            $copy_subject = "Copy of your contact form submission: $subject";
-            $copy_content = "Dear $name,\n\nThank you for reaching out to us. Here is a copy of your message:\n\n$email_content";
-            $copy_headers = "From: your_email@example.com";
-
-            if (mail($email, $copy_subject, $copy_content, $copy_headers)) {
-                $response_message = "Thank you! Your message has been sent and a copy has been emailed to you.";
-                $response_code = 200;
-            } else {
-                $response_message = "Thank you! Your message has been sent, but we couldn't send a copy to your email.";
-                $response_code = 200;
-            }
-        } else {
-            $response_message = "Oops! Something went wrong, we couldn't send your message.";
-            $response_code = 500;
-        }
-    }
-}
-?>
+<?php include_once('contact-mail.php'); ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
 <style>
@@ -143,7 +101,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <div class="icon-box"><span class="icon-phone-call"></span></div>
                                         <div class="content-box">
                                             <h4>Phone</h4>
-                                            <p><a href="tel:123456789">09 (354) 587 874</a> or <a href="tel:123456789">10 (698) 852 741</a></p>
+                                            <p><a href="tel:9979910101">+91 - 997 991 0101</a></p>
                                         </div>
                                     </div>
                                 </li>
@@ -152,7 +110,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <div class="icon-box"><span class="icon-email"></span></div>
                                         <div class="content-box">
                                             <h4>Email</h4>
-                                            <p><a href="mailto:info@example.com">info@example.com</a> or <a href="mailto:info@example.com">info@example.com</a></p>
+                                            <p><a href="pavakdunadkat@gmail.com">pavakdunadkat@gmail.com</a></p>
                                         </div>
                                     </div>
                                     <div class="contact-page__top-content-bottom">
@@ -191,7 +149,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                         <p>Your email address will not be published. Required fields are marked *</p>
                     </div>
                     <div class="contact-page__bottom-form-inner-box">
-                        <form class="contact-page__form" action="" method="post" enctype="multipart/form-data">
+                    <form class="contact-page__form" action="send_mail.php" method="post" enctype="multipart/form-data">
                             <div class="row">
                                 <div class="col-xl-6 col-lg-6 col-md-6 col-sm-12">
                                     <div class="contact-page__input-box">
@@ -222,10 +180,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                                         <textarea name="message" placeholder="Write Message*" id="message" required></textarea>
                                     </div>
                                     <div class="contact-page__btn">
-                                        <button class="thm-btn" type="submit" data-loading-text="Please wait...">
-                                            <span class="txt">
-                                                Send Message 
-                                            </span>
+                                        <button class="thm-btn" name="submit" type="submit" data-loading-text="Please wait...">
+                                            <span class="txt">Send Message</span>
                                         </button>
                                     </div>
                                 </div>
