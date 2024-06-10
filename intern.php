@@ -2,6 +2,7 @@
         include 'header.php';
         ?>
 
+
 <style>            
 
 .service-details__img-box1 {
@@ -34,7 +35,7 @@
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h1>Yo Internships</h1>
+                    <h2>Yo Internships</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
@@ -62,10 +63,9 @@
                                         </div>
                                     </div>
                                 <div class="content-box">
-                                    <!-- <h2>Yo Internships</h2> -->
-                                    <h4><i>Empowering Futures with Hands-On Experience</i></h4></br>
+                                    <h4><i>Hands-On Growth</i></h4></br>
                                     <p>
-                                    Yo Internships breaks the cycle of unemployment by offering diverse internship opportunities. We help students and young adults gain practical experience, enhancing their employability in booming economies. Start your career revival with us today!                       
+                                    Varied internships for hands-on experience and career readiness.
                                     </p>
                                     <ul class="list-item clearfix">
                                         <li>
