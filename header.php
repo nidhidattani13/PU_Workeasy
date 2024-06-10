@@ -29,6 +29,7 @@
     <link rel="stylesheet" href="assets/vendor/odometer/odometer.min.css">
     <link rel="stylesheet" href="assets/fonts/gilroy/stylesheet.css">
 
+    <link rel="stylesheet" href="assets/css/timeline.css">
     <link rel="stylesheet" href="assets/css/style.css">
     <link rel="stylesheet" href="assets/css/color1.css">
     <link rel="stylesheet" href="assets/css/responsive.css">
