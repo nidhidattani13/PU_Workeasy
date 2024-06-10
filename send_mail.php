@@ -35,19 +35,55 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Content
         $mail->isHTML(true); // Set email format to HTML
         $mail->Subject = $subject;
-        $mail->Body    = "
-        <html>
-        <head>
-            <title>$subject</title>
-        </head>
-        <body>
-            <p><strong>Name:</strong> $name</p>
-            <p><strong>Email:</strong> $email</p>
-            <p><strong>Phone:</strong> $phone</p>
-            <p><strong>Message:</strong></p>
-            <p>$message</p>
-        </body>
-        </html>";
+        $mail->Body    = 
+        "
+            <html>
+            <head>
+                <style>
+                    table {
+                        border-collapse: collapse;
+                        width: 100%;
+                    }
+                    th, td {
+                        border: 1px solid #dddddd;
+                        text-align: left;
+                        padding: 8px;
+                    }
+                    th {
+                        background-color: #f2f2f2;
+                    }
+                </style>
+            </head>
+            <body>
+                <h2>Form Submission Details</h2>
+                <table>
+                    <tr>
+                        <th>Field</th>
+                        <th>Value</th>
+                    </tr>
+                    <tr>
+                        <td>Name</td>
+                        <td>$name</td>
+                    </tr>
+                    <tr>
+                        <td>Email</td>
+                        <td>$email</td>
+                    </tr>
+                    <tr>
+                        <td>Phone</td>
+                        <td>$phone</td>
+                    </tr>
+                    <tr>
+                        <td>Subject</td>
+                        <td>$subject</td>
+                    </tr>
+                    <tr>
+                        <td>Message</td>
+                        <td>$message</td>
+                    </tr>
+                </table>
+            </body>
+            </html>";
         $mail->AltBody = strip_tags($message);
 
         $mail->send();

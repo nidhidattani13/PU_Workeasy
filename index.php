@@ -665,10 +665,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img1.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -679,10 +679,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img2.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -693,10 +693,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img3.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -707,10 +707,10 @@ include 'header.php';
                                     <div class="swiper-slide">
                                         <div class="project-two__single">
                                             <div class="project-two__single-img">
-                                                <img src="assets/img/project/project-two__img4.jpg" alt="image">
+                                                <img src="assets/img/project/Comingsoon.png" alt="image">
                                                 <div class="overlay-title">
-                                                    <h4>Marketing</h4>
-                                                    <h3><a href="#">Digital Marketing Growth</a></h3>
+                                                    <h4>Podcast</h4>
+                                                    <h3><a href="#">Su Vaat Che</a></h3>
                                                 </div>
                                             </div>
                                         </div>
@@ -902,7 +902,7 @@ include 'header.php';
                                     <div class="project-two__single-img">
                                         <img src="assets/img/Our team/Preya.png" alt="IT Support">
                                         <div class="overlay-title">
-                                            <h4>Preya Sanghavi</h4>
+                                            <h4>Preya Sanghvi</h4>
                                             <h3><a href="#">Web Developer</a></h3>
                                         </div>
                                     </div>
