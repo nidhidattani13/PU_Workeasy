@@ -6,7 +6,6 @@
 
 }
 
-
 /* .overlay-title {
     position: absolute;
     bottom: 20px;
@@ -282,53 +281,3 @@
     color: green;
 }
 
-.large-social-icons .fa {
-    padding: 10px;
-    font-size: 15px; /* Increase the font size */
-    width: auto;
-    text-align: center;
-    text-decoration: none;
-    margin: 0 10px; /* Adjust spacing between icons */
-    display: inline-block; /* Ensure the icons are inline-block */
-    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
-}
-
-.large-social-icons .fa:hover {
-    opacity: 0.7;
-    color: #555; /* Change the color on hover */
-    transform: scale(1.1); /* Slightly enlarge the icon on hover */
-}
-
-/* Set a specific color for each brand */
-
-/* Facebook */
-.large-social-icons .fa-facebook {
-    background: #3B5998;
-    color: white;
-}
-
-/* Twitter */
-.large-social-icons .fa-twitter {
-    background: #55ACEE;
-    color: white;
-}
-
-/* Instagram */
-.large-social-icons .fa-instagram {
-    background: #E1306C;
-    color: white;
-}
-
-/* YouTube */
-.large-social-icons .fa-youtube {
-    background: #FF0000;
-    color: white;
-}
-
-/* LinkedIn */
-.large-social-icons .fa-linkedin {
-    background: #0077B5;
-    color: white;
-}
-
-  

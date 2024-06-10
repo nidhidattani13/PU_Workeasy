@@ -2,17 +2,43 @@
         include 'header.php';
         ?>
 
+<style>            
+
+.service-details__img-box1 {
+    display: flex;
+}
+.content-box{
+    display: flex;
+    padding: 50px;
+}
+.service-details {
+  padding: 20px; /* Adds padding inside the section */
+  border: 1px solid #ddd; /* Adds a light border around the section */
+  background-color: #f9f9f9; /* Light background color for the section */
+}
+
+.service-details h1 {
+  text-align: left; /* Ensures the h2 is left-aligned */
+  margin: 0 0 20px 100px; /* Removes top margin and adds bottom margin */
+  font-size: 3.2rem; /* Increases the font size */
+  font-weight: bold; /* Makes the font bold */
+  color: #333; /* Sets the font color */
+  padding: 10px 0; /* Adds padding to the top and bottom of the h2 */
+}
+</style>
+
+
         <!--Start Page Header-->
         <section class="page-header">
             <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>WorkEasy</h2>
+                    <h2>Amar Estate Agency</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">WorkEasy</li>
+                        <li class="color-base">Amar Estate Agency</li>
                     </ul>
                 </div>
             </div>
@@ -21,15 +47,20 @@
 
         <!--Start Service Details-->
         <section class="service-details">
+        <h1>Amar Estate Agency</h1>
             <div class="container">
                 <div class="row">
 
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
+                        <!-- <h2>Amar Estate Agency</h2> -->
                             <div class="service-details__img-box1">
-                                <div class="img-box">
-                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
-                                </div>
+                            <div class="col-xl-6 col-lg-6">
+                                
+                                        <div class="img-box">
+                                            <img src="assets/img/service/service-details__img2.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 <div class="content-box">
                                     <h2>WorkEasy</h2>
                                     <h4><i>Where Collaboration meets Sustainability in Rajkot's Coactive Coworking Space</i></h4></br>

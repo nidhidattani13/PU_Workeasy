@@ -4,7 +4,61 @@ include 'header.php';
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
-<link rel="stylesheet" href="assets/css/public.css">
+<!-- <link rel="stylesheet" href="assets/css/public.css"> -->
+<style>
+    
+.large-social-icons .fa {
+    padding: 20px;
+    font-size: 30px; /* Increase the font size */
+    width: 70px; /* Ensure width and height are the same */
+    height: 70px; /* Explicitly set the height */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; /* Ensure the icons are circular */
+    margin: 0 ; /* Adjust spacing between icons */
+    display: inline-block; /* Ensure the icons are inline-block */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.large-social-icons .fa:hover {
+    opacity: 0.7;
+    color: #555; /* Change the color on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.large-social-icons .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.large-social-icons .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.large-social-icons .fa-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+/* YouTube */
+.large-social-icons .fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+
+/* LinkedIn */
+.large-social-icons .fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+</style>
         <!--Start Banner Two-->
         <section class="banner-three">
             <div class="banner-three__shape1 float-bob-x">

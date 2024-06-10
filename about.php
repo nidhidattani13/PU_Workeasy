@@ -83,8 +83,88 @@ include 'header.php';
             </div>
             </section>
 
+            <section id=timeline>
+	<h2>Pavak Unadkat</h2>
+	<h1>THE JOURNEY OF BECOMING</h1>
+	<div class="demo-card-wrapper">
+		<div class="demo-card demo-card--step1">
+			<div class="head">
+				<div class="number-box">
+					<span>01</span>
+				</div>
+				<h2>THE INITIATION</h2>
+			</div>
+			<div class="body">
+				<p>Pavak’s first venture was impressive and
+proved he is an entrepreneur at heart and has
+always been. He started off by selling practice
+MCQ booklets for admission to CEPT.</p>
+				<img src="pavak1.png" alt="Graphic">
+			</div>
+		</div>
 
+		<div class="demo-card demo-card--step2">
+			<div class="head">
+				<div class="number-box">
+					<span>02</span>
+				</div>
+				<h2>THE BIG BREAK </h2>
+			</div>
+			<div class="body">
+				<p>“Yaar waffles miss ho rahe hai”
+“Chalo phir khud hi banate hai”
+That's how ‘The Waffling Station’ - waffles on wheels for the first time in Rajkot. Along with
+co-founder and friend Garvesh from Pune, in the October of 2017, The Waffling Station
+was born. Various marketing tactics and the introduction of waffles as a desert in Rajkot
+meant a whooping amount of 26k on the first day itself. Needless to say, The Waffling
+Station proved to be a smashing success. However, the Ahmedabad branch did not follow
+the same trajectory. It provided a valuable lesson in marketing, the same strategies that
+worked for marketing is Rajkot, did not appeal to the people of Ahmedabad.</p>
+				<img src="pavak2.png" alt="Graphic">
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step3">
+			<div class="head">
+				<div class="number-box">
+					<span>03</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Adaptation</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step4">
+			<div class="head">
+				<div class="number-box">
+					<span>04</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Consistency</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
+
+		<div class="demo-card demo-card--step5">
+			<div class="head">
+				<div class="number-box">
+					<span>05</span>
+				</div>
+				<h2><span class="small">Subtitle</span> Conversion</h2>
+			</div>
+			<div class="body">
+				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Soluta reiciendis deserunt doloribus consequatur, laudantium odio dolorum laboriosam.</p>
+				<img src="http://placehold.it/1000x500" alt="Graphic">
+			</div>
+		</div>
     
+	</div>
+</section>
                 <!-- <div class="row">
                     <div class="col-xl-6">
                         <div class="about-three__content">

@@ -55,7 +55,7 @@
                                                 <div class="icon">
                                                     <span class="icon-pin"></span>
                                                 </div>
-                                                <p>WorkEasy Co-Working Space 2nd Floor,Above Jaddu's food field restaurant,<br>
+                                                <p>WorkEasy Co-Working Space 2nd Floor,Above Jaddu's restaurant,<br>
                                                 kalawad Road, Rajkot, Gujarat, India
                                             </p>
                                             </li>

@@ -2,13 +2,39 @@
         include 'header.php';
         ?>
 
+<style>            
+
+.service-details__img-box1 {
+    display: flex;
+}
+.content-box{
+    display: flex;
+    padding: 50px;
+}
+.service-details {
+  padding: 20px; /* Adds padding inside the section */
+  border: 1px solid #ddd; /* Adds a light border around the section */
+  background-color: #f9f9f9; /* Light background color for the section */
+}
+
+.service-details h1 {
+  text-align: left; /* Ensures the h2 is left-aligned */
+  margin: 0 0 20px 100px; /* Removes top margin and adds bottom margin */
+  font-size: 3.2rem; /* Increases the font size */
+  font-weight: bold; /* Makes the font bold */
+  color: #333; /* Sets the font color */
+  padding: 10px 0; /* Adds padding to the top and bottom of the h2 */
+}
+</style>
+
+
         <!--Start Page Header-->
         <section class="page-header">
             <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Yo Internships</h2>
+                    <h1>Yo Internships</h1>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
@@ -21,20 +47,25 @@
 
         <!--Start Service Details-->
         <section class="service-details">
+        <h1>Yo Internships</h1>
             <div class="container">
                 <div class="row">
 
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
+                        <!-- <h2>Amar Estate Agency</h2> -->
                             <div class="service-details__img-box1">
-                                <div class="img-box">
-                                    <img src="assets/img/service/service-details__img6.jpg" alt="image">
-                                </div>
+                            <div class="col-xl-6 col-lg-6">
+                                
+                                        <div class="img-box">
+                                            <img src="assets/img/service/service-details__img2.jpg" alt="image">
+                                        </div>
+                                    </div>
                                 <div class="content-box">
-                                    <h2>Yo Internships</h2>
-                                    <h4><i>Breaking the Cycle of Unemployment with Bold Opportunities</i></h4></br>
+                                    <!-- <h2>Yo Internships</h2> -->
+                                    <h4><i>Empowering Futures with Hands-On Experience</i></h4></br>
                                     <p>
-                                    Articles and videos showcase the plight of young adults grappling with unemployment in booming economies due to a lack of work experience, perpetuating a cycle of failure. Despite the abundance of opportunities, the absence of practical experience hinders their employability. Recognizing this challenge, Yo Internships emerges as a beacon of hope, offering a diverse range of internship opportunities across various fields to empower students and young adults in reviving their careers.                                   
+                                    Yo Internships breaks the cycle of unemployment by offering diverse internship opportunities. We help students and young adults gain practical experience, enhancing their employability in booming economies. Start your career revival with us today!                       
                                     </p>
                                     <ul class="list-item clearfix">
                                         <li>

@@ -1,6 +1,34 @@
 <?php
         include 'header.php';
         ?>
+        <link rel="stylesheet" href="assets/css/public.css">
+
+
+<style>            
+
+.service-details__img-box1 {
+    display: flex;
+}
+.content-box{
+    display: flex;
+    padding: 50px;
+}
+.service-details {
+  padding: 20px; /* Adds padding inside the section */
+  border: 1px solid #ddd; /* Adds a light border around the section */
+  background-color: #f9f9f9; /* Light background color for the section */
+}
+
+.service-details h1 {
+  text-align: left; /* Ensures the h2 is left-aligned */
+  margin: 0 0 20px 100px; /* Removes top margin and adds bottom margin */
+  font-size: 3.2rem; /* Increases the font size */
+  font-weight: bold; /* Makes the font bold */
+  color: #333; /* Sets the font color */
+  padding: 10px 0; /* Adds padding to the top and bottom of the h2 */
+}
+</style>
+
 
         <!--Start Page Header-->
         <section class="page-header">
@@ -21,19 +49,22 @@
 
         <!--Start Service Details-->
         <section class="service-details">
+        <h1>Amar Estate Agency</h1>
             <div class="container">
                 <div class="row">
 
                     <div class="col-xl-8 wow fadeInUp" data-wow-delay=".3s">
                         <div class="service-details__content">
+                        <!-- <h2>Amar Estate Agency</h2> -->
                             <div class="service-details__img-box1">
                             <div class="col-xl-6 col-lg-6">
+                                
                                         <div class="img-box">
                                             <img src="assets/img/service/service-details__img2.jpg" alt="image">
                                         </div>
                                     </div>
                                 <div class="content-box">
-                                    <h2>Amar Estate Agency</h2>
+                                    
                                     <h4><i>Ghar, home, familiarity</i></h4></br>
                                     <p>
                                     A dream home that the youth of every generation imagines to own.                                   

@@ -1,5 +1,4 @@
 <?php include_once('contact-mail.php'); ?>
-<<<<<<< HEAD
 <?php include 'header.php'; ?>
 
 <?php
@@ -42,14 +41,62 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         }
     }
 }
-=======
-<?php
-include 'header.php';
->>>>>>> 9d95787a8fab0990f7b34926796d6e3c0b9217d1
 ?>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" href="path/to/fontawesome/css/all.min.css"> <!-- Ensure FontAwesome is linked -->
-<link rel="stylesheet" href="assets/css/public.css">
+<style>
+    .large-social-icons .fa {
+    padding: 20px;
+    font-size: 30px; /* Increase the font size */
+    width: 70px; /* Ensure width and height are the same */
+    height: 70px; /* Explicitly set the height */
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%; /* Ensure the icons are circular */
+    margin: 0 ; /* Adjust spacing between icons */
+    display: inline-block; /* Ensure the icons are inline-block */
+    transition: color 0.3s ease, transform 0.3s ease; /* Smooth transition for color and transform */
+}
+
+.large-social-icons .fa:hover {
+    opacity: 0.7;
+    color: #555; /* Change the color on hover */
+    transform: scale(1.1); /* Slightly enlarge the icon on hover */
+}
+
+/* Set a specific color for each brand */
+
+/* Facebook */
+.large-social-icons .fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+/* Twitter */
+.large-social-icons .fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+/* Instagram */
+.large-social-icons .fa-instagram {
+    background: linear-gradient(45deg, #f09433, #e6683c, #dc2743, #cc2366, #bc1888);
+    color: white;
+}
+
+/* YouTube */
+.large-social-icons .fa-youtube {
+    background: #FF0000;
+    color: white;
+}
+
+/* LinkedIn */
+.large-social-icons .fa-linkedin {
+    background: #0077B5;
+    color: white;
+}
+
+</style>
 <!-- Start Page Header -->
 <section class="page-header">
     <div class="shape1 rotate-me"><img src="assets/img/shape/page-header-shape1.png" alt=""></div>
@@ -86,7 +133,8 @@ include 'header.php';
                                         <div class="icon-box"><span class="icon-pin"></span></div>
                                         <div class="content-box">
                                             <h4>Address</h4>
-                                            <p>2nd Floor, Cross Roads, Kalavad Rd,<br>above Jaddus Food Field Restaurant,<br>near RPJ Hotel, Jai Bhimnagar,<br>Nana Mava, Rajkot, Gujarat 360001</p>
+                                            <p>WorkEasy Co-Working Space 2nd Floor,Above Jaddu's restaurant, 
+                                                kalawad Road, Rajkot, Gujarat, India</p>
                                         </div>
                                     </div>
                                 </li>
@@ -108,7 +156,7 @@ include 'header.php';
                                         </div>
                                     </div>
                                     <div class="contact-page__top-content-bottom">
-                                        <h4><br>Connect with US</h4>
+                                        <h4><br>Connect with ME</h4>
                                         <!-- Social Media Icons -->
                                         <div class="large-social-icons">
                                             <br>
@@ -174,15 +222,10 @@ include 'header.php';
                                         <textarea name="message" placeholder="Write Message*" id="message" required></textarea>
                                     </div>
                                     <div class="contact-page__btn">
-<<<<<<< HEAD
                                         <button class="thm-btn" type="submit" data-loading-text="Please wait...">
                                             <span class="txt">
                                                 Send Message 
                                             </span>
-=======
-                                        <button class="thm-btn" name="submit" type="submit" data-loading-text="Please wait...">
-                                            <span class="txt">Send Message</span>
->>>>>>> 19063aab5dd924eceb200ed21daf30235b1d0b28
                                         </button>
                                     </div>
                                 </div>
