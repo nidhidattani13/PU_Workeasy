@@ -34,11 +34,11 @@
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Amar Estate Agency</h2>
+                    <h2>LearnEasy</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">Amar Estate Agency</li>
+                        <li class="color-base">LearnEasy</li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +47,7 @@
 
         <!--Start Service Details-->
         <section class="service-details">
-        <h1>Amar Estate Agency</h1>
+        <h1>LearnEasy</h1>
             <div class="container">
                 <div class="row">
 
@@ -62,10 +62,11 @@
                                         </div>
                                     </div>
                                 <div class="content-box">
-                                    <h2>learnEasy</h2>
+                                    
+                                    <!-- <h2>learnEasy</h2> -->
                                     <h4><i>Where Practical Beats Theoretical, Every Time</i></h4></br>
                                     <p>
-                                    LearnEasy is a skill development platform that offers practical, skill based learning, breaking educational barriers.                                    </p>
+                                    LearnEasy is a skill development platform offering practical, skills-based learning, breaking educational barriers.  </p>
                                     <ul class="list-item clearfix">
                                         <li>
                                             <div class="icon">

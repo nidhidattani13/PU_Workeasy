@@ -34,11 +34,11 @@
             <div class="shape2 float-bob-x"><img src="assets/img/shape/page-header-shape2.png" alt=""></div>
             <div class="container">
                 <div class="page-header__inner">
-                    <h2>Amar Estate Agency</h2>
+                    <h2>Pukka Media</h2>
                     <ul class="thm-breadcrumb">
                         <li><a href="index.php"><span class="fa fa-home"></span> Home</a></li>
                         <li><i class="icon-right-arrow-angle"></i></li>
-                        <li class="color-base">Amar Estate Agency</li>
+                        <li class="color-base">Pukka Media</li>
                     </ul>
                 </div>
             </div>
@@ -47,7 +47,7 @@
 
         <!--Start Service Details-->
         <section class="service-details">
-        <h1>Amar Estate Agency</h1>
+        <h1>Pukka Media</h1>
             <div class="container">
                 <div class="row">
 
@@ -62,14 +62,11 @@
                                         </div>
                                     </div>
                                 <div class="content-box">
-                                    <h2>Pukka Media</h2>
-                                    <h4><i>In the heart of the digital revolution, a dream took shape.</i></h4></br>
+                                    
+                                    <!-- <h2>Pukka Media</h2> -->
+                                    <h4><i>Guiding Brands Through the Digital Revolution</i></h4></br>
                                     <p>
-                                    In the heart of the digital revolution, a dream took shape. In 2019, 
-                                    a passionate visionary, Pavak Unadkat, observed a gap in the realm of social media - 
-                                    businesses struggled to voice their uniqueness. With a blend of creativity and entrepreneurial spirit,
-                                     Pavak founded Pukka Media, not just as a media agency but as a beacon to guide brands through the dynamic 
-                                     world of social media. Then, a partnership blossomed.
+                                    In 2019, visionary Pavak Unadkat founded Pukka Media to help businesses voice their uniqueness in social media.
                                     </p>
                                     <ul class="list-item clearfix">
                                         <li>
