@@ -181,7 +181,7 @@ include 'header.php';
                         <div class="service-three__single">
                             <div class="service-three__single-icon">
                                 <span class="icon-design-strategy1">
-                                    <span class="path1"></span><span class="path2"></span>
+                                    <img src="assets/img/icon/skills/1.svg" width="65px" height="auto" alt="">
                                 </span>
                             </div>
                             <div class="service-three__single-content">

@@ -25,7 +25,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->Host       = 'smtp.gmail.com';
         $mail->SMTPAuth   = true;
         $mail->Username   = 'patellusi2305@gmail.com'; // SMTP username (your Gmail address)
-        $mail->Password   = 'vpkg jhyl cser giok'; // Your generated App Password
+        $mail->Password   = 'vpkg jhyl cser giok'; // Your generated App Password patellusi/ 
         $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
         $mail->Port       = 587;
 
