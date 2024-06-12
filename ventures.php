@@ -33,11 +33,8 @@ include 'header.php';
             </div>
             <div class="container">
                 <div class="sec-title-three text-center">
-                    <div class="sub-title">
-                        <h4>Featured Services</h4>
-                    </div>
                     <h2>
-                        What We Offer For You
+                        My Cool Ventures
                     </h2>
                 </div>
                 <div class="row">
@@ -78,7 +75,7 @@ include 'header.php';
                                     <h3><a href="learneasy.php">LearnEasy</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>Skill up, rise up!</p>
+                                    <p>Learn with Ease Succeed with Skill</p>
                                 </div>
                             </div>
                         </div>
@@ -120,7 +117,8 @@ include 'header.php';
                                     <h3><a href="#">Amar Estate Agency</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>Ghar, Home, Familiarity</p>
+                                    <p>Trusted name in real estate since 1981
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -141,7 +139,7 @@ include 'header.php';
                                     <h3><a href="web-development.html">Yo Internships</a></h3>
                                 </div>
                                 <div class="text">
-                                    <p><br>This is where you start.. </br></p>
+                                    <p>Your Matchmaker to find the perfect internship</p>
                                 </div>
                             </div>
                         </div>
@@ -166,6 +164,10 @@ include 'header.php';
                         </div>
                     </div>
                     <!--End Single Service Three-->
+                </div>
+            </div>
+        </section>
+        <!--End Service Three-->
                 </div>
             </div>
         </section>

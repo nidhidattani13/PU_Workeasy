@@ -105,11 +105,11 @@ include 'header.php';
                                 </span>
                             </a> -->
                             <div class="large-social-icons">
+                            <a href="https://www.instagram.com/pavak.unadkat/?hl=en" class="fa fa-instagram"></a>
+                            <a href="https://in.linkedin.com/in/pavakunadkat" class="fa fa-linkedin"></a>
+                            <a href="https://www.youtube.com/@pavak.unadkat?app=desktop" class="fa fa-youtube"></a>
                             <a href="https://www.facebook.com/pavakunadkat/" class="fa fa-facebook"></a>
                             <a href="https://x.com/pavakunadkat" class="fa fa-twitter"></a>
-                            <a href="https://www.instagram.com/pavak.unadkat/?hl=en" class="fa fa-instagram"></a>
-                            <a href="https://www.youtube.com/@pavak.unadkat?app=desktop" class="fa fa-youtube"></a>
-                            <a href="https://in.linkedin.com/in/pavakunadkat" class="fa fa-linkedin"></a>
                             
                             </div>
                             <div class="video-gallery">

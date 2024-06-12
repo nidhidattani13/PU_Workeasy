@@ -1,8 +1,9 @@
 <?php
+// Include Composer's autoload file
+require 'vendor/autoload.php';
+
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\Exception;
-
-require 'vendor/autoload.php'; // Adjust this path if you're not using Composer
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $name = filter_var($_POST['name'], FILTER_SANITIZE_STRING);
@@ -25,18 +26,19 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         $mail->SMTPAuth   = true;
         $mail->Username   = 'patellusi2305@gmail.com'; // SMTP username (your Gmail address)
         $mail->Password   = 'vpkg jhyl cser giok'; // Your generated App Password
-        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS; // Enable TLS encryption
-        $mail->Port       = 587; // TCP port to connect to
+        $mail->SMTPSecure = PHPMailer::ENCRYPTION_STARTTLS;
+        $mail->Port       = 587;
 
         // Recipients
         $mail->setFrom($email, $name);
-        $mail->addAddress('patellusi2305@gmail.com'); // Add a recipient (your email address)
+        $mail->addAddress('patellusi2305@gmail.com'); // Your email address to receive submissions
 
         // Content
-        $mail->isHTML(true); // Set email format to HTML
+        $mail->isHTML(true);
         $mail->Subject = $subject;
-        $mail->Body    = 
-        "
+
+        // Email body with table format
+        $mail->Body = "
             <html>
             <head>
                 <style>
@@ -84,7 +86,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
                 </table>
             </body>
             </html>";
-        $mail->AltBody = strip_tags($message);
+
+        $mail->AltBody = "Name: $name\nEmail: $email\nPhone: $phone\nSubject: $subject\nMessage: $message";
 
         $mail->send();
         echo 'Message has been sent';
