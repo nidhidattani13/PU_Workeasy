@@ -1,5 +1,7 @@
 <<<<<<< HEAD
 =======
+<<<<<<< HEAD
+=======
 /* Media Queries */
 /* Card sizing */
 /* Colors */
@@ -57,6 +59,7 @@
 
 /* Fonts */
 >>>>>>> 0a1602ceb3c15e1d7ec8c872556088e727cbb90a
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 body {
   background-color: #000;
 
@@ -104,11 +107,19 @@ img {
 .ag-format-container {
   width: 1160px;
   margin: 0 auto;
+<<<<<<< HEAD
+
+=======
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
   position: relative;
 }
 
 .ag-timeline-block {
+<<<<<<< HEAD
+  padding: 300px 0;
+=======
   padding: 0 0;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 .ag-timeline_title-box {
   padding: 0 0 30px;
@@ -120,8 +131,22 @@ img {
   color: rgb(84, 89, 95);
 }
 .ag-timeline_title {
+<<<<<<< HEAD
+  background-image: url(https://raw.githubusercontent.com/SochavaAG/example-mycode/master/pens/timeline/images/bg.jpg);
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+
+  background-size: cover;
+  -webkit-background-clip: text;
+  background-clip: text;
+  /* text-fill-color: transparent; */
+  color: transparent;
+
+  font-size: 80px;
+=======
   font-size: 80px;
   line-height: 1;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 
 .ag-timeline_item {
@@ -144,6 +169,10 @@ img {
 .ag-timeline_line {
   width: 2px;
   background-color: #393935;
+<<<<<<< HEAD
+
+=======
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
   position: absolute;
   top: 2px;
   left: 50%;
@@ -161,7 +190,11 @@ img {
 .ag-timeline_line-progress {
   width: 100%;
   height: 20%;
+<<<<<<< HEAD
+  background-color: #FF0;
+=======
   background-color: #d4f161;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 
 .ag-timeline-card_box {
@@ -181,7 +214,11 @@ img {
   height: 50px;
   line-height: 50px;
   width: 50px;
+<<<<<<< HEAD
+  border: 3px solid #FF0;
+=======
   border: 3px solid #d4f161;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
   background-color: #1d1d1b;
 
   text-align: center;
@@ -195,7 +232,11 @@ img {
 }
 .js-ag-active .ag-timeline-card_point {
   color: #1d1d1b;
+<<<<<<< HEAD
+  background-color: #FF0;
+=======
   background-color: #d4f161;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 .ag-timeline-card_meta-box {
   display: inline-block;
@@ -206,7 +247,11 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
+<<<<<<< HEAD
+  color: #FF0;
+=======
   color: #d4f161;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 .ag-timeline-card_item {
   display: inline-block;
@@ -296,7 +341,11 @@ img {
   font-family: 'ESL Legend', sans-serif;
   font-weight: bold;
   font-size: 28px;
+<<<<<<< HEAD
+  color: #FF0;
+=======
   color: #d4f161;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
 }
 .ag-timeline-card_desc {
   line-height: 1.45;
@@ -317,7 +366,11 @@ img {
 
   .ag-timeline-card_box,
   .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
+<<<<<<< HEAD
+    padding: 0 0 20px;
+=======
     padding: 0 0 500px;
+>>>>>>> fbc5f082c7f5d21d72ec13aa5d0b4a4edd0cb3e8
   }
   .ag-timeline-card_meta-box {
     display: none;
