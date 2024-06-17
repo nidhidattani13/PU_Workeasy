@@ -202,7 +202,7 @@ $userid_q = $q -> fetch_array(MYSQLI_ASSOC);
                             </div>
                         </div>
                         <a href="index.html">
-                            <img  class="img-fluid ad_logo" src="assets/images/logo.png" alt="Theme-Logo" />
+                            <img  class="img-fluid ad_logo" src="assets/images/logo.png" alt="Theme-Logo"/>
                         </a>
                         <a class="mobile-options waves-effect waves-light">
                             <i class="ti-more"></i>
@@ -352,33 +352,35 @@ $userid_q = $q -> fetch_array(MYSQLI_ASSOC);
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
-                            <li class="">
-                                <a href="profile.php" class="waves-effect waves-dark">
-                                    <span class="pcoded-micon"><i class="ti-comments-smiley"></i></span>
-                                    <span class="pcoded-mtext">Profile</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-                            
-                            <li class="">
+                                                        
+                            <!-- <li class="">
                                 <a href="product.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layout-media-center-alt"></i></span>
                                     <span class="pcoded-mtext">Add workspace</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
-                            </li>
+                            </li> -->
                             
-                            <li class="">
+                            <!-- <li class="">
                                 <a href="testimonial.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layout-list-post"></i></span>
                                     <span class="pcoded-mtext">Testimonial</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
-                            </li>
-                            <li class="">
+                            </li> -->
+                            
+                            <!-- <li class="">
                                 <a href="timeline.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-layout-list-post"></i></span>
                                     <span class="pcoded-mtext">Timeline</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                            </li> -->
+                            
+                            <li class="">
+                                <a href="vlogs.php" class="waves-effect waves-dark">
+                                    <span class="pcoded-micon"><i class="ti-gallery"></i></span>
+                                    <span class="pcoded-mtext">Vlog</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
@@ -387,14 +389,6 @@ $userid_q = $q -> fetch_array(MYSQLI_ASSOC);
                                 <a href="blog.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-gallery"></i></span>
                                     <span class="pcoded-mtext">Blog</span>
-                                    <span class="pcoded-mcaret"></span>
-                                </a>
-                            </li>
-
-                            <li class="">
-                                <a href="vlogs.php" class="waves-effect waves-dark">
-                                    <span class="pcoded-micon"><i class="ti-gallery"></i></span>
-                                    <span class="pcoded-mtext">Vlog</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>
@@ -411,6 +405,14 @@ $userid_q = $q -> fetch_array(MYSQLI_ASSOC);
                                 <a href="new.php" class="waves-effect waves-dark">
                                     <span class="pcoded-micon"><i class="ti-gallery"></i></span>
                                     <span class="pcoded-mtext">What's New</span>
+                                    <span class="pcoded-mcaret"></span>
+                                </a>
+                            </li>
+
+                            <li class="">
+                                <a href="profile.php" class="waves-effect waves-dark">
+                                    <span class="pcoded-micon"><i class="ti-comments-smiley"></i></span>
+                                    <span class="pcoded-mtext">Profile</span>
                                     <span class="pcoded-mcaret"></span>
                                 </a>
                             </li>

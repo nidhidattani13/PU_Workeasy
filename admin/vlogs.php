@@ -210,10 +210,10 @@ if (isset($_POST['add_blog']))
                                             <tbody>
                                                 <?php 
 
-                                                $q= $mysqli -> query("select * from blog");
+                                                $q= $mysqli -> query("select * from vlog");
                                                 $c = 0;
                                                 while($row = $q -> fetch_array(MYSQLI_ASSOC)){
-
+                                                    
                                                     ?>
                                                     <tr>
                                                         <th scope="row"><?php echo ++$c; ?></th>

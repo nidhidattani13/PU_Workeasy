@@ -181,8 +181,8 @@ include 'header.php';
                                     <h5>
                                         <?php
 
-                                        $qp= $mysqli -> query("select * from gallery");
-                                        echo mysqli_num_rows($qp);
+                                        // $qp= $mysqli -> query("select * from gallery");
+                                        // echo mysqli_num_rows($qp);
 
 
                                         ?>

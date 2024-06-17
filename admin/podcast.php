@@ -210,7 +210,7 @@ if (isset($_POST['add_blog']))
                                             <tbody>
                                                 <?php 
 
-                                                $q= $mysqli -> query("select * from blog");
+                                                $q= $mysqli -> query("select * from podcast");
                                                 $c = 0;
                                                 while($row = $q -> fetch_array(MYSQLI_ASSOC)){
 

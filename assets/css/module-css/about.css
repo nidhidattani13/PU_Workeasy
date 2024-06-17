@@ -467,7 +467,6 @@
 .about-three__fact-box {
     position: relative;
     display: block;
-    padding-top: 42px;
 }
 
 .about-three__fact-single {
@@ -524,7 +523,6 @@
     position: relative;
     display: flex;
     align-items: center;
-    padding-top: 30px;
 }
 
 .about-three__img .img-box {

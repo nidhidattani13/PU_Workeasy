@@ -88,13 +88,14 @@ include 'header.php';
                                 <h4>Welcome To Diligent</h4>
                             </div> -->
                             <h2>
-                                Digital Agency<br>For Growth
+                            Kick Off Smart
+                            Learn Wild
+                            Grow Bold 
                             </h2>
                         </div>
                         <div class="text">
                             <p>
-                                There are many variations of passages of available, but the<br>
-                                majority have suffered alterationd.
+                            An inspiring entrepreneur full of joy and relentless hustle
                             </p>
                         </div>
                         <div class="btn-box">
@@ -170,7 +171,7 @@ include 'header.php';
                         <h4>Featured Services</h4>
                     </div> -->
                     <h2>
-                        Ventures 
+                        The Ventures Zone
                     </h2>
                 </div>
                 <div class="row">
@@ -386,9 +387,9 @@ include 'header.php';
                                             <i class="icon-next"></i>
                                         
                                         </a>
-                                        <div class="banner-three__shape1 float-bob-x">
-                <img src="assets/img/shape/banner-three__shape1.png" alt="shapes">
-            </div>
+                                        <!-- <div class="banner-three__shape1 float-bob-x">
+                                            <img src="assets/img/shape/banner-three__shape1.png" alt="shapes">
+                                        </div> -->
                                     </div>
                                 </div>
                             </div>
@@ -774,7 +775,7 @@ include 'header.php';
 
                                 </div>
                                 <!-- If we need navigation buttons -->
-                                <div class="swiper-nav-style2 project-two__swiper-nav">
+                                <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                     <div class="swiper-button-prev" id="project-two__swiper-button-prev">
@@ -783,7 +784,7 @@ include 'header.php';
                                     <div class="swiper-button-next" id="project-two__swiper-button-next">
                                         <i class="icon-right-arrow-angle left"></i>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
@@ -801,17 +802,18 @@ include 'header.php';
                 <div class="cta-three__inner">
                     <div class="cta-three__content">
                         <div class="sec-title-four">
-                            <div class="sub-title">
+                            <!-- <div class="sub-title">
                                 <h4>Get To Know About Us</h4>
-                            </div>
+                            </div> -->
                             <h2>
-                                Let’s Get To Work Together<br> Ready To Work Us
+                            Get The Latest Buzz
+                            And Insider Scoop
                             </h2>
                         </div>
                     </div>
                     <div class="cta-three__btn">
                         <a class="thm-btn" href="#">
-                            <span class="txt">Get Started</span>
+                            <span class="txt">Subscribe Now</span>
                             <i class="icon-next"></i>
                         </a>
                     </div>
@@ -1036,7 +1038,7 @@ include 'header.php';
 
                                 </div>
                                 <!-- If we need navigation buttons -->
-                                <div class="swiper-nav-style2 project-two__swiper-nav">
+                                <!-- <div class="swiper-nav-style2 project-two__swiper-nav">
                                     <div class="border1"></div>
                                     <div class="border2"></div>
                                     <div class="swiper-button-prev" id="project-two__swiper-button-prev">
@@ -1045,7 +1047,7 @@ include 'header.php';
                                     <div class="swiper-button-next" id="project-two__swiper-button-next">
                                         <i class="icon-right-arrow-angle left"></i>
                                     </div>
-                                </div>
+                                </div> -->
 
                             </div>
                         </div>
