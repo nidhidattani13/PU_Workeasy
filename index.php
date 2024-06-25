@@ -127,7 +127,6 @@ include 'header.php';
                             </div>
                         </div>
                     </div>
-
                     <div class="banner-three__img">
                         <ul>
                             <li class="wow fadeInRight" data-wow-delay="0ms" data-wow-duration="1500ms"
@@ -138,14 +137,6 @@ include 'header.php';
                                     </div>
                                 </div>
                             </li>
-                            <!-- <li class="wow fadeInLeft" data-wow-delay="0ms" data-wow-duration="1500ms"
-                                style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInLeft;">
-                                <div class="banner-three__img-single instyle--2">
-                                    <div class="inner">
-                                        <img src="assets/img/slider/banner-three__img2.jpg" alt="image">
-                                    </div>
-                                </div>
-                            </li> -->
                         </ul>
                     </div>
 
