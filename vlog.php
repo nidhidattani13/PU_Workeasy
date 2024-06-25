@@ -63,85 +63,43 @@ include 'header.php';
   <h1>Must Watch Vlogs</h1>
 </div>
 <div class="card-container">
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+
+<?php 
+
+$q= $mysqli -> query("select * from vlog");
+
+ while($row = $q -> fetch_array(MYSQLI_ASSOC)){
+
+     ?>
+
+<div class="container text-left">
+  <div class="row">
+    <div class="col">
+      <div class="card">
+        <div class="card-image">
+          <img src="admin/<?php echo $row['v_thumbnail']; ?>" alt="Blog Image 4">
+        </div>
+        <div class="card-content">
+          <a href="<?php echo $row['video_url']; ?>"><h3 class="card-title"> <?php echo $row['v_title']; ?> </h3></a>
+          <p class="card-description"> <?php echo $row['v_description']; ?> </p>
+        </div>
+        <div class="card-date">
+        <?php echo $row['created_at']; ?>    
+      </div>
     </div>
-    <div class="card-content">
-    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 1</h3></a>
-      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
-      </p>
+  </div>
+    <!-- <div class="col">
+      Column
     </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
+    <div class="col">
+      Column
+    </div> -->
   </div>
 
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
-    </div>
-    <div class="card-content">
-    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 2</h3></a>
-      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
-    </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
-  </div>
+ </div>
 
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
-    </div>
-    <div class="card-content">
-    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 3</h3></a>
-      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae?</p>
-    </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
-  </div>
+<?php } ?>
 
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 4">
-    </div>
-    <div class="card-content">
-      <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 4</h3></a>
-      <p class="card-description">This is a short description of the blog post 4. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quaerat suscipit ab id, nemo officia optio culpa officiis! Possimus, odio. Perspiciatis?
-      </p>
-    </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 5">
-    </div>
-    <div class="card-content">
-    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 5</h3></a>
-      <p class="card-description">This is a short description of the blog post 5. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius amet similique eos debitis eaque commodi aut ex? Accusamus, ab unde.</p>
-    </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 6">
-    </div>
-    <div class="card-content">
-    <a href="https://youtu.be/swT3Uythtm4?si=fP67-w7NznjimpD5"><h3 class="card-title">Vlog Title 6</h3></a>
-      <p class="card-description">This is a short description of the blog post 6. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Sint quaerat accusantium quos minus suscipit! Ipsa nesciunt repellat ut commodi laborum!</p>
-    </div>
-    <div class="card-date">
-    June 5, 2024
-    </div>
-  </div>
 </div>
 
 
@@ -149,7 +107,7 @@ include 'header.php';
 
 
 
-<div class="card_head">
+<!-- <div class="card_head">
   <h1>Our Case Studies</h1>
 </div>
 <div class="card-container">
@@ -186,7 +144,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image   3">
     </div>
     <div class="card-content">
       <h3 class="card-title">Case Title 3 Lorem ipsum dolor sit amet.</h3>
@@ -198,7 +156,7 @@ include 'header.php';
       View Project <i class="fas fa-arrow-right"></i>
     </a>
   </div>
-  </div>
+  </div> -->
 
   
 

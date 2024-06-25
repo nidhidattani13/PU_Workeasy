@@ -65,7 +65,7 @@ include 'header.php';
 <div class="card-container">
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 1">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 1</h3>
@@ -79,7 +79,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 2">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 2</h3>
@@ -92,7 +92,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 3">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 3</h3>
@@ -105,7 +105,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 4">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 4">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 4</h3>
@@ -119,7 +119,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 5">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 5">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 5</h3>
@@ -132,7 +132,7 @@ include 'header.php';
 
   <div class="card">
     <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 6">
+      <img src="assets/img/project/Comingsoon.png" alt="Blog Image 6">
     </div>
     <div class="card-content">
       <h3 class="card-title">Blog Title 6</h3>
@@ -147,63 +147,6 @@ include 'header.php';
 
 
 
-
-<div class="card_head">
-  <h1>Our Case Studies</h1>
-</div>
-<div class="card-container">
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 1">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title"> Case Title 1Lorem ipsum dolor sit amet.</h3>
-      <p class="card-description">This is a short description of the blog post 1. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quidem sapiente quo deserunt officia ipsam consectetur cumque odit consequuntur quod architecto.
-      </p>
-    </div>
-    <div class="card-view">
-    <a href="#">
-      View Project <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 2">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Case Title 2 Lorem ipsum dolor sit amet.</h3>
-      <p class="card-description">This is a short description of the blog post 2. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus laudantium adipisci natus vero omnis autem obcaecati doloribus a veritatis odio.</p>
-    </div>
-    <div class="card-view">
-    <a href="#">
-      View Project <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-  </div>
-
-  <div class="card">
-    <div class="card-image">
-      <img src="assets/img/blog/blog-three__img2.jpg" alt="Blog Image 3">
-    </div>
-    <div class="card-content">
-      <h3 class="card-title">Case Title 3 Lorem ipsum dolor sit amet.</h3>
-      <p class="card-description">This is a short description of the blog post 3. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aut, non hic! Delectus eos eum eius iure? Ullam incidunt beatae quae? Lorem ipsum dolor sit amet consectetur.
-      </p>
-    </div>
-    <div class="card-view">
-    <a href="#">
-      View Project <i class="fas fa-arrow-right"></i>
-    </a>
-  </div>
-  </div>
-
-  
-
-
-  
-</div>
 
 
 

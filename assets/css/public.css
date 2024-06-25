@@ -281,3 +281,19 @@
     color: green;
 }
 
+
+.inner img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+    transition-delay: 0.1s;
+    transition-timing-function: ease-in-out;
+    transition-duration: 0.7s;
+    transition-property: all;    
+}
+
+.inner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

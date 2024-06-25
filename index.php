@@ -121,8 +121,8 @@ include 'header.php';
                                     </a>
                                 </div>
                                 <div class="text2">
-                                    <p>Watch Our</p>
-                                    <p>Demo Video</p>
+                                    <p>Discover My</p>
+                                    <p>Cool Wibe</p>
                                 </div>
                             </div>
                         </div>
@@ -134,7 +134,7 @@ include 'header.php';
                                 style="visibility: visible; animation-duration: 1500ms; animation-delay: 0ms; animation-name: fadeInRight;">
                                 <div class="banner-three__img-single">
                                     <div class="inner">
-                                        <img src="assets/img/slider/banner-three__img1.jpg" alt="image">
+                                        <img src="assets/img/slider/pavak.jpg" alt="image">
                                     </div>
                                 </div>
                             </li>
@@ -796,7 +796,7 @@ include 'header.php';
         <!--End Project Two-->
 
         <section class="cta-three">
-            <div class="cta-three__bg" style="background-image: url(assets/img/background/cta-three__bg.jpg);">
+            <div class="cta-three__bg" style="background-image: url(assets/img/background/Cover-page.png);">
             </div>
             <div class="container">
                 <div class="cta-three__inner">

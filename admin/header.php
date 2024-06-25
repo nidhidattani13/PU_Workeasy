@@ -202,7 +202,7 @@ $userid_q = $q -> fetch_array(MYSQLI_ASSOC);
                             </div>
                         </div>
                         <a href="index.html">
-                            <img  class="img-fluid ad_logo" src="assets/images/logo.png" alt="Theme-Logo"/>
+                            <img  class="img-fluid ad_logo" src="assets/images/logo/Pavak-logo-2--black.png" alt="Theme-Logo"/>
                         </a>
                         <a class="mobile-options waves-effect waves-light">
                             <i class="ti-more"></i>

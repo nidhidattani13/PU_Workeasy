@@ -1,3 +1,6 @@
+<?php
+include 'admin/config.php';
+?>
 <!doctype html>
 <html class="no-js" lang="en">
 
@@ -73,9 +76,9 @@
                                     <a href="index.php">
                                         <?php
                                         if (basename($_SERVER["PHP_SELF"]) == "index.php") {
-                                            echo '<img src="assets/img/resource/logo-3.png" alt="Logo">';
+                                            echo '<img src="assets/img/resource/pavak-logo-black.png" alt="Logo">';
                                         } else {
-                                            echo '<img src="assets/img/resource/logo-4.png" alt="Logo">';
+                                            echo '<img src="assets/img/resource/pavak-logo-white.png" alt="Logo">';
                                         }
                                         ?>
                                     </a>
@@ -142,7 +145,7 @@
                     </div>
                     <div class="nav-logo">
                         <a href="index.php">
-                            <img src="assets/img/resource/logo-3.png" alt="Logo">
+                            <img src="assets/img/resource/pavak-logo-black.png" alt="Logo">
                         </a>
                     </div>
                     <div class="menu-outer">
@@ -150,7 +153,7 @@
                     </div>
                     <div class="contact-info">
                         <div class="icon-box"><span class="icon-phone-call"></span></div>
-                        <p><a href="tel:123456789">(629) 555-0129</a></p>
+                        <p><a href="tel:9979910101">+91 997 9910 101</a></p>
                     </div>
                     <div class="social-links">
                         <ul class="clearfix list-wrap">

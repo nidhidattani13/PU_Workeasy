@@ -261,7 +261,7 @@ body {
   
     .ag-timeline-card_box,
     .ag-timeline_item:nth-child(2n) .ag-timeline-card_box {
-      padding: 0 0 500px;
+      padding: 0 0 25px;
     }
     .ag-timeline-card_meta-box {
       display: none;

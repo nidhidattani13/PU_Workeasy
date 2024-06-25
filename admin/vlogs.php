@@ -1,60 +1,56 @@
-
 <?php
 include 'config.php';
 include 'header.php'; 
 
+if (isset($_POST['add_vlog'])) {
+    $title = $mysqli->real_escape_string($_POST['title']);
+    $video_url = $mysqli->real_escape_string($_POST['video_url']);
+    $description = $mysqli->real_escape_string($_POST['description']);
 
-
-
-
-if (isset($_POST['add_blog'])) 
-{
-    $title=$_POST['title'];
-
-
-    $target_dir = "assets\upload\blog";
+    $target_dir = "assets/upload/vlog/";
     $target_file = $target_dir . basename($_FILES["img"]["name"]);
-    $imageFileType = strtolower(pathinfo($target_file,PATHINFO_EXTENSION));
+    $imageFileType = strtolower(pathinfo($target_file, PATHINFO_EXTENSION));
 
-    $tmp_name=$_FILES["img"]["tmp_name"];
-    $path="assets/upload/blog/".rand().$_FILES["img"]["name"]; 
-    move_uploaded_file($tmp_name, $path);
+    $tmp_name = $_FILES["img"]["tmp_name"];
+    $path = $target_dir . rand() . $_FILES["img"]["name"];
 
+    if (move_uploaded_file($tmp_name, $path)) {
+        $created_at = date("Y-m-d H:i:s");
+        $updated_at = date("Y-m-d H:i:s");
 
-    $description=$_POST['description'];
-    $slug = str_replace(" ","-",$_POST['slug']);
-   
-    $pro_q = $mysqli -> query("INSERT INTO blog(bid,img,title,description,slug) VALUES ('','$path','$title','$description','$slug')");
+        $pro_q = $mysqli->query("INSERT INTO vlog (v_id, v_title, video_url, v_description, v_thumbnail, created_at, updated_at) VALUES ('', '$title', '$video_url', '$description', '$path', '$created_at', '$updated_at')");
 
-    if($pro_q)
-    {
+        if ($pro_q) {
+            ?>
+            <script>
+                $(document).ready(function() {
+                    var toast = new Toasty();
+                    toast.success("Vlog Added");
+                });
+            </script>
+            <?php
+        } else {
+            ?>
+            <script>
+                $(document).ready(function() {
+                    var toast = new Toasty();
+                    toast.error("Error On Vlog Addition.");
+                });
+            </script>
+            <?php
+        }
+    } else {
         ?>
         <script>
             $(document).ready(function() {
                 var toast = new Toasty();
-                toast.success("Product Added");
-            });        
+                toast.error("Error Uploading Image.");
+            });
         </script>
         <?php
     }
-    else
-    {
-    ?> <script>
-        $(document).ready(function() {
-            var toast = new Toasty();
-            toast.error("Error On Product Added.");
-        });
-
-    </script>
-    <?php
 }
-}
-
-
-
 ?>
-
-
 
 <div class="pcoded-content">
     <!-- Page-header start -->
@@ -64,7 +60,6 @@ if (isset($_POST['add_blog']))
                 <div class="col-md-8">
                     <div class="page-header-title">
                         <h5 class="m-b-10">Add Vlog</h5>
-                        <!-- <p class="m-b-0">Lorem Ipsum is simply dummy text of the printing</p> -->
                     </div>
                 </div>
                 <div class="col-md-4">
@@ -72,8 +67,7 @@ if (isset($_POST['add_blog']))
                         <li class="breadcrumb-item">
                             <a href="index.html"> <i class="fa fa-home"></i> </a>
                         </li>
-                        <li class="breadcrumb-item"><a href="#!">Add Vlog</a>
-                        </li>
+                        <li class="breadcrumb-item"><a href="#!">Add Vlog</a></li>
                     </ul>
                 </div>
             </div>
@@ -90,41 +84,28 @@ if (isset($_POST['add_blog']))
                             <div class="card">
                                 <div class="card-header">
                                     <h5>Add Vlog</h5>
-                                    <!-- <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span> -->
                                     <div class="card-header-right">
                                         <ul class="list-unstyled card-option">
-                                            <li>
-                                                <i class="fa fa fa-wrench open-card-option"></i>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-window-maximize full-card"></i>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-minus minimize-card"></i>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-refresh reload-card"></i>
-                                            </li>
-                                            <li>
-                                                <i class="fa fa-trash close-card"></i>
-                                            </li>
+                                            <li><i class="fa fa-wrench open-card-option"></i></li>
+                                            <li><i class="fa fa-window-maximize full-card"></i></li>
+                                            <li><i class="fa fa-minus minimize-card"></i></li>
+                                            <li><i class="fa fa-refresh reload-card"></i></li>
+                                            <li><i class="fa fa-trash close-card"></i></li>
                                         </ul>
                                     </div>
                                 </div>
                                 <div class="card-block">
-                                 <div class="card-block">
-                                    <!-- <h4 class="sub-title">Basic Inputs</h4> -->
                                     <form method="post" action="" enctype="multipart/form-data">
                                         <div class="form-group row">
                                             <label class="col-sm-2 col-form-label">Vlog Title</label>
                                             <div class="col-sm-10">
-                                                <input type="text" required name="title" class="form-control" id="title" placeholder="Enter vlog Title">
+                                                <input type="text" required name="title" class="form-control" placeholder="Enter Vlog Title">
                                             </div>
                                         </div>
                                         <div class="form-group row">
-                                            <label class="col-sm-2 col-form-label">Permalink</label>
+                                            <label class="col-sm-2 col-form-label">Video URL</label>
                                             <div class="col-sm-10">
-                                                <input type="text" required name="slug" class="form-control" id="slug" placeholder="Enter vlog Permalink">
+                                                <input type="text" required name="video_url" class="form-control" placeholder="Enter Video URL">
                                             </div>
                                         </div>
                                         <div class="form-group row">
@@ -134,7 +115,7 @@ if (isset($_POST['add_blog']))
                                            </div>
                                        </div>
                                        <div class="form-group row">
-                                        <label class="col-sm-2 col-form-label">Thumbnail</label>
+                                        <label class="col-sm-2 col-form-label">Vlog Thumbnail</label>
                                         <div class="col-sm-10">
                                             <input accept="image/png, image/gif, image/jpeg" type="file" name="img" class="form-control">
                                         </div>
@@ -142,7 +123,7 @@ if (isset($_POST['add_blog']))
                                     <div class="form-group row">
                                         <label class="col-sm-2 col-form-label"></label>
                                         <div class="col-sm-10">
-                                          <button type="submit" name="add_blog" class="btn btn-default">SAVE</button>
+                                          <button type="submit" name="add_vlog" class="btn btn-default">SAVE</button>
                                       </div>
                                   </div>
                               </form>
@@ -150,16 +131,10 @@ if (isset($_POST['add_blog']))
                       </div>
                   </div>
               </div>
-
           </div>
       </div>
   </div>
 </div>
-</div>
-
-
-
-
 
 
 <div class="pcoded-inner-content">
@@ -170,7 +145,7 @@ if (isset($_POST['add_blog']))
                     <div class="col-sm-12">
                         <div class="card">
                             <div class="card-header">
-                                <h5>View Blog</h5>
+                                <h5>View Vlog</h5>
                                 <!-- <span>lorem ipsum dolor sit amet, consectetur adipisicing elit</span> -->
                                 <div class="card-header-right">
                                     <ul class="list-unstyled card-option">
@@ -203,26 +178,25 @@ if (isset($_POST['add_blog']))
                                                     <th>#</th>
                                                     <th>Title</th>
                                                     <th>Description</th>
-                                                    <th>Image</th>
+                                                    <th>Thumbnail</th>
                                                     <th>Action</th>
                                                 </tr>
                                             </thead>
                                             <tbody>
                                                 <?php 
-
-                                                $q= $mysqli -> query("select * from vlog");
+                                                $q = $mysqli->query("SELECT * FROM vlog");
                                                 $c = 0;
-                                                while($row = $q -> fetch_array(MYSQLI_ASSOC)){
-                                                    
+                                                while ($row = $q->fetch_array(MYSQLI_ASSOC)) {
                                                     ?>
                                                     <tr>
                                                         <th scope="row"><?php echo ++$c; ?></th>
-                                                        <td><?php echo $row['title']; ?></td>
-                                                        <td><?php echo $row['description']; ?></td>
-                                                        <td><img style="width: 70px; height: 70px;" src="<?php echo $row['img']; ?>"></td>
-                                                        <td><a data-toggle="tooltip" data-placement="bottom" title="Edit Blog" href="edit-blog.php?bid=<?php echo $row['bid'];?>" style="color: #123456"><i class="far fa-pencil-square-o"></i></a></td>
-                                                        <td><a data-toggle="tooltip" data-placement="bottom" title="Delete Blog" href="delete_blog.php?bid=<?php echo $row['bid'];?>" style="color: #123456"><i class="far fa-trash-alt"></i></a></td>
-                                                        
+                                                        <td><?php echo $row['v_title']; ?></td>
+                                                        <td><?php echo $row['v_description']; ?></td>
+                                                        <td><img style="width: 70px; height: 70px;" src="<?php echo $row['v_thumbnail']; ?>"></td>
+                                                        <td>
+                                                            <a data-toggle="tooltip" data-placement="bottom" title="Edit Vlog" href="edit_vlog.php?id=<?php echo $row['v_id']; ?>" style="color: #123456"><i class="far fa-pencil-square-o"></i></a>
+                                                            <a data-toggle="tooltip" data-placement="bottom" title="Delete Vlog" href="delete_vlog.php?id=<?php echo $row['v_id']; ?>" style="color: #123456" onclick="return confirm('Are you sure you want to delete this vlog?');"><i class="far fa-trash-alt"></i></a>
+                                                        </td>
                                                     </tr>
                                                     <?php
                                                 } 
@@ -238,18 +212,11 @@ if (isset($_POST['add_blog']))
             </div>
         </div>
     </div>
+
+
+
+
+    
 </div>
-
-
-
-
-
-
-
-
-</div>
-
-
-
 
 <?php include 'footer.php'; ?>

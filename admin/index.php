@@ -149,7 +149,7 @@ include 'header.php';
                         <div class="col-xl-4 col-md-12">
 
 
-                           <div class="card mat-clr-stat-card text-white blue">
+                            <div class="card mat-clr-stat-card text-white blue">
                                <div class="card-block">
                                    <div class="row">
                                        <div class="col-3 text-center  bg-c-blue">
@@ -159,13 +159,13 @@ include 'header.php';
                                        <h5> 
 
                                         <?php
-                                        $qp= $mysqli -> query("select * from product");
+                                        $qp= $mysqli -> query("select * from vlog");
                                         echo mysqli_num_rows($qp);
 
                                         ?>
 
                                     </h5>
-                                    <p class="m-b-0">Total WorkSpace</p>
+                                    <p class="m-b-0">Total Vlogs</p>
                                 </div>
                             </div>
                         </div>
@@ -181,13 +181,13 @@ include 'header.php';
                                     <h5>
                                         <?php
 
-                                        // $qp= $mysqli -> query("select * from gallery");
-                                        // echo mysqli_num_rows($qp);
+                                        $qp= $mysqli -> query("select * from blog");
+                                        echo mysqli_num_rows($qp);
 
 
                                         ?>
                                     </h5>
-                                    <p class="m-b-0">Total Gallery Image</p>
+                                    <p class="m-b-0">Total Blog</p>
                                 </div>
                             </div>
                         </div>
@@ -207,13 +207,13 @@ include 'header.php';
 
                                     <?php
 
-                                    $qp= $mysqli -> query("select * from client");
+                                    $qp= $mysqli -> query("select * from podcast");
                                     echo mysqli_num_rows($qp);
 
                                     ?>
 
                                 </h5>
-                                <p class="m-b-0">Total Client</p>
+                                <p class="m-b-0">Total Podcast</p>
                             </div>
                         </div>
                     </div>

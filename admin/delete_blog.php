@@ -1,13 +1,11 @@
 <?php
 include("config.php");
 
+$result = $mysqli->query("DELETE FROM vlog WHERE v_id=" . $_GET['id']);
 
-$result = $mysqli -> query("delete from blog where bid=".$_GET['bid']);
-
-
-if($result){
-	header("location:blog.php");
-}else{
-	echo "error".mysql_error();
+if ($result) {
+    header("Location: vlog.php");
+} else {
+    echo "Error: " . $mysqli->error;
 }
 ?>
